@@ -1,0 +1,8 @@
+{
+  "current": {
+    "storefront_hostname": "givlumo.com",
+    "custom_redirects": "/collections/home-mood > /?category=home-mood\n/collections/desk > /?category=desk\n/collections/table-kitchen > /?category=table-kitchen\n/collections/all > /#shop\n/pages/about > /about\n/pages/faq > /faq\n/pages/contact > /contact",
+    "integrate_with_customer_accounts": false
+  },
+  "presets": {}
+}
