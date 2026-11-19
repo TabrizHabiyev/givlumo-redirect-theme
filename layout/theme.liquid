@@ -45,7 +45,8 @@
           !window.Shopify.designMode &&
             window.location.pathname !== '/checkpoint' &&
             window.location.pathname !== '/throttle/queue' &&
-            window.location.pathname !== '/challenge'
+            window.location.pathname !== '/challenge' &&
+            !/^\/(?:checkouts?|account|orders|cart)(?:\/|$)/.test(window.location.pathname)
         ) {
           var currentHostname = window.location.hostname;
           var storefrontHostname = "{{ settings.storefront_hostname }}";
