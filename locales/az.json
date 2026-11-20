@@ -250,7 +250,157 @@
         "eps_label": "eps köçürməsi",
         "klarna_slice_it_label": "Klarna ilə hissəli ödəniş",
         "ideal_label": "iDEAL | Wero",
-        "bank_picker_label": "Bank"
+        "bank_picker_label": "Bank",
+        "lpm": {
+          "oxxo": {
+            "voucher": {
+              "steps": {
+                "scan_barcode_at_oxxo": "Ən yaxın OXXO mağazasında barkodu skan edin."
+              },
+              "barcode_alt": "Referans nömrəsi %{reference_number} üçün OXXO çeki barkodu"
+            }
+          }
+        },
+        "pending_payment": {
+          "apple_wallet": {
+            "badge_alt": "Apple Wallet-ə əlavə et",
+            "pass": {
+              "description": "%{shop_name} ödəniş qəbzi",
+              "logo_text": "Ödəmə Qəbzi",
+              "store_label": "Mağaza",
+              "expiry_date_label": "Son istifadə tarixi",
+              "payment_due_label": "Ödəniş müddəti çatıb",
+              "reference_number_label": "İstinad nömrəsi",
+              "ordered_on_label": "Sifariş tarixi:"
+            }
+          },
+          "due_notice": "%{amount_due} məbləğində ödənişinizin son tarixi %{due_date}-dir.",
+          "multibanco": {
+            "buyer_action_info": "%{amount_due} məbləğində ödənişinizin vaxtı çatıb.",
+            "instruction_html": "Ödənişinizi Multibanco-da və ya aşağıdakı məlumatlardan istifadə edərək onlayn şəkildə həyata keçirin. Suallarınız üçün və ya ödəniş məlumatlarını yeniləmək üçün %{contact_us}.",
+            "entity": "Məxluq",
+            "reference": "İstinad",
+            "amount": "Məbləğ",
+            "find_nearest_atm": "Ən yaxın bankomatı tap",
+            "label": "Multibanco",
+            "pay": "Ödəniləcək məbləğ: %{amount}",
+            "expiry_date_time": "%{date} saat %{time}",
+            "expires_at": "Bitmə tarixi: %{date}",
+            "expired": "İstifadə müddəti bitib: %{date}",
+            "expired_title": "Ödəniş arayışının vaxtı bitib",
+            "labelled_code": "%{label}: %{code}"
+          },
+          "oxxo": {
+            "label": "OXXO",
+            "number": "İstinad nömrəsi",
+            "reference_number": "İstinad nömrəsi:",
+            "steps": {
+              "1": "Ən yaxın OXXO mağazasında barkodu skan edin.",
+              "2": "Məbləği kassada nağd şəkildə ödəyin."
+            },
+            "pay": "Ödəniləcək məbləğ: %{amount}",
+            "expiry_date_time": "%{date} saat %{time}",
+            "expires_at": "Bitmə tarixi: %{date}",
+            "expires_when_unknown": "Kuponun müddəti bitməmişdən əvvəl istifadə edin",
+            "days_left": {
+              "one": "%{count} gün",
+              "other": "%{count} gün"
+            },
+            "print_voucher": "Vauçeri çap et",
+            "print": {
+              "instructions_title": "OXXO-nuza ödəniş etmək üçün təlimatlar:",
+              "important_details_title": "Vacib detallar:"
+            },
+            "important_details": {
+              "canceled_by_expiry": "Ödəniş %{date} tarixinə qədər alınmasa, sifarişiniz ləğv ediləcək.",
+              "canceled_when_expired": "Ödəniş qəbzi bitməmişdən əvvəl daxil olmasa, sifarişiniz ləğv ediləcək.",
+              "non_refundable": "OXXO sifarişləri geri qaytarılmır.",
+              "tracking_after_payment": "Ödəniş edildikdən sonra bir iş günü ərzində göndərmə izləmə məlumatlarını alacaqsınız."
+            },
+            "barcode_alt": "Referans nömrəsi %{reference_number} üçün OXXO çeki barkodu"
+          }
+        },
+        "update_payment_method": "Ödəniş üsulunu yeniləyin",
+        "order_covered_by_store_credit_notice": "Sifarişiniz mağaza kreditiniz hesabına ödənilib.",
+        "order_covered_by_redeemables_notice": "Sifarişiniz təminat altındadır.",
+        "store_credit": {
+          "label": "Mağaza krediti",
+          "apply_label": "Mağaza kreditini tətbiq edin",
+          "add_label": "Mağaza krediti əlavə et",
+          "manage_label": "Mağaza kreditini idarə et",
+          "buying_gift_card": "Mağaza kreditindən hədiyyə kartı almaq üçün istifadə edə bilməzsiniz.",
+          "no_fixed_selling_plans": "Mağaza kreditindən təxirəsalınmış ödəniş seçimləri ilə istifadə edə bilməzsiniz."
+        },
+        "clear": "Aydın",
+        "billing_must_match_shipping_notice": "Ödəniş üsulunuzun faktura ünvanı çatdırılma ünvanı ilə eyni olmalıdır.",
+        "same_billing_address_checkbox_label": "Çatdırılma ünvanını ödəniş ünvanı kimi istifadə et",
+        "location_billing_address_label": "Məkanın ödəniş ünvanı",
+        "fact_billing_address_label": "Ödəniş ünvanı",
+        "location_shipping_address_label": "Çatdırılma ünvanı",
+        "use_order_billing_address_label": "Sifarişin ödəniş ünvanından istifadə et",
+        "use_location_billing_address_label": "Məkanın ödəniş ünvanından istifadə edin",
+        "use_location_shipping_address_label": "Çatdırılma ünvanı kimi mövcud ünvanı istifadə et",
+        "no_working_method_error": "Bu mağaza hazırda ödənişləri qəbul edə bilmir. Səhifəni yeniləyin və ya bir az sonra təkrar cəhd edin.",
+        "brand_not_available": "Bu mağaza {{brand}} qəbul etmir. Ödəmək üçün başqa kartdan istifadə edin.",
+        "shipping_rate_updated": "Çatdırılma üsulları yeniləndi. Ödəniş etməzdən əvvəl seçiminizə təsdiq verin.",
+        "billing_address_invalid_phone": "Davam etmək üçün {{label}} {{last_digits}}-nın hesab-fatura ünvanınızdakı telefon nömrəsini yeniləyin.",
+        "billing_address_invalid_phone_no_card": "Davam etmək üçün ödəniş ünvanınızdakı telefon nömrəsini yeniləyin.",
+        "preview_not_available": {
+          "title": "Baxış mümkün deyil",
+          "content": "Narahat olmayın, bu sürətli ödəniş sistemi müştəriləriniz üçün işlək vəziyyətdədir.",
+          "button": "Oldu"
+        },
+        "card_fields": {
+          "errors": {
+            "required": {
+              "issue_date": "Etibarlı bir verilmə tarixi daxil edin",
+              "issue_number": "Düzgün müraciət nömrəsini daxil edin"
+            },
+            "invalid": {
+              "verification_value": "Etibarlı CVV və ya təhlükəsizlik kodu daxil edin"
+            }
+          }
+        },
+        "simulated_checkout": "İlkin baxış tezliklə gələcək",
+        "simulated_express_checkout": "Regionunuz və ya brauzeriniz səbəbindən redaktorun ilkin baxışında pul kisələri mövcud deyil.",
+        "vaulting_agreement_label": "Daha sürətli yoxlama üçün ödəniş məlumatlarımı %{company} ilə yadda saxla",
+        "business_customer_vaulting_payment_label": "Ödəniş üsulunu ödəniş zamanı yadda saxlayın və bu məkan üçün gələcək alış-verişlərdə ödəniş tutmaq məqsədilə %{company}-yə icazə verin. Bu məkana təyin olunmuş bütün əlaqədar şəxslər həmin ödəniş üsulundan istifadə edə bilərlər.",
+        "business_customer_with_bank_account_vaulting_payment_label": "Ödəniş üsulunu ödəniş zamanı yadda saxlayın və gələcəkdə bu məkan üçün təsdiqlədiyiniz alış-verişlərdə ləğv edənə qədər hesabınızdan vəsait çıxılması üçün %{company}-yə icazə verin. Bu məkana təyin edilmiş bütün əlaqəli şəxslər ödəniş üsulundan istifadə edə bilərlər.",
+        "purchase_options_and_vaulting_agreement_label": "Səbətinizdəki bir və ya bir neçə məhsul təxirə salınmış və ya abunəlik əsaslı alışdır. Ödənişə davam etməklə, ödəniş metodunuzdan bu səhifədə göstərilən qiymət və tezliklə, müddət bitənədək və ya siz ləğv edənədək avtomatik olaraq vəsait çıxılacağına razılıq verirsiniz. Bütün ləğvetmələr %{cancellation_policy_label}-a tabedir.",
+        "purchase_options_cancellation_policy_label": "ləğv etmə siyasəti",
+        "use_different_credit_card_label": "Başqa kartdan istifadə edin",
+        "saved_credit_card": "Yadda saxlanılan kredit kartınız",
+        "saved_credit_card_info": "Son dörd rəqəm",
+        "saved_credit_card_cvv_verification": "Təsdiq məqsədilə kartınızın təhlükəsizlik kodunu daxil edin.",
+        "saved_credit_card_actions": {
+          "edit": "Redaktə et",
+          "delete": "Sil"
+        },
+        "saved_credit_cards_modal": {
+          "view_all_label": "Bütün yadda saxlanılan kartlara bax",
+          "done": "Edildi",
+          "cancel": "Ləğv et"
+        },
+        "add_credit_card_modal": {
+          "title": "Kart əlavə et",
+          "save": "Yadda saxla",
+          "cancel": "Ləğv et"
+        },
+        "delete_credit_card_modal": {
+          "title": "Kartı sil",
+          "confirmation": "{{brandName}} ilə bitən {{lastDigits}}-i silmək istədiyinizə əminsiniz?",
+          "cancel": "Ləğv et",
+          "delete": "Sil"
+        },
+        "edit_credit_card_modal": {
+          "title": "Kartı redaktə et",
+          "done": "Edildi",
+          "cancel": "Ləğv et",
+          "description": "Siz yalnız kartınızın ödəniş ünvanını dəyişə bilərsiniz.",
+          "fields": {
+            "default": "Defolt olaraq təyin et"
+          }
+        }
       },
       "contact": {
         "street_number_label": "Bina nömrəsi",
@@ -1419,7 +1569,8 @@
     },
     "payment_methods": {
       "add_success": {
-        "done_button": "Alış-verişə davam et"
+        "done_button": "Alış-verişə davam et",
+        "title": "Ödəniş üsulu əlavə edildi"
       },
       "card_fields": {
         "card_number_label": "Kart nömrəsi",
@@ -1509,6 +1660,137 @@
       "three_d_secure": {
         "title": "3D Secure",
         "verification_failed": "Ödənişinizi təsdiqləmək mümkün olmadı. Yenidən cəhd edin və ya başqa ödəniş üsulundan istifadə edin."
+      },
+      "card_update_consent": "Bu ödəniş üsulu gələcək alış-verişlər üçün yadda saxlanılacaq.",
+      "card_update_consent_subscriptions": "Bu ödəniş üsulu gələcək alış-verişlər üçün yadda saxlanılacaq və istənilən təkrarlanan və ya təxirə salınmış ödənişlər üçün istifadə oluna bilər.",
+      "digital_wallet_title": "Rəqəmsal pulqabı",
+      "credit_or_debit_card_title": "Kredit və ya debet kartı",
+      "credit_card_title": "Kredit kartı",
+      "additional_payment_methods": "Əlavə ödəniş üsulları",
+      "or": "YA DA",
+      "google_pay": {
+        "iframe_title_accessibility_label": "Google Pay ödəniş üsulunu əlavə edin",
+        "loading_accessibility_message": "Google Pay yüklənir",
+        "errors": {
+          "generic": "Google Pay ilə bağlı problem yarandı. Yenidən cəhd edin və ya başqa ödəniş üsulundan istifadə edin.",
+          "missing_billing_address": "Google Pay üçün ödəniş ünvanı tələb olunur. Zəhmət olmasa, hesabınıza bir ünvan əlavə edin."
+        }
+      },
+      "pay_pal": {
+        "iframe_title_accessibility_label": "PayPal ödəniş üsulunu əlavə et",
+        "loading_accessibility_message": "PayPal yüklənir",
+        "errors": {
+          "generic": "PayPal ilə bağlı problem yarandı. Yenidən cəhd edin və ya başqa bir ödəniş üsulundan istifadə edin."
+        }
+      },
+      "apple_pay": {
+        "loading": "Apple Pay yüklənir",
+        "errors": {
+          "generic": "Apple Pay ilə bağlı problem yarandı. Yenidən cəhd edin və ya başqa ödəniş üsulundan istifadə edin.",
+          "not_available": "Apple Pay bu cihazda mövcud deyil.",
+          "missing_billing_address": "Apple Pay ödəniş ünvanı tələb edir. Zəhmət olmasa, hesabınıza bir ünvan əlavə edin."
+        }
+      },
+      "store_credit": {
+        "label": "Mağaza krediti",
+        "expirable_amounts_label": "Müddəti bitən məbləğlər",
+        "details_modal": {
+          "load_error": "Mağaza kreditini yükləmək mümkün olmadı.",
+          "events": {
+            "adjustment": "Düzəliş",
+            "order_payment": "Sifarişin ödənişi",
+            "order_refund": "Sifarişin qaytarılması",
+            "payment_failure": "Ödəniş uğursuz oldu",
+            "payment_returned": "Ödəniş geri qaytarıldı",
+            "order_cancellation": "Sifarişin ləğvi",
+            "tax_finalization": "Vergi yekunlaşdırılması",
+            "recurring_payment": "Dövri ödəniş"
+          },
+          "expirable_amounts_info": "Daha tez bitən məbləğlər ödəniş zamanı ilk növbədə tətbiq edilir.",
+          "pagination": {
+            "expirable_transactions_loading": "Daha çox müddəti bitə bilən məbləğlər yüklənir",
+            "transactions_loading": "Daha çox əməliyyat yüklənir",
+            "load_more_label": "Daha çox göstər",
+            "load_more_accessibility_label": "Müddəti daha çox bitən məbləğləri göstər",
+            "load_more_transactions_accessibility_label": "Daha çox əməliyyat göstər",
+            "expirable_transactions_loaded": "Daha çox bitmə müddəti olan məbləğ yükləndi",
+            "transactions_loaded": "Daha çox əməliyyat yükləndi"
+          },
+          "expirable_indicator": "{{formattedAmount}} müddəti bitəcəkdir",
+          "expirable_indicator_accessibility_label": "{{formattedAmount}} bitəcək. Vaxtı bitəcək məbləğlərə baxın.",
+          "expirable_indicator_with_date_accessibility_label": "{{formattedAmount}} miqdarı {{date}} tarixində bitir. Bitən miqdarlara baxın.",
+          "expires_at": "Bitmə tarixi: {{date}}",
+          "expirable_transactions_list_accessibility_label": "Müddəti bitən mağaza kredit əməliyyatları",
+          "loading_accessibility_message": "Mağaza kreditinin detalları yüklənir",
+          "transactions_list_accessibility_label": "Mağaza krediti əməliyyatları",
+          "transaction_types": {
+            "credit": "Əlavə edildi",
+            "debit": "Xərclənmiş",
+            "debit_revert": "Geri ödənilib",
+            "expiration": "Vaxtı keçmiş"
+          }
+        }
+      },
+      "payment_details": {
+        "title": "Ödəniş üsulu haqqında məlumat",
+        "credit_card_details_accessibility_label": "{{lastDigits}} ilə bitir",
+        "billing_title": "Ödəniş ünvanı",
+        "card_info_title": "Kart məlumatları",
+        "payment_method_expiring_on": "Müddəti bitir: {{expiryDate}}",
+        "payment_method_expired_on": "Bitmə tarixi: {{expiryDate}}",
+        "close_payment_modal": "Bağla",
+        "close_payment_modal_accessibility_label": "Ödəniş üsulu təfərrüatları pəncərəsini bağla",
+        "payment_method_not_found_error": "Ödəniş üsulu tapılmadı",
+        "payment_details_loading": "Ödəniş üsulu detalları yüklənir",
+        "pre_authorized_payments": "Əvvəlcədən təsdiqlənmiş ödənişlər",
+        "total_amount_of_subscription_line_items_left": "və {{total}} daha çox",
+        "total_amount_of_subscription_line_items_left_accessibility_label": "{{totalItems}} cəmi element, {{totalItemsToDisplay}} element göstərilir.",
+        "next_payment_due": "Növbəti ödəniş tarixi: {{dueDateInMonthDayYear}}",
+        "edit_payment_method_button": "Redaktə et",
+        "edit_payment_method_button_accessibility_label": "{{lastDigits}} ilə bitən ödəniş üsulunu redaktə edin",
+        "loading_shop_pay": "Shop Pay yüklənir",
+        "invalid_payment_method": "Etibarsız ödəniş üsulu",
+        "invalid_payment_method_message": "Gələcək sifarişləri almağa davam etmək üçün yeni kredit kartından istifadə edin.",
+        "replace_payment_method": "Ödəniş üsulunu dəyişin",
+        "checkout_card_banner": "Bu ödəniş üsulu yalnız əvvəlcədən təsdiqlənmiş ödənişlər üçün istifadə edilə bilər. Əgər bu mağazaya daxil olmusunuzsa, o, ödəniş səhifəsində görünməyəcək.",
+        "default_checkbox": "Defolt olaraq təyin et",
+        "default_checkbox_accessibility_label": "Bu ödəniş üsulunu standart olaraq təyin et",
+        "replace_payment_method_button": "Əvəz et",
+        "edit_in_wallet_helper": "Bu ödəniş üsulunu yeniləmək üçün {{paymentMethodName}} bölməsində redaktə edin"
+      },
+      "edit_payment_method": {
+        "title": "Ödəniş üsulunu redaktə et",
+        "save_payment_method_button": "Yadda saxla",
+        "cancel_edit_payment_method_button": "Ləğv et",
+        "payment_method_updated_toast": "Ödəniş üsulu yeniləndi",
+        "generic_error": "Yenilənmə zamanı problem yarandı. Zəhmət olmasa, yenidən cəhd edin."
+      },
+      "update_payment_method": {
+        "title": "Ödəniş üsulunu yeniləyin",
+        "button_title": "Yeniləyin",
+        "billing_address": "Ödəniş ünvanı",
+        "disclaimer": "Bu ödəniş üsulu gələcək alış-verişlər üçün yadda saxlanılacaq və istənilən təkrarlanan və ya təxirə salınmış ödənişlər üçün istifadə oluna bilər.",
+        "error_message": "Ödəniş üsulunu yeniləmək mümkün deyil",
+        "subscriptions_title": "Abunəliklər",
+        "pre_orders_title": "Gələcək",
+        "resources_list_accessibility_label": "Bu ödəniş üsulundan istifadə edən abunəlik məhsulları və gözləmədə olan sifariş məhsulları",
+        "resources_card_scroll": "Daha çox element üçün aşağı sürüşdürün",
+        "resources_card_show_more": "Daha çox göstər",
+        "resources_card_show_less": "Daha az göstər",
+        "loading_form_accessibility_message": "Ödəniş üsulunu yeniləmə forması yüklənir",
+        "loading_current_payment_method": "Cari ödəniş üsulu yüklənir",
+        "loading_digital_wallets": "Rəqəmsal pul kisəsi seçimləri yüklənir",
+        "loading_card_fields": "Kredit kartı sahələri yüklənir",
+        "loading_resources": "Abunəliklər və qarşıdakı sifarişlər yüklənir"
+      },
+      "link_expired": {
+        "update_message": "Ödəniş üsulunuzu yeniləmək üçün olan bu keçidin vaxtı bitib.",
+        "add_message": "Ödəniş üsulunuzu əlavə etmək üçün olan bu keçidin vaxtı bitib.",
+        "return_home_button": "Ana səhifəyə qayıt"
+      },
+      "update_success": {
+        "title": "Ödəniş üsulu yeniləndi",
+        "done_button": "Alış-verişə davam et"
       }
     },
     "payment_method_brands": {
