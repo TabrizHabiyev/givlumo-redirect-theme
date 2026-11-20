@@ -408,6 +408,38 @@
             "change_country": "Ölkəni dəyişin"
           },
           "banner": "Çatdırılma üsulunuz yeniləndi"
+        },
+        "accessibility": {
+          "status": {
+            "ship_separately": "%{items} ayrı göndəriləcək.",
+            "pickup_in_store": "%{items} mağazadan götürüləcək.",
+            "remove_items": "Səbətdən %{items} silindi."
+          }
+        },
+        "all_items": "Bütün elementlər",
+        "pickup_all_items": "Bütün əşyaları götür",
+        "pickup_and_ship": "Götürün və göndərin",
+        "ship_all_items": "Bütün əşyaları göndərin",
+        "separate_pickup_email_notice": "Sifarişiniz götürülməyə hazır olanda sizə ayrıca bir e-poçt göndəriləcək.",
+        "items_for_pickup": "Götürüləcək əşyalar",
+        "items_for_shipping": "Göndəriləcək əşyalar",
+        "items_moved_to_shipping_toast": "Götürülə bilməyən məhsullar çatdırılmaya keçirildi",
+        "delivery_updated_toast": {
+          "shipping_only": "Çatdırılma məlumatlarınız yenilənib. {{shipping}}",
+          "removal_only": "Çatdırılmanız yeniləndi. {{removal}}",
+          "shipping_and_removal": "Çatdırılma məlumatlarınız yenilənib. {{shipping}} {{removal}}",
+          "shipping": {
+            "one": "{{count}} məhsul göndərməyə yönləndirilib.",
+            "other": "{{count}} məhsul göndərməyə keçirilib."
+          },
+          "removal": {
+            "one": "{{count}} element silinib.",
+            "other": "{{count}} element silinib."
+          }
+        },
+        "items_count": {
+          "one": "%{count} ədəd",
+          "other": "%{count} element"
         }
       },
       "captcha": {
@@ -915,7 +947,268 @@
         "picked_up_description_html": "Sifarişiniz %{date} tarixində %{location_name} məntəqəsindən götürülüb.",
         "contact_us": "Bizimlə əlaqə saxlayın",
         "contact_us_lowercase": "Bizimlə əlaqə saxlayın"
+      },
+      "local_pickup": {
+        "stock_details_banner": {
+          "heading": {
+            "one": "%{count} ədəd məhsul %{location} ünvanından götürülmək üçün mövcud deyil",
+            "other": "%{count} ədəd məhsul %{location} ünvanından götürülmək üçün mövcud deyil"
+          },
+          "closest_location": "Bütün məhsulların mövcud olduğu ən yaxın əlçatan nöqtəsi %{distance} məsafədədir",
+          "change_location_or_ship_separately": "%{change_location_link} və ya %{ship_separately_link}",
+          "change_location_or_remove_items": "%{change_location_link} və ya %{remove_items_link}",
+          "ship_separately": {
+            "one": "onu ayrıca göndərin",
+            "other": "onları ayrı-ayrı göndər"
+          }
+        },
+        "location_address_search_label": "Ünvan",
+        "location_address_search_placeholder": "%{postal_code_label} və ya ünvan",
+        "location_closest": "Məhsulunuzun olduğu ən yaxın məkan",
+        "location_closest_one_item": "Məhsulunuzun olduğu ən yaxın məkan",
+        "location_closest_other_items": "Əşyalarınızın olduğu ən yaxın məkan",
+        "location_selected": "Seçdiyiniz yer",
+        "location_information": {
+          "one": "Yaxınlığınızda stokda %{count} məkan var",
+          "other": "Yaxınlığınızda ehtiyatı olan %{count} məkan var"
+        },
+        "location_information_far_away": {
+          "one": "Əşyanızın olduğu %{count} məkan var",
+          "other": "Əşyanızın olduğu %{count} məkan var"
+        },
+        "location_information_far_away_one_item": {
+          "one": "Əşyanızın olduğu %{count} məkan var",
+          "other": "Əşyanızın olduğu %{count} məkan var"
+        },
+        "location_information_far_away_other_items": {
+          "one": "Sizin əşyalarınızın olduğu %{count} məkan var",
+          "other": "Sizin əşyalarınızın olduğu %{count} məkan var"
+        },
+        "location_nearby": {
+          "one": "Əşyanızın olduğu %{count} yaxınlıqdakı məkan var",
+          "other": "Əşyanızın olduğu yaxınlıqda %{count} məkan var"
+        },
+        "location_nearby_one_item": {
+          "one": "Əşyanızın olduğu %{count} yaxınlıqdakı məkan var",
+          "other": "Əşyanızın olduğu yaxınlıqda %{count} məkan var"
+        },
+        "location_nearby_other_items": {
+          "one": "Yaxınlıqda sizin əşyalarınızın olduğu %{count} məkan var",
+          "other": "Yaxınlıqda sizin məhsullarınızın olduğu %{count} məkan var"
+        },
+        "location_nearby_short": {
+          "one": "Sizin əşyanız olan %{count} yaxınlıqdakı məkan",
+          "other": "Sizin əşyanızın olduğu %{count} yaxınlıqdakı məkan"
+        },
+        "location_nearby_short_one_item": {
+          "one": "Sizin əşyanız olan %{count} yaxınlıqdakı məkan",
+          "other": "Sizin əşyanızın olduğu %{count} yaxınlıqdakı məkan"
+        },
+        "location_nearby_short_other_items": {
+          "one": "Əşyalarınızın olduğu %{count} yaxın məkan",
+          "other": "Əşyalarınızın olduğu %{count} yaxın məkan"
+        },
+        "location_far_away": {
+          "one": "%{count} məkan əşyanızla birlikdə",
+          "other": "%{count} məkanda əşyanız var"
+        },
+        "location_far_away_one_item": {
+          "one": "%{count} məkan əşyanızla birlikdə",
+          "other": "%{count} məkanda əşyanız var"
+        },
+        "location_far_away_other_items": {
+          "one": "Əşyalarınızın olduğu %{count} məkan",
+          "other": "Əşyalarınızın olduğu %{count} məkan"
+        },
+        "toggle_location": "Məkanı dəyişin",
+        "toggle_more_locations": {
+          "one": "daha %{count} məkan",
+          "other": "%{count} əlavə məkan"
+        },
+        "toggle_multiple_locations": "daha %{count}+ məkan",
+        "pick_up_location": "Götürmə yeri",
+        "or": "YA DA",
+        "cancel": "Ləğv et",
+        "your_location": "sizin yeriniz",
+        "no_stores_found": "Mağaza tapılmadı",
+        "all_stores_far_away": {
+          "title": "Ən yaxın məkanlar %{distance}-dən daha uzaqdadır",
+          "title_with_item": {
+            "one": "Məhsulunuzun olduğu ən yaxın məntəqə %{location} yerindən %{distance}-dən çox məsafədədir",
+            "other": "Əşyalarınızın olduğu ən yaxın məntəqə %{location} məkanından %{distance}-dən çox məsafədədir"
+          },
+          "title_with_location": "Ən yaxın yer %{location} yerindən %{distance} artıq uzaqlıqdadır",
+          "title_with_specific_location": "Əşyanızın olduğu ən yaxın məntəqə %{location}-dan %{distance}-dən çox məsafədədir",
+          "description": "Məkan seçin və ya %{ship_to_address_link}",
+          "description_with_location": "%{change_location_link} və ya %{ship_to_address_link}",
+          "ship_to_address_link": "Çatdırılma ünvanı",
+          "change_location_link": "Məkanınızı dəyişin"
+        },
+        "selected_pickup_option_no_longer_available": {
+          "title": "Əvvəlcə seçdiyiniz məkan artıq mövcud deyil",
+          "description": "Əşyalarınızın ehtiyatda olduğu ən yaxın yeri seçmişik"
+        },
+        "could_not_resolve_address": "Ünvanınız tapılmadı. Yenidən cəhd edin və ya başqa bir ünvandan istifadə edin.",
+        "paginator": {
+          "accessibility_label": "Yerli çatdırılma səhifələnməsi",
+          "previous": "Əvvəlki səhifə",
+          "next": "Növbəti səhifə",
+          "label": {
+            "one": "%{first} - %{last}, %{count} mağazadan",
+            "other": "%{count} mağazadan %{first} - %{last}-i"
+          }
+        },
+        "reveal_more_label": {
+          "one": "Daha %{count} məkan göstər",
+          "other": "Daha %{count} məkan göstər"
+        },
+        "no_pickup_locations_found": "Təhvil alma məntəqələri tapılmadı",
+        "pickup_unavailable_banner_title": {
+          "one": "Əşyanız üçün heç bir məkan tapılmadı",
+          "other": "Əşyalarınız olan heç bir məkan yoxdur"
+        },
+        "pickup_unavailable_banner_title_with_country": {
+          "one": "%{country}-da əşyanızın olduğu heç bir məkan yoxdur",
+          "other": "%{country}-də əşyalarınız olan heç bir məkan yoxdur"
+        },
+        "pickup_unavailable_banner_body": {
+          "try_different_location": "Başqa yer yoxlayın",
+          "ship_to_address": "Çatdırılma ünvanı",
+          "there_are_no_stores": "Ünvanınıza yaxın mağazalar yoxdur və ya sifariş etdiyiniz məhsullar təhvil almaq üçün mövcud deyil.",
+          "ship_items": "Məhsullarınızı göndərin",
+          "search_elsewhere": "başqa yerdə axtarın",
+          "search_elsewhere_standalone": "Başqa yerdə axtarın",
+          "ship_items_or_search_elsewhere": "%{ship_items} və ya %{search_elsewhere}"
+        },
+        "geolocation": {
+          "permission_not_allowed": "Məkan paylaşımına icazə verin və ya bunun əvəzinə axtarın."
+        }
+      },
+      "billing": {
+        "address_form": {
+          "add_address": "Ünvan əlavə et",
+          "save": "Yadda saxla",
+          "cancel": "Ləğv et"
+        }
+      },
+      "company_location": {
+        "location_title": "Şirkətin yerləşdiyi ünvan",
+        "location_rollup_accessibility_label": "Şirkətin yerləşmə variantları"
+      },
+      "payment_summary": {
+        "gift_card_current_balance_notice": "Cari balans %{amount}",
+        "credit_card_expires_on_notice": "%{month}/%{year} tarixində bitir",
+        "express_payment_gateway_label": "İfadə et",
+        "manual_payment_gateway_label": "Təlimat",
+        "billing_address_title": "Ödəniş ünvanı",
+        "free_label": "Pulsuz"
+      },
+      "field_errors": {
+        "handle_phone_invalid": "Etibarlı telefon nömrəsi daxil edin",
+        "handle_email_invalid": "Etibarlı bir e-poçt ünvanı daxil edin",
+        "email_invalid": "Etibarlı bir e-poçt ünvanı daxil edin",
+        "email_or_phone_blank": "E-poçt və ya telefon nömrəsi daxil edin",
+        "email_or_phone_invalid": "Etibarlı bir e-poçt ünvanı və ya mobil telefon nömrəsi daxil edin",
+        "address_first_name_blank": "Adı daxil edin",
+        "address_first_name_too_long": "Ad çox uzundur (maksimum 255 simvol)",
+        "address_first_name_contains_emojis": "Ad sahəsi emojilərdən ibarət ola bilməz",
+        "address_first_name_contains_html_tags": "Ad hissəsi HTML teqlərini ehtiva edə bilməz",
+        "address_first_name_contains_url": "Ad hissəsi URL ola bilməz",
+        "address_first_name_contains_mathematical_symbols": "Ad riyazi simvollardan ibarət ola bilməz",
+        "address_last_name_blank": "Soyadınızı daxil edin",
+        "address_last_name_too_long": "Soyadı çox uzundur (maksimum 255 simvol)",
+        "address_last_name_contains_emojis": "Soyad emojilərdən ibarət ola bilməz",
+        "address_last_name_contains_html_tags": "Soyad HTML teqlərini ehtiva edə bilməz",
+        "address_last_name_contains_url": "Soyad URL ehtiva edə bilməz",
+        "address_last_name_contains_mathematical_symbols": "Soyad riyazi simvollardan ibarət ola bilməz",
+        "address_address1_blank": "Ünvan daxil edin",
+        "address_address1_too_long": "Ünvanın birinci sətri çox uzundur (maksimum 255 simvol).",
+        "address_address1_contains_emojis": "Address1 emojilərdən ibarət ola bilməz",
+        "address_address1_contains_html_tags": "Address1 HTML teqlərini ehtiva edə bilməz",
+        "address_address1_contains_mathematical_symbols": "Ünvanın birinci sətri riyazi işarələri ehtiva edə bilməz",
+        "address_street_name_blank": "Küçə adını daxil edin",
+        "address_street_name_too_long": "Küçə adı çox uzundur (maksimum {{count}} simvol)",
+        "address_street_name_contains_emojis": "Küçə emojiləri ehtiva edə bilməz",
+        "address_street_name_contains_html_tags": "Küçə HTML teqlərini ehtiva edə bilməz",
+        "address_street_name_contains_mathematical_symbols": "Küçə riyazi simvolları ehtiva edə bilməz",
+        "address_street_number_blank": "Bina nömrəsini daxil edin",
+        "address_street_number_too_long": "Bina nömrəsi çox uzundur (maksimum {{count}} simvol)",
+        "address_street_number_contains_emojis": "Bina nömrəsi emojiləri ehtiva edə bilməz",
+        "address_street_number_contains_html_tags": "Bina nömrəsi HTML teqlərini ehtiva edə bilməz",
+        "address_street_number_contains_mathematical_symbols": "Bina nömrəsi riyazi simvollar ehtiva edə bilməz",
+        "address_line2_blank": "Mənzilə, otağa və s. daxil olun.",
+        "address_line2_too_long": "İkinci ünvan sətri çox uzundur (maksimum {{count}} simvol)",
+        "address_line2_contains_emojis": "İkinci ünvan sətri emojilərdən ibarət ola bilməz",
+        "address_line2_contains_html_tags": "Ünvanın ikinci sətri HTML teqlərini ehtiva edə bilməz",
+        "address_line2_contains_mathematical_symbols": "Ünvanın ikinci sətri riyazi işarələri ehtiva edə bilməz",
+        "address_address2_blank": "Mənzilə, otağa və s. daxil olun.",
+        "address_address2_too_long": "Ünvanın ikinci sətri çox uzundur (maksimum 255 simvol).",
+        "address_address2_contains_emojis": "Address2 emoji ehtiva edə bilməz",
+        "address_address2_contains_html_tags": "Address2 sahəsi HTML teqlərini ehtiva edə bilməz",
+        "address_address2_contains_mathematical_symbols": "Ünvanın ikinci sətri riyazi işarələri ehtiva edə bilməz",
+        "address_neighborhood_blank": "Məhəlləyə daxil olun",
+        "address_neighborhood_too_long": "Məhəllə adı çox uzundur (maksimum {{count}} simvol)",
+        "address_neighborhood_contains_emojis": "Məhəllədə emoji ola bilməz",
+        "address_neighborhood_contains_html_tags": "Məhəllə HTML etiketlərini ehtiva edə bilməz",
+        "address_neighborhood_contains_mathematical_symbols": "Məhəllə riyazi simvollar ehtiva edə bilməz",
+        "address_barangay_blank": "Baraqay daxil edin",
+        "address_barangay_too_long": "Baranqay çox uzundur (maksimum {{count}} simvol)",
+        "address_barangay_contains_emojis": "Baranqay emojiləri ehtiva edə bilməz",
+        "address_barangay_contains_html_tags": "Barangay HTML teqlərini ehtiva edə bilməz",
+        "address_barangay_contains_mathematical_symbols": "Barangay riyazi simvollar ehtiva edə bilməz",
+        "address_colony_blank": "Koloniyaya daxil olun",
+        "address_colony_too_long": "Koloniya çox uzundur (maksimum {{count}} simvoldur)",
+        "address_colony_contains_emojis": "Koloniya emojiləri ehtiva edə bilməz",
+        "address_colony_contains_html_tags": "Koloniya HTML teqlərini ehtiva edə bilməz",
+        "address_colony_contains_mathematical_symbols": "Koloniya riyazi simvollar ehtiva edə bilməz",
+        "address_commune_blank": "Bir kommuna daxil edin",
+        "address_commune_too_long": "Kommunanın adı çox uzundur (maksimum {{count}} simvol ola bilər)",
+        "address_commune_contains_emojis": "Kommunada emojilər ola bilməz",
+        "address_commune_contains_html_tags": "Commune HTML teqlərini ehtiva edə bilməz",
+        "address_commune_contains_mathematical_symbols": "Komuna riyazi simvollar ehtiva edə bilməz",
+        "address_district_blank": "Bir rayon daxil edin",
+        "address_district_too_long": "Rayon çox uzundur (maksimum {{count}} simvoldur)",
+        "address_district_contains_emojis": "Rayon emojiləri əhatə edə bilməz",
+        "address_district_contains_html_tags": "Rayon HTML teqlərini ehtiva edə bilməz",
+        "address_district_contains_mathematical_symbols": "Rayon riyazi simvollar ehtiva edə bilməz",
+        "address_subdistrict_blank": "Alt rayon daxil edin",
+        "address_subdistrict_too_long": "Rayon adı çox uzundur (maksimum {{count}} simvol).",
+        "address_subdistrict_contains_emojis": "Yarımrayon emojiləri ehtiva edə bilməz",
+        "address_subdistrict_contains_html_tags": "Alt rayon HTML teqlərini ehtiva edə bilməz",
+        "address_subdistrict_contains_mathematical_symbols": "Alt-rayon riyazi simvollar ehtiva edə bilməz",
+        "delivery_address_code_too_long": "Ünvan kodu çox uzundur (maksimum %{count} simvol)",
+        "delivery_address_code_contains_emojis": "Ünvan kodu emojilərdən ibarət ola bilməz",
+        "delivery_address_code_contains_html_tags": "Ünvan kodu HTML teqlərini ehtiva edə bilməz",
+        "delivery_address_code_contains_mathematical_symbols": "Ünvan kodu riyazi simvollar ehtiva edə bilməz",
+        "address_ward_blank": "Palataya daxil olun",
+        "address_ward_too_long": "Rayon çox uzundur (maksimum {{count}} simvol)",
+        "address_ward_contains_emojis": "Vard emojiləri ehtiva edə bilməz",
+        "address_ward_contains_html_tags": "Ward HTML teqlərini ehtiva edə bilməz",
+        "address_ward_contains_mathematical_symbols": "Palata riyazi simvollar ehtiva edə bilməz",
+        "address_block_blank": "Blok daxil edin",
+        "address_block_too_long": "Blok çox uzundur (maksimum {{count}} simvol)",
+        "address_block_contains_emojis": "Blok emojiləri ehtiva edə bilməz",
+        "address_block_contains_html_tags": "Blok özündə HTML teqlərini ehtiva edə bilməz",
+        "address_block_contains_mathematical_symbols": "Blokda riyazi simvollar ola bilməz",
+        "address_area_blank": "Sahə daxil edin",
+        "address_area_too_long": "Sahə çox uzundur (maksimum {{count}} simvoldur)",
+        "address_area_contains_emojis": "Ərazi emojiləri ehtiva edə bilməz"
       }
+    },
+    "store_availability": {
+      "pick_up_time": {
+        "next_day": "Növbəti gün götürməyə hazırdır"
+      }
+    },
+    "subscriptions": {
+      "buyer_consent_product": "Bu məhsul təkrarlanan və ya təxirə salınmış alışdır. Davam etməklə mən %{cancellationPolicyLink} ilə razılaşır və sifarişim yerinə yetirilənə və ya icazə verildiyi təqdirdə ləğv edənə qədər bu səhifədə göstərilən qiymətlər, tezlik və tarixlərdə ödəniş metodumdan vəsait çıxılmasına icazə verirəm.",
+      "buyer_consent_cart": "Səbətinizdəki bir və ya bir neçə məhsul təkrarlanan və ya təxirə salınmış alışdır. Davam etməklə mən %{cancellationPolicyLink}-i qəbul edir və bu səhifədə göstərilən qiymətlər, tezlik və tarixlərlə sifarişim yerinə yetirilənə və ya icazə verildiyi təqdirdə onu ləğv edənə qədər ödəniş üsuluma ödəniş etməyinizə icazə verirəm.",
+      "cancellation_policy": "ləğv etmə siyasəti"
+    },
+    "managed_markets": {
+      "buyer_consent": "Sifarişinizi yerləşdirməklə, Global-e-nin %{termsAndConditionsLink} və %{privacyPolicyLink} şərtlərinə uyğun olaraq, Global-e-dən qeydə alınmış tacir kimi alış-veriş etməyə və məlumatlarınızı %{shopName} ilə paylaşmağa razılaşırsınız.",
+      "terms_and_conditions": "Şərtlər və Qaydalar",
+      "privacy_policy": "Məxfilik Siyasəti"
     }
   },
   "customer_accounts": {
@@ -1255,6 +1548,131 @@
       "usdc": "Kripto: USDC",
       "oxxo": "OXXO",
       "grabpay": "GrabPay"
+    },
+    "callback": {
+      "try_again": "Yenidən cəhd edin"
+    },
+    "date": {
+      "humanize": {
+        "lessThanOneHourAgo": {
+          "one": "{{count}} dəqiqə əvvəl",
+          "other": "{{count}} dəqiqə əvvəl"
+        },
+        "lessThanOneMinuteAgo": "İndicə",
+        "yesterday": "Dünən saat {{time}}-də",
+        "today": "Bu gün saat {{time}}",
+        "tomorrow": "Sabah saat {{time}}"
+      }
+    },
+    "enable_javascript": "Hesabınıza baxmaq üçün brauzerinizin parametrlərindən JavaScript-i aktivləşdirin və ya başqa brauzer ilə daxil olun.",
+    "order_receipt_document": {
+      "placeholder_title": "Qəbz üçün yer tutucu",
+      "placeholder": "%{name} üçün %{total} məbləğində sifariş göstərilməyə hazır deyil."
+    },
+    "navigation_and_structure": {
+      "action_menu_accessibility_label": "Daha çox əməliyyat",
+      "back_button_accessibility_label": "Geri",
+      "close_menu_accessibility_label": "Əsas naviqasiyanı bağlayın",
+      "contact_link": "Əlaqə məlumatları",
+      "dismiss_toast": "Ləğv et",
+      "document_title": "{{sectionName}} - {{shopName}} - Hesab",
+      "loading_message": "Yüklənir",
+      "loading_policy_content_accessibility_label": "Siyasət məzmunu yüklənir",
+      "loading_section_accessibility_label": "Yüklənir {{sectionName}}",
+      "policy_load_error": "{{policyName}} yüklənə bilmədi",
+      "policy_try_again": "Yenidən cəhd edin",
+      "log_out_link": "Çıxış et",
+      "logout_overlay_label": "Çıxış edilir...",
+      "nav_label_accessibility_label": "Əsas naviqasiya",
+      "navigation_accessibility_message": "Siz {{sectionName}} bölməsinə keçdiniz",
+      "open_menu_accessibility_label": "Əsas naviqasiyanı aç",
+      "shop_logo_accessibility_label": "{{shopName}} loqosu",
+      "store_credit_accessibility_label": "{{formattedBalance}} mağaza krediti",
+      "store_credit_balances_list_accessibility_label": "Mağaza krediti balansı",
+      "store_credit_multi_currency_accessibility_label": {
+        "one": "{{formattedBalance}} və {{count}} əlavə valyuta kredit mağazası",
+        "other": "{{formattedBalance}} və daha {{count}} valyuta mağaza krediti"
+      },
+      "country_switcher_toast_message": "Ölkə dəyişdirildi: {{countryName}}",
+      "switch_country": "Ölkəni dəyiş",
+      "no_countries_found": "Ölkə tapılmadı",
+      "location_switcher_toast_message": "Yer {{locationName}} olaraq dəyişdirildi",
+      "switch_location": "Məkanı dəyişin",
+      "no_locations_found": "Heç bir məkan tapılmadı",
+      "try_new_search": "Yeni axtarışa cəhd edin",
+      "view_details": "Ətraflı bax",
+      "company_location": "Şirkətin yerləşdiyi ünvan",
+      "search": "Axtar",
+      "skip_to_content": "Məzmuna keç"
+    },
+    "announcement_bar": {
+      "expand_label": "Elan panelini genişləndirin",
+      "collapse_label": "Elan panelini bağla",
+      "close_label": "Elan zolağını bağla"
+    },
+    "account_information": {
+      "loading_accessibility_message": "Hesab məlumatları yüklənir",
+      "loading_finished_accessibility_message": "Hesab məlumatları yükləndi",
+      "profile_card": {
+        "cancel": "Ləğv et",
+        "cancel_accessibility_label": "Profil redaktəsini ləğv et",
+        "edit": "Redaktə et",
+        "edit_accessibility_label": "Profili redaktə et",
+        "email_help_text": "E-poçt redaktə edilə bilməz",
+        "first_name": "Ad",
+        "last_name": "Soyad",
+        "email": "E-poçt",
+        "phone_number_help_text": "Telefon nömrəsini redaktə etmək mümkün deyil",
+        "save": "Yadda saxla",
+        "save_accessibility_label": "Profili yadda saxla",
+        "title": "Profil",
+        "errors": {
+          "name_too_long": "{{fieldName}} çox uzundur (maksimum 255 simvol)",
+          "name_cannot_contain_url": "{{fieldName}} URL ola bilməz",
+          "name_cannot_contain_html_tags": "{{fieldName}} HTML teqləri ehtiva edə bilməz",
+          "email_cant_be_blank": "Elektron poçt ünvanı boş qala bilməz",
+          "invalid_email_format": "Etibarlı bir e-poçt ünvanı daxil edin"
+        }
+      },
+      "verify_current_email_modal": {
+        "cancel_button": "Ləğv et",
+        "cancel_button_accessibility_label": "Profil redaktəsini ləğv et",
+        "description": "Orijinal e-poçtunuza göndərilmiş 6 rəqəmli kodu daxil edin:",
+        "email_resend_button_accessibility_label": "Təsdiq kodunu yenidən göndər",
+        "title": "Siz olduğunuzu təsdiqləyin",
+        "verify_button": "Növbəti",
+        "verify_button_accessibility_label": "Cari e-poçtunuzu təsdiqləyin"
+      },
+      "verify_new_email_modal": {
+        "title": "Yeni e-poçtunuzu təsdiqləyin",
+        "description": "İndi yeni e-poçtunuza göndərilən 6 rəqəmli kodu daxil edin:",
+        "one_time_password_label": "6 rəqəmli kod",
+        "email_resend_button": "Kodu yenidən göndər",
+        "email_resend_button_accessibility_label": "Təsdiq kodunu yenidən göndər",
+        "verify_button": "Təsdiqləyin",
+        "verify_button_accessibility_label": "Birdəfəlik şifrəni təsdiqləyin",
+        "cancel_button": "Ləğv et",
+        "cancel_button_accessibility_label": "Profil redaktəsini ləğv et",
+        "email_resend_button_success_toast_message": "Təsdiq kodu göndərildi",
+        "email_resend_button_failure_banner_message": "Təsdiq kodu göndərilə bilmədi"
+      },
+      "marketing_preferences": {
+        "email_label": "E-poçt",
+        "pending_confirmation": "Təsdiqləmək üçün e-poçtunuzdakı keçidə klikləyin.",
+        "resend_email": "E-poçtu yenidən göndər",
+        "resend_email_success": "Keçid göndərildi",
+        "title": "Marketinq seçimləri",
+        "unsubscribe_confirmation": {
+          "cancel": "Ləğv et",
+          "description": "<p>Siz artıq {{shopName}}-dan marketinq e-poçtları almayacaqsınız</p>",
+          "title": "E-poçt bildirişlərindən çıxmaq istəyirsiniz?",
+          "unsubscribe": "Abunəliyi dayandır"
+        },
+        "update_error": {
+          "description": "Marketinq üstünlüklərinizi yeniləməkdə problem yarandı. Zəhmət olmasa bu səhifəni yenidən yükləməyə cəhd edin və ya internet bağlantınızı yoxlayın."
+        },
+        "update_success": "Marketinq üstünlükləri yeniləndi"
+      }
     }
   }
 }
