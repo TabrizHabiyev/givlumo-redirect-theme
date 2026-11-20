@@ -1629,7 +1629,8 @@
         "market_manager_blocks_wallet_payments": "Ödəniş üsulu ölkənizdə dəstəklənmir.",
         "paypal_over_capture": "Sifarişinizin yekun məbləği yeniləndi. Sifarişinizi tamamlamaq üçün {{walletName}} ilə ödəyin.",
         "captcha_required": "Ödəniş məlumatlarını daxil edin və satınalmanı tamamlamaq üçün captcha-nı həll edin.",
-        "captcha_required_without_payment_information": "Satınalmanı tamamlamaq üçün kaptçanı həll edin."
+        "captcha_required_without_payment_information": "Satınalmanı tamamlamaq üçün kaptçanı həll edin.",
+        "payment_credential_delegation_error": "Ödənişinizin işlənməsi zamanı xəta baş verdi. Yeni ödəniş üsulu seçin."
       },
       "thank_you": {
         "thank_you_payments_app_pending_payment_description_buyer_action_required_with_missing_pick_up": "Sifariş təsdiqini almaq üçün bizimlə e-poçt və ya telefon vasitəsilə əlaqə saxlayın.",
@@ -3536,7 +3537,140 @@
         "draft_order_payment_due_later_terms": "Sifarişiniz təsdiqləndikdən sonra siz {{translatedName}} şərtləri ilə razılaşmış olacaqsınız.",
         "draft_order_payment_due_on_fulfillment": "Ödənişiniz sifarişiniz təsdiqləndikdən və yerinə yetirildikdən sonra həyata keçirilməlidir.",
         "draft_order_deposit_due_later": "{{depositAmount}} sifarişiniz təsdiqləndikdə ödəniləcək. Qalıq {{translatedName}} şərtlərinə uyğun olacaq.",
-        "draft_order_deposit_due_on_fulfillment": "{{depositAmount}} sifarişiniz təsdiqləndikdə ödənilməlidir. Qalan məbləğ sifarişiniz yerinə yetirildikdən sonra olacaq."
+        "draft_order_deposit_due_on_fulfillment": "{{depositAmount}} sifarişiniz təsdiqləndikdə ödənilməlidir. Qalan məbləğ sifarişiniz yerinə yetirildikdən sonra olacaq.",
+        "credit_card_label": "Kredit kartı",
+        "bogus_label": "Test Ödəniş Şlüzü",
+        "bank_deposit_label": "Bank əmanəti",
+        "bank_account_label": "Bank hesabı",
+        "cash_on_delivery_label": "Çatdırılma zamanı ödəniş",
+        "money_order_label": "Pul köçürməsi",
+        "debit_card_label": "Debet kartı",
+        "credit_or_debit_card_label": "Kredit/Debet",
+        "credit_or_debit_card_option_label": "Kredit və ya debet kartı",
+        "credit_or_debit_tile_label": "Kredit və ya debet",
+        "deferred_payment_label": "Ödəniş üsulunu sonra seçin",
+        "fixed_payment_label": "Ödənişiniz {{dueDate}} tarixində başa çatacaq.",
+        "generic_payment_terms": "Siz {{translatedName}} şərtləri üzrəsiniz. Ödənişiniz {{dueDate}} tarixində ödənilməlidir.",
+        "login_prompt": {
+          "no_access": {
+            "message": "{{logIn}} bu məkana giriş hüququ olan hesabınıza daxil olun ki, yadda saxlanmış ödəniş üsullarını əlavə edə və ya istifadə edə biləsiniz.",
+            "link": "Daxil ol"
+          },
+          "not_signed_in": {
+            "message": "Yadda saxlanmış ödəniş üsullarından istifadə etmək üçün {{signIn}}.",
+            "link": "Daxil ol"
+          },
+          "different_account": {
+            "message": "Siz başqa hesaba daxil olmusunuz. Yadda saxlanmış ödəniş üsullarından istifadə etmək üçün {{switchAccount}}.",
+            "link": "Hesabı dəyişdirin"
+          }
+        },
+        "direct_payment_terms": "Sizə {{translatedName}} şərtləri tətbiq olunur. Kartınızdan ödəniş {{dueDate}} tarixində tutulacaq.",
+        "fixed_direct_payment_terms": "Kartınızdan {{dueDate}} tarixində pul çıxarılacaq.",
+        "order_due_on_fulfillment_choose_later": "Sifarişiniz yerinə yetirildikdən sonra ödənişiniz tələb olunacaq.",
+        "order_due_on_fulfillment_payment": "Sifarişiniz yerinə yetirildikdən sonra kartınızdan ödəniş tutulacaq.",
+        "order_due_on_receipt_choose_later": "Ödənişiniz alındıqdan dərhal sonra həyata keçirilməlidir.",
+        "order_deposit_due_now": "{{depositAmount}} bu gün ödənilməlidir. Balans {{translatedName}} şərtlərinə əsasən {{dueDate}} tarixində ödənilməlidir.",
+        "order_deposit_due_on_fulfillment": "{{depositAmount}} bu gün ödənilməlidir. Balans sifarişiniz yerinə yetirildikdən sonra ödəniləcək.",
+        "order_deposit_due_on_receipt": "{{depositAmount}} bu gün ödənilməlidir. Qalıq məbləğ daha sonra ödəniləcək."
+      },
+      "shipping_errors": {
+        "shipping_method": "Sifarişiniz üçün çatdırılma seçimləri dəyişdirilib. Seçiminizi nəzərdən keçirin.",
+        "shipping_method_not_available": "Səbətiniz yeniləndi və əlavə etdiyiniz məhsullar ünvanınıza çatdırıla bilməz. Sifarişinizi tamamlamaq üçün həmin məhsulları silin.",
+        "shipping_method_not_available_generic": {
+          "one": "Sifarişiniz seçilmiş ünvana göndərilə bilmir. Ünvanın düzgünlüyünü yoxlayıb yenidən cəhd edin və ya fərqli bir ünvan seçin.",
+          "other": "Səbətinizdəki bəzi məhsullar daxil etdiyiniz ünvana çatdırıla bilmir. Ünvanınızın düzgün olduğundan əmin olmaq üçün onu yoxlayın və yenidən cəhd edin və ya fərqli bir ünvan seçin."
+        },
+        "no_delivery_strategy_available": "Sifarişiniz seçilmiş ünvana göndərilə bilməz. Ünvanınızın düzgün olduğundan əmin olmaq üçün onu yoxlayın və yenidən cəhd edin və ya başqa ünvandan istifadə edin.",
+        "shipping_method_not_available_due_to_unsatisfied_conditions": "Səbətdəki məhsullar çatdırılma üçün tələb olunan qiymət və ya çəki limitlərinə cavab vermir. Səbətinizi yeniləyin və yenidən cəhd edin.",
+        "shipping_method_not_available_updated": {
+          "one": "Əlavə etdiyiniz məhsul yerləşdiyiniz ünvana çatdırılmır. Ödənişi tamamlamaq üçün məhsulu silin və ya mağaza ilə əlaqə saxlayın.",
+          "other": "Əlavə etdiyiniz bir və ya bir neçə məhsul yerləşdiyiniz ünvana çatdırılmır. Ödəniş etmək üçün onları səbətdən silin və ya mağaza ilə əlaqə saxlayın."
+        },
+        "payment_method_not_supported": "Bu ödəniş üsulunu %{country} üçün istifadə edə bilməzsiniz. Bu ölkəyə çatdırılma üçün fərqli bir ödəniş üsulundan istifadə edin.",
+        "empty_state": "Çatdırılma üsullarını görmək üçün çatdırılma ünvanınızı daxil edin.",
+        "title": "Çatdırılma mümkün deyil",
+        "invalid_selected_address": "Seçilmiş çatdırılma ünvanı etibarlı deyil",
+        "invalid_selected_address_with_update_link": "Seçilmiş çatdırılma ünvanı etibarlı deyil. %{update_address_link} və ya başqa ünvan seçin",
+        "unavailable_addresses_only_countries": "Sifarişiniz yalnız {{countriesList}} ünvanına göndərilə bilər. Davam etmək üçün yeni ünvan əlavə edin.",
+        "unavailable_address_country": "Seçdiyiniz ölkəyə çatdırılma mümkün deyil. Davam etmək üçün fərqli bir ünvan istifadə edin.",
+        "unavailable_selected_address": "Seçilmiş ünvan üçün çatdırılma mümkün deyil",
+        "unavailable_selected_address_for_region": "{{region}} üçün çatdırılma mövcud deyil. Davam etmək üçün başqa ünvan seçin"
+      },
+      "alternative_payment_method_banner": {
+        "express_checkout": "Sürətli ödəniş",
+        "or": "YA DA",
+        "or_pay_another_way": "Yaxud başqa üsulla ödəyin",
+        "or_check_out_another_way": "Ya da başqa bir yola baxın",
+        "or_pay_with_credit_card": "Yaxud kredit kartı ilə ödəyin",
+        "show_more_options": "Daha çox seçim göstər",
+        "hide_more_options": "Daha çox seçimi gizlət"
+      },
+      "post_purchase": {
+        "page_title": "Satış sonrası",
+        "title": "Satış sonrası",
+        "escape_confirmation": "Siz sifarişinizin ödənişini etmisiniz.",
+        "escape_action": "Sifariş təsdiqinə baxın ›",
+        "components": {
+          "close": "Bağla",
+          "expand": "Daha çox göstər",
+          "processing": "İşlənir…",
+          "submit": "Təqdim et"
+        }
+      },
+      "processing": {
+        "redirecting_page_title": "Yönləndirilir…",
+        "redirecting_title": "Yönləndirilir…",
+        "redirecting_notice": "Zəhmət olmasa, sizi yönləndirənə qədər gözləyin.",
+        "redirecting_to_bank": "{{bank}} səhifəsinə yönləndirilir",
+        "complete_your_purchase_title": "Satınalmanı tamamla",
+        "continue_to_payment_gateway_notice": "Ödəniş məlumatlarınızı əlavə etmək üçün ödənişə davam edin.",
+        "continue_to_payment_gateway_button_label": "Ödənişə davam et",
+        "complete_your_purchase_title_error": "Ödəniş məlumatlarınızı düzəldin",
+        "continue_to_payment_gateway_notice_error": "Ödəniş məlumatlarınız təsdiqlənə bilmədi.",
+        "continue_to_payment_gateway_button_label_error": "Ödəniş məlumatlarını yeniləyin",
+        "page_title": "Sifariş işlənilir",
+        "title": "Sifariş işlənilir",
+        "your_order_has_been_received_title": "Sifarişiniz üçün təşəkkür edirik",
+        "you_will_receive_confirmation": "Hazırda çoxlu sifariş qəbul edirik. Tezliklə e-poçt və ya mesaj vasitəsilə təsdiq almalısınız. Əgər bir saat ərzində təsdiq almasanız, bizə bildirin.",
+        "you_will_not_be_charged": "Sizdən hələlik ödəniş tutulmayacaq",
+        "wait": {
+          "short": "Sifarişiniz işlənir.",
+          "medium": {
+            "one": "Sifarişiniz işlənir. Təxmini gözləmə müddəti %{count} dəqiqədir.",
+            "other": "Sifarişiniz emal olunur. Təxmini gözləmə müddəti %{count} dəqiqədir."
+          },
+          "long": "Sifarişiniz emal edildikdən dərhal sonra sizə e-poçt göndəriləcək. Hazırda sifarişlərin həcmi çoxdur.",
+          "no_auto_refresh_html": "Əgər avtomatik olaraq yönləndirilməsəniz, %{link}.",
+          "refresh_this_page": "bu səhifəni yeniləyin"
+        },
+        "remote_shops_payments_processing": "Ödənişlər emal edilir",
+        "action_required": "Tədbir görülməsi tələb olunur",
+        "modal_notice": "{{paymentMethod}} ilə əlaqə saxlayırıq",
+        "remote_checkout_count": "%{total}-dən %{current}-i"
+      },
+      "payment_challenge_modal": {
+        "instructions": "Alış-verişinizi {{paymentMethod}} kodunuzdan istifadə edərək tamamlayın",
+        "timer_message": "Ödəmək üçün {{timeLeft}} vaxtınız var",
+        "copy_text": "<p class=\"mb-5 text-lg text-gray-800\">\nKodu kopyala {{paymentMethod}}\n</p>",
+        "open_app_text": "{{paymentMethod}} tətbiqini açın",
+        "header": "{{paymentMethod}} ilə ödəyin",
+        "qr_code": {
+          "instructions": "Alış-verişinizi {{paymentMethod}} kodunuzdan istifadə edərək tamamlayın",
+          "wechat_instructions": "Alış-verişi tamamlamaq üçün bu QR kodu telefonunuzdakı WeChat tətbiqi ilə skan edin.",
+          "wechat_instructions_mobile": "Alış-verişi tamamlamaq üçün bu QR kodunu başqa cihazdakı WeChat proqramı ilə skan edin",
+          "paynow_instructions": "Satınalmağınızı tamamlamaq üçün bank və ya ödəniş tətbiqinizlə bu QR kodu skan edin",
+          "paynow_mobile_steps": {
+            "save": "QR kodu yadda saxlayın",
+            "upload": "Bankınızda və ya ödəniş tətbiqinizdə onu şəkillərinizdən yükləyin",
+            "come_back": "Ödəniş etdikdən sonra yenidən bu səhifəyə qayıdın"
+          },
+          "save_qr_code": "QR kodu yadda saxla"
+        },
+        "external": {
+          "instructions": "Bu satınalmanı tamamlamaq üçün tətbiqinizdə ödənişi təsdiqləyin"
+        },
+        "close": "Çağırışı bağlayın"
       }
     },
     "store_availability": {
