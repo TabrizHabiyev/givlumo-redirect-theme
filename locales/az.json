@@ -357,6 +357,549 @@
         "sign_in_link_label": "Daxil ol",
         "sign_out_link_label": "Çıxış et",
         "save_my_information_label": "Bu məlumatı növbəti dəfə üçün saxla"
+      },
+      "split_delivery": {
+        "pickup_items_count": {
+          "one": "%{count} əşyanı götürün",
+          "other": "%{count} ədəd götür"
+        },
+        "ship_items_count": {
+          "one": "%{count} əşyanı göndər",
+          "other": "%{count} ədəd məhsulu göndər"
+        },
+        "delivery_method": "Hissəli çatdırılma üsulu",
+        "delivery_method_menu": "Çatdırılma üsulu menyusunu bölmək",
+        "inventory_issue_banner": {
+          "heading": {
+            "cannot_be_picked_up": {
+              "one": "%{count} əşyanı götürmək mümkün deyil",
+              "other": "%{count} element götürülə bilmir"
+            },
+            "cannot_be_shipped": {
+              "one": "%{count} məhsul göndərilə bilmir",
+              "other": "%{count} məhsul göndərilə bilməz"
+            }
+          },
+          "remove_item": {
+            "one": "elementi silin",
+            "other": "elementləri silin"
+          },
+          "remove_item_only": {
+            "one": "Elementi sil",
+            "other": "Elementləri silin"
+          },
+          "ship_separately": {
+            "one": "Onu ayrıca göndərin",
+            "other": "Onları ayrı-ayrı göndərin"
+          },
+          "pick_them_up_in_store": {
+            "one": "Mağazadan götürün",
+            "other": "Mağazadan götürün"
+          },
+          "remove_items_or_ship": "%{ship_separately_link} və ya %{remove_items_link}",
+          "remove_items_or_pickup": "%{pickup_in_store_link} və ya %{remove_items_link}",
+          "merchandise_line_with_quantity": "%{title} (×%{quantity})"
+        },
+        "cross_border": {
+          "modal": {
+            "heading": "Ölkəni dəyişmək?",
+            "content": "Toplama və göndərmə ünvanlarınız eyni ölkədə olmalıdır. Ölkəni dəyişmək bütün məhsulları göndəriləcək halına qaytaracaq.",
+            "country_changed_heading": "Ölkə dəyişdirildi",
+            "change_country": "Ölkəni dəyişin"
+          },
+          "banner": "Çatdırılma üsulunuz yeniləndi"
+        }
+      },
+      "captcha": {
+        "title": "Davam etmək üçün CAPTCHA-nı tamamlayın",
+        "retry": "CAPTCHA-nı yenidən cəhd et",
+        "errors": {
+          "not_solved": "Davam etmək üçün CAPTCHA-nı tamamlayın",
+          "load_failed": "CAPTCHA yüklənmədi. Yenidən cəhd edin."
+        }
+      },
+      "clipboard": {
+        "copied": "Kopyalandı",
+        "failed_to_copy": "Kopyalana bilmədi"
+      },
+      "discount_errors": {
+        "generic_error": "Sifarişiniz emal edilə bilmədi, çünki endirim kodunuz artıq etibarlı deyil. Sifarişinizin yekun məbləğini nəzərdən keçirin və yenidən cəhd edin."
+      },
+      "b2b_errors": {
+        "company_location_required": {
+          "title": "Ödəniş üsulunu seçin",
+          "description": "Şirkət sifarişi yerləşdirmək üçün daxil olun və şirkətin yerləşdiyi ölkəni seçin və ya qonaq kimi davam edin.",
+          "continue_button": "Biznes hesabı üzrə daxil olmağa davam edin"
+        },
+        "lost_b2b_purchasing_permissions": "Artıq B2B sifarişləri yerləşdirmək üçün icazəniz yoxdur. Şəxsi sifariş vermək üçün %{logout_url} keçidindən istifadə edin.",
+        "log_out_link_text": "Çıxış et",
+        "lost_permissions_subtitle": "Artıq B2B sifarişləri yerləşdirmək üçün icazəniz yoxdur. Şəxsi sifariş vermək üçün çıxış edin.",
+        "lost_permissions_title": "Məkan icazələri yoxdur"
+      },
+      "shop_pay_external": {
+        "title": "Shop Pay vasitəsilə ödəniş",
+        "errors": {
+          "problem_loading": "Shop Pay yüklənərkən problem yarandı",
+          "try_again_later": "İnternet bağlantınızı yoxlayın və ya bu pəncərəni bağlayıb bir müddət sonra yenidən cəhd edin.",
+          "checkout_has_expired": "Sizin sifarişiniz başa çatıb. Bu pəncərəni bağlayın və {{shopName}} saytından yenidən sifariş etməyə çalışın."
+        },
+        "return_to_store": "{{shopName}}-a qayıt",
+        "return_to_store_simple": "Mağazaya qayıt"
+      },
+      "wallets": {
+        "return_to_store": "Mağazaya qayıt",
+        "return_to_checkout": "Ödənişə qayıt",
+        "redirect_hint": "{{walletName}} ilə daxil olmağınız tələb olunacaq.",
+        "logged_in": "{{email}} ilə əlaqəli",
+        "shipping_line_label": "Çatdırılma",
+        "payment_in_progress_title": "Ödəniş davam edir",
+        "payment_in_progress_body": "Ödənişiniz emal edilir. Sifarişiniz tezliklə tamamlanacaq.",
+        "deceleration": {
+          "one_more_step_to_complete_order": "Sifarişinizi tamamlamaq üçün daha bir addım",
+          "one_more_step": "Daha bir addım...",
+          "split_delivery_notice": "Sifarişiniz çatdırılma və təhvil alma üçün məhsulları ehtiva edir. Çatdırılma məlumatlarınızı nəzərdən keçirin, sonra sifarişinizi tamamlaya bilərsiniz.",
+          "pickup_only_notice": "Götürmə yerini yoxlayın, sonra sifarişinizi tamamlayın."
+        },
+        "continue_with": "{{walletName}} ilə davam edin",
+        "call_to_action": "{{walletName}} ilə ödəyin",
+        "place_order": "Sifarişi yerləşdirin",
+        "redirection_notice": "Alış-verişinizi tamamlamaq üçün {{walletName}} səhifəsinə yönləndiriləcəksiniz",
+        "recovery_notice": "Sifariş məlumatlarınızda bir problem var. Ödənişi tamamlamaq üçün məlumatlarınızı yeniləyin.",
+        "errors": {
+          "unavailable": {
+            "title": "{{walletName}} əlçatan deyil",
+            "description": "{{walletName}} mövcud deyildi. Başqa ödəniş üsulundan istifadə edin və ya daha sonra yenidən cəhd edin.",
+            "instructions": "{{walletName}} ilə bağlı problem yarandı. Yenidən cəhd etmək üçün mağazaya qayıdın və ya başqa üsulla yoxlayın.",
+            "unavailable_for_country": "{{walletName}} {{countryName}}-də mövcud deyil. Alış-verişinizi tamamlamaq üçün fərqli ödəniş metodu seçin"
+          },
+          "sdk_load_failure": "{{walletName}} yüklənərkən problem yarandı. Yenidən cəhd etmək üçün {{refresh_link}} və ya fərqli bir ödəniş üsulundan istifadə edin.",
+          "refresh_link": "Yenilə",
+          "unavailable_terminal": {
+            "instructions": "{{walletName}} hazırda sifarişiniz üçün əlçatan deyil. Alış-verişinizi davam etdirmək üçün başqa bir ödəmə üsulu seçin."
+          },
+          "subscription_review_required": "Sifarişiniz abunəliyi əhatə edir. Sifarişi tamamlamadan əvvəl aşağıdakı şərtləri nəzərdən keçirməlisiniz.",
+          "generic": "{{walletName}} ilə bağlı problem yarandı. Yenidən cəhd edin və ya başqa ödəniş metodundan istifadə edin.",
+          "discount_code": "Bu endirim kodunu tətbiq etmək mümkün deyil. Kodunuzu yoxlayın və yenidən cəhd edin.",
+          "terminal": "{{walletName}} ilə bağlı problem yarandı. Başqa ödəniş üsulu istifadə edin.",
+          "detour": {
+            "stock_problems": "Bəzi əşyalar artıq mövcud deyil. {{walletName}} bağlayın və yenidən cəhd edin.",
+            "price_change": "Bəzi məhsul qiymətləri dəyişdi. Sifarişinizi nəzərdən keçirmək və yenidən cəhd etmək üçün {{walletName}}-i bağlayın.",
+            "queue": "Ödəniş üçün növbəyə daxil oldunuz. Davam etmək üçün {{walletName}}-i bağlayın.",
+            "currency_change": "{{walletName}} ilə başqa ünvandan istifadə edə bilməzsiniz. Orijinal ünvandan istifadə edin və ya başqa ödəniş üsulu ilə cəhd edin.",
+            "currency_change_with_country": "{{walletName}}-dan istifadə etmək mümkün deyil, çünki valyuta dəyişib. {{countryName}} ölkəsindəki ünvanlardan istifadə edin və ya başqa ödəniş üsulunu sınayın."
+          },
+          "unsupported": {
+            "address": "Satıcı bu ünvana çatdırılma edə bilmir",
+            "wallet_is_unavailable": "{{walletName}} bu ünvanla istifadə edilə bilməz. Başqa bir ünvan seçin və ya alış-verişinizi tamamlamaq üçün {{walletName}} proqramını bağlayın",
+            "postal_code": "Bu məkan dəstəklənmir"
+          },
+          "outdated": {
+            "shipping_method": "Sifarişiniz üçün çatdırılma seçimləri dəyişdirilib. Seçiminizi nəzərdən keçirin.",
+            "payment_terms": "Ödəniş şərtləri dəyişib. Sifarişinizi nəzərdən keçirin."
+          },
+          "invalid": {
+            "shipping_address": "Düzgün çatdırılma ünvanını daxil edin",
+            "billing_address": "Etibarlı bir ödəniş ünvanı daxil edin",
+            "shipping_option": "Etibarlı çatdırılma üsulunu seçin",
+            "email": "Etibarlı bir e-poçt ünvanı daxil edin",
+            "zone": "Etibarlı bir ştat / vilayət daxil edin",
+            "billing_zone": "Etibarlı ödəniş ünvanı ştatını / vilayətini daxil edin",
+            "emirate": "Etibarlı bir əmirlik daxil edin",
+            "postal_code": "Etibarlı bir ZIP / poçt indeksi daxil edin",
+            "phone": "Etibarlı telefon nömrəsi daxil edin",
+            "billing_phone": "Etibarlı faktura ünvanı telefon nömrəsini daxil edin",
+            "reduction_code": "Etibarlı endirim kodu və ya hədiyyə kartı daxil edin",
+            "billing_must_match_shipping": "Çatdırılma ünvanı ilə üst-üstə düşməlidir",
+            "billing_zip": "Etibarlı bir ödəniş ünvanı üçün poçt indeksini daxil edin"
+          },
+          "missing": {
+            "first_name": "Adı daxil edin",
+            "billing_first_name": "Ödəniş ünvanının adını daxil edin",
+            "last_name": "Soyadınızı daxil edin",
+            "address1": "Ünvan daxil edin"
+          }
+        }
+      },
+      "subscriptions": {
+        "recurring_total_intervals": {
+          "day": {
+            "other": "%{count} gün"
+          },
+          "week": {
+            "one": "həftə",
+            "other": "%{count} həftə"
+          },
+          "month": {
+            "one": "ay",
+            "other": "%{count} ay"
+          },
+          "year": {
+            "one": "il",
+            "other": "%{count} il"
+          }
+        },
+        "recurring_totals": "%{total_price} hər %{interval}",
+        "recurring_totals_with_initial_order_shipping_discount": "İlkin ödəniş %{total_price_with_discount}, daha sonra %{recurring_total}",
+        "recurring_totals_with_policies": {
+          "first_cycles": {
+            "one": "İlkin ödəniş %{total_price}",
+            "other": "İlk %{count} ödənişin hər biri %{total_price}"
+          },
+          "following_cycles": ", sonra hər %{interval} üçün %{total_price}"
+        },
+        "recurring_totals_with_initial_order_shipping_discount_with_policies": {
+          "first_cycles": {
+            "one": ", sonra %{total_price} məbləğində %{count} ödəniş",
+            "other": ", sonra hər biri %{total_price} olmaqla %{count} ödəniş"
+          }
+        }
+      },
+      "customer_payment_methods": {
+        "page_title": "Ödəniş üsulları",
+        "title": "Ödəniş üsulları",
+        "update_card_button_label": "Kartı yeniləyin",
+        "delete_customer_mandate": {
+          "generic_error": "Sorğunuzun emalı zamanı xəta baş verdi.",
+          "success_message": "Ödəniş üsulunuz uğurla silindi"
+        }
+      },
+      "throttle": {
+        "too_many_attempts": {
+          "message": "Çoxsaylı cəhdlər",
+          "description": "Bir neçə dəqiqədən sonra yenidən cəhd edin"
+        },
+        "line_to_check_out": "Siz ödəniş növbəsindəsiniz",
+        "cart_summary_heading": "Səbətiniz",
+        "merchandise": {
+          "available": "Mövcuddur",
+          "sold_out": "Satılıb"
+        },
+        "inventory": {
+          "partial_inventory_banner": "Səbətinizdəki bəzi məhsullar tükənib və ödəniş zamanı satın alına bilməyəcək.",
+          "sold_out": {
+            "heading": "Səbətinizdəki məhsullar tükənib",
+            "storefront_body": "Alış-verişə davam etmək üçün mağazaya qayıt",
+            "no_storefront_body": "Təəssüf ki, almaq istədiyiniz məhsul artıq mövcud deyil.",
+            "link": "Mağazaya qayıt"
+          }
+        },
+        "title": "Növbə",
+        "time_to_checkout_title": "Çıxış vaxtı - {{shopName}}",
+        "estimated_wait_time": {
+          "calculating": "Təxmini gözləmə müddəti hesablanır",
+          "less_than_one": "Təxmini gözləmə müddəti: Bir dəqiqədən az",
+          "one": "Təxmini gözləmə müddəti: {{count}} dəqiqə",
+          "other": "Təxmini gözləmə müddəti: {{count}} dəqiqə"
+        },
+        "last_checked": "(Son yoxlama tarixi: {{time}})",
+        "footer": {
+          "heading": "Bu səhifəni yeniləməyin, o avtomatik olaraq yenilənəcək.",
+          "body": "Səbətinizdəki məhsullar sifarişi tamamlayana qədər rezerv edilmir."
+        }
+      },
+      "cart_checkout_validation": {
+        "runtime_error": "Sorğunuzun emalı zamanı problem yarandı. Mağaza sahibi ilə əlaqə saxlayın."
+      },
+      "no_address_location": {
+        "title": "Ünvansız məkan",
+        "header": "Bu məkan üçün çatdırılma ünvanınız yoxdur",
+        "alt_header": "Çatdırılma ünvanı qeyd olunmayıb",
+        "message": "Ödənişi tamamlamaq üçün bu məkanın ünvanını əlavə etmək üçün bizimlə əlaqə saxlayın.",
+        "email_us_button_label": "Bizə e-poçt göndərin"
+      },
+      "shop_wallet": {
+        "title": "Shop Pay cüzdanı",
+        "description": "Bu alış-veriş üçün nə istifadə etmək istədiyinizi seçin.",
+        "loading": "Shop Pay pulqabınız yüklənir…",
+        "ready_status": "Shop Pay pul kisəniz hazırdır. Ödəniş üsulu seçin.",
+        "cancel": "Ləğv et",
+        "retry": "Yenidən cəhd edin",
+        "return_to_hatch": "Hatch-ə qayıdın",
+        "choose_again": "Yenidən seçin",
+        "payment_method": {
+          "heading": "Ödəniş üsulu",
+          "expiry": "Müddəti bitir {{expiry}}"
+        },
+        "shipping_address": {
+          "heading": "Çatdırılma ünvanı"
+        },
+        "confirm": {
+          "label": "Seçimi təsdiqləyin",
+          "success_title": "Seçim təsdiqləndi",
+          "success_message": "Seçilmiş pulqabı detalları hazırdır. Bu prototip hələlik onları tərəfdaş proqramına qaytarmır.",
+          "retryable_error_title": "Seçim paylaşılmayıb",
+          "retryable_error_message": "Cüzdan seçiminizin təsdiqini yenidən cəhd edin.",
+          "terminal_error_title": "Pulqabı qoşulması başa çatdı",
+          "terminal_error_message": "Geri qayıdın və Shop Pay-i yenidən açın."
+        },
+        "cancelled": {
+          "title": "Seçim ləğv edildi",
+          "message": "Heç bir pulqabı təfərrüatı paylaşılmayıb və heç bir alış-veriş edilməyib."
+        },
+        "empty": {
+          "title": "Yadda saxlanmış kart yoxdur",
+          "message": "Bu Shop Pay pulqabında heç bir qeydə alınmış kart yoxdur."
+        },
+        "ineligible": {
+          "title": "Uyğun kart yoxdur",
+          "message": "Saxlanılan kartlardan heç biri bu alış-veriş üçün istifadə edilə bilməz."
+        },
+        "expired": {
+          "title": "Bu pulqabı seansı başa çatıb",
+          "message": "Tərəfdaş proqramına qayıdın və satınalmaya yenidən başlayın."
+        },
+        "revoked": {
+          "title": "Shop Pay artıq qoşulu deyil",
+          "message": "Davam etmədən əvvəl tərəfdaş proqramında Shop Pay-i yenidən qoşun."
+        },
+        "error": {
+          "title": "Shop Pay pulqabınız yüklənə bilmədi",
+          "message": "Heç-ə qayıdın və yenidən Shop Pay-i açmağa çalışın."
+        }
+      },
+      "shop_wallet_button": {
+        "label": "Shop Pay ilə alın",
+        "buy_with": "Bununla al"
+      },
+      "order_errors": {
+        "creation_failure": "Sifarişinizin yaradılması zamanı xəta baş verdi. Yenidən cəhd edin və ya ətraflı məlumat üçün bizimlə əlaqə saxlayın.",
+        "network_failure": "Şəbəkə xətası səbəbindən sifarişiniz göndərilə bilmədi. Bağlantınızı yoxlayın və yenidən cəhd edin.",
+        "inventory_reservation_failure": "Bəzi əşyalar artıq mövcud deyil."
+      },
+      "session_errors": {
+        "session_not_unique": "Sifarişinizin işlənməsi zamanı problem yarandı. Mağazaya qayıtmaq üçün bu səhifəni yeniləyin.",
+        "session_already_finished": "Bu sifariş artıq təqdim edilib. Yeni sifarişə başlamaq üçün mağazaya qayıda bilərsiniz."
+      },
+      "artifact_errors": {
+        "artifact_dissatisfaction_without_violation": "Sifarişinizin emalı zamanı problem yarandı. Bir neçə dəqiqədən sonra yenidən cəhd edin."
+      },
+      "pickup_point": {
+        "location_is_currently_closed": "Bağlıdır",
+        "business_hours": "İş saatları",
+        "no_business_hours": "İş saatları mövcud deyil",
+        "open_twenty_four_hours": "24/7 açıqdır",
+        "title": "Götürmə məntəqəsi",
+        "or": "və ya",
+        "search_button": "Axtar",
+        "address_label": "Ünvan",
+        "selector_tabs": "Çatdırılma nöqtəsi seçicisi",
+        "selector_tab_map": "Xəritə",
+        "selector_tab_list": "Siyahı",
+        "could_not_resolve_address": "Ünvanınız tapılmadı. Yenidən cəhd edin və ya başqa bir ünvandan istifadə edin.",
+        "no_pickup_points_near_you": "Seçilmiş ünvanın yaxınlığında təhvil məntəqəsi tapılmadı",
+        "no_pickup_points_near_location": "Məkanınızın yaxınlığında təhvil məntəqəsi tapılmadı",
+        "pickup_unavailable_banner_title": {
+          "one": "Məhsulunuz üçün təhvil məntəqəsi mövcud deyil",
+          "other": "Məhsullarınız üçün təhvil məntəqəsi mövcud deyil"
+        },
+        "no_pickup_points_found": "Heç bir çatdırılma məntəqəsi tapılmadı"
+      }
+    }
+  },
+  "customer_accounts": {
+    "order_details": {
+      "payment": {
+        "payment_type": {
+          "gift_card": "Hədiyyə kartı",
+          "store_credit": "Mağaza krediti",
+          "money_order": "Pul köçürməsi",
+          "cash_on_delivery": "Çatdırılma zamanı ödəniş",
+          "bank_deposit": "Bank əmanəti",
+          "manual": "Təlimat"
+        },
+        "shop_pay_installments": {
+          "summary": "Mağaza hissə-hissə ödənişlər",
+          "view_schedule": "Cədvələ bax"
+        },
+        "transactions": {
+          "show_all": "Hamısını göstər",
+          "show_less": "Daha az göstər",
+          "details": "Ətraflı məlumat",
+          "payment_details": "Ödəniş məlumatları"
+        },
+        "emv_details": {
+          "auth": "AVT:",
+          "aid": "YARDIM:",
+          "source": "MƏNBƏ:"
+        },
+        "voucher": {
+          "apple_wallet_badge_alt": "Apple Wallet-ə əlavə et",
+          "code_copied": "Kopyalandı",
+          "copy_code": "{{label}} kopyalayın",
+          "expired": "Vaxtı bitib: {{date}}",
+          "expired_title": "Ştrixkodun etibarlılıq müddəti bitib",
+          "expires": "Bitmə tarixi: {{date}}",
+          "konbini_choose_outlet": "Kodlarınıza baxmaq və necə ödəniş edəcəyinizi öyrənmək üçün bir Konbini seçin",
+          "konbini_expired_title": "Ödəniş kodu vaxtı keçib",
+          "konbini_keep_receipt": "Ödəniş sübutu olaraq qəbzinizi saxlayın",
+          "multibanco_expired_title": "Ödəniş arayışının vaxtı bitib",
+          "oxxo_already_paid": "Ödəniş artıq edilib? Emal 1–3 gün çəkə bilər",
+          "pay": "{{amount}} ödəyin",
+          "reference_number": "İstinad nömrəsi:",
+          "section_title": "Ödəniş təlimatları",
+          "show_barcode": "Ştrix kodu göstər",
+          "show_barcode_accessibility_label": "Ştrix kodu göstər (yeni pəncərə açır)"
+        },
+        "paid_at_store_chain": "Ödəniş {{storeChain}}-da edilib",
+        "status": {
+          "paid": "Ödənilib",
+          "unpaid": "Ödənilməmiş"
+        }
+      },
+      "paid_with_shop_pay_installments_card": {
+        "title": "Shop Pay Installments üçün ödəniş xatırlatmaları",
+        "paid_with_shop_pay_installments": "Shop Pay Installments ilə ödənilib",
+        "description": "Shop tətbiqindəki xatırlatmalarla ödəniş cədvəlinizə nəzarət edin.",
+        "payment_reminders_button": "Ödəniş xatırlatmalarını əldə edin",
+        "desktop_qr_code_content": {
+          "title": "Xatırlatmaları axtar",
+          "description": "Shop ilə ödənişləriniz haqqında xatırlatmalar alın."
+        }
+      },
+      "refunded_amount": "Geri ödənilib",
+      "login_card": {
+        "title": "Sifariş təfərrüatlarına keçid",
+        "resend_link_and_login": "Sifarişinizin təfərrüatlarına baxmaq üçün daxil olun və ya ödəniş zamanı istifadə etdiyiniz e-poçt ünvanına və ya telefon nömrəsinə yeni keçid göndərin.",
+        "resend_link_only": "Sifarişinizin təfərrüatlarına baxmaq üçün ödəniş zamanı istifadə etdiyiniz e-poçt ünvanına və ya telefon nömrəsinə yeni keçid göndərin.",
+        "log_in": "Daxil ol",
+        "resend_link": "Yeni linki göndər",
+        "link_expired": "Keçidin vaxtı bitib"
+      },
+      "remaining_amount": "Qalan",
+      "marketing_section_title": "Xəbərlər və təkliflər",
+      "marketing_checkbox_label": "Xəbərlər və təkliflər barədə mənə e-poçt göndərin",
+      "marketing_checkmark_label": "Siz elektron poçt vasitəsilə xəbərlər və təkliflər almaq üçün abunə oldunuz",
+      "marketing_pending_confirmation": "Təsdiqləmək üçün e-poçtunuzdakı keçidə klikləyin.",
+      "marketing_resend_email": "E-poçtu yenidən göndər",
+      "marketing_resend_email_success": "Keçid göndərildi",
+      "returns": {
+        "expand_events_label": "Ətraflı göstər",
+        "hide_events_label": "Təfərrüatları gizlət",
+        "ineligible_return_message": "Bu sifarişdəki heç bir məhsul geri qaytarılma üçün uyğun deyil.",
+        "ineligible_return_message_when_returned": "Bu sifarişdəki digər məhsulların geri qaytarılması mümkün deyil.",
+        "print_shipping_label": "Çatdırılma etiketini çap et",
+        "tracking_number": "İzləmə nömrəsi:",
+        "exchange_header": "Məhsulların dəyişdirilməsi",
+        "exchange_subheader": "Dəyişdiriləcək məhsullar geri qaytarılma prosesi tamamlandıqdan sonra sifarişə əlavə olunacaq."
+      },
+      "shipping": {
+        "address": "Çatdırılma ünvanı",
+        "method": "Çatdırılma üsulu",
+        "method_short": "Metod",
+        "ship_to": "Çatdırılma ünvanı",
+        "summary": "Çatdırılma",
+        "free": "Pulsuz",
+        "one_time": "Birdəfəlik çatdırılma",
+        "subscription": "Abunəliklə çatdırılma"
+      },
+      "pickup": {
+        "pickup": "Götürmə",
+        "pickup_location": "Götürmə yeri",
+        "pickup_point": "Götürmə məntəqəsi"
+      },
+      "total_savings": "Ümumi qənaət",
+      "subtitle": "Təsdiqləndi {{date}}",
+      "subtotal_label_with_quantity": {
+        "one": "Ara cəm",
+        "other": "Cəmi · {{count}} ədəd"
+      },
+      "summary_list_title_accessibility_label": "Sifariş elementləri",
+      "summary_title": "Sifariş xülasəsi",
+      "summary_totals_title_accessibility_label": "Sifarişin yekun məbləği",
+      "shop_order_tracking": {
+        "open_in_shop": "{{shop}} mağazasını açın",
+        "track_order_with_shop": "{{shop}} ilə sifarişi izləyin",
+        "animated_intro_value_props": "Real vaxt rejimində yeniləmələr alın",
+        "leave_review_with_shop": "{{shop}} mağazasında rəy qoyun",
+        "popover_description_pickup_updates": "Shop tətbiqində sifarişinizi götürmə ilə bağlı anlıq məlumatlar alın",
+        "popover_description_review": "Shop tətbiqində sifarişiniz haqqında rəy bildirin",
+        "popover_description_tracking_updates": "Shop tətbiqində real vaxt rejimində izləmə yeniləmələri alın",
+        "popover_qr_iframe_title": "Mağaza QR kodu",
+        "popover_title_leave_review": "Shop üçün rəy qoyun",
+        "popover_title_track_all_orders": "Bütün sifarişlərinizi Shop ilə izləyin",
+        "popover_title_track_order": "Shop ilə sifarişinizi izləyin",
+        "popover_title_track_pickup_order": "Shop ilə özəlmə sifarişinizi izləyin",
+        "shop_brand_name": "Mağaza",
+        "track_all_your_orders_with_shop": "{{shop}} ilə bütün sifarişlərinizi izləyin",
+        "track_pickup_with_shop": "{{shop}} ilə götürülməni izləyin"
+      },
+      "edit_summary": {
+        "added": "Əlavə edildi",
+        "removed": "Silindi",
+        "updated_at": "Sifariş yeniləndi {{date}}",
+        "returned": "Qaytarılıb",
+        "return_line_item_removed": "Qaytarılmadan çıxarıldı"
+      }
+    },
+    "intents": {
+      "subscription_replace_payment_method": {
+        "invalid_subscription_contract": "Abunəlik tapılmadı",
+        "errors": {
+          "contract_stale": "Redaktə etdiyiniz müddətdə bu abunəlikdə dəyişiklik olub. Bu pəncərəni bağlayın və yenidən cəhd edin.",
+          "has_future_edits": "Bu abunəlik gələcək sifarişdə dəyişikliklərə malikdir. Ödəniş üsulunu dəyişmək üçün mağaza ilə əlaqə saxlayın."
+        },
+        "store_credit": {
+          "label": "Mağaza kreditindən gələcək abunəlik haqqı üçün istifadə edin",
+          "turned_off": "Mağaza krediti söndürüldü",
+          "turned_on": "Mağaza krediti aktivləşdirildi"
+        }
+      }
+    },
+    "order_receipt": {
+      "back_to_order_accessibility_label": "Sifarişə qayıt",
+      "document_accessibility_label": "Qəbuledirjəti sənədi",
+      "exchange_subtitle": "Mübadilə {{name}} · {{date}}",
+      "heading": "Qəbz",
+      "loading": "Qəbz yüklənir…",
+      "receipt_types": {
+        "exchange": "Mübadilə",
+        "return": "Qayıt",
+        "sale": "Satış"
+      },
+      "return_subtitle": "Qaytarın {{name}} · {{date}}",
+      "select_receipt_accessibility_label": "{{date}}, qəbuledişi seçin",
+      "subtitle_with_type": "Sifariş {{name}} · {{type}}",
+      "unavailable": "Yenidən cəhd edin və ya sifarişinizə qayıdıb qəbuledjanı daha sonra açın.",
+      "unavailable_title": "Qəbuledici yüklənmədi",
+      "view_receipt": "Qaytarmağı göstər",
+      "confirmation": {
+        "document_accessibility_label": "Təsdiq sənədi",
+        "heading": "Təsdiq",
+        "loading": "Yükləmə təsdiqi…",
+        "select_confirmation_accessibility_label": "{{date}}, təsdiqi seçin",
+        "unavailable": "Yenidən cəhd edin və ya sifarişinizə qayıdıb təsdiqi daha sonra açın.",
+        "unavailable_title": "Təsdiqi yükləmək mümkün olmadı",
+        "view_confirmation": "Təsdiqi görüntüələyin"
+      }
+    },
+    "sign_in": {
+      "brand_logo_alt_text": "%{shop_name} loqosu",
+      "processing": "İşlənir…",
+      "step_one": {
+        "page_title": "Daxil ol - %{shop_name}",
+        "heading": "Daxil ol",
+        "subheading": "E-poçt ünvanınızı daxil edin, biz sizə təsdiq kodu göndərəcəyik",
+        "subheading_with_sign_in_options": "Daxil olun və ya hesab yaradın",
+        "input_field_label": "E-poçt",
+        "button": "Davam et",
+        "or": "və ya",
+        "consent_agreement": "Davam etməklə siz %{terms} ilə razılaşırsınız",
+        "last_used_pill": "Son istifadə edilib"
+      },
+      "step_two": {
+        "page_title": "Kod daxil edin - %{shop_name}",
+        "heading": "Kodu daxil edin",
+        "subheading": "%{email} ünvanına göndərildi",
+        "change_email": "Dəyiş",
+        "restart_link": "Fərqli bir e-poçt ünvanı ilə daxil olun",
+        "input_field_label": "6 rəqəmli kod",
+        "button": "Təqdim et"
+      },
+      "error": {
+        "invalid": {
+          "invalid_email": "Etibarlı bir e-poçt ünvanı daxil edin",
+          "invalid_code": "Düzgün 6 rəqəmli kodu daxil edin"
+        }
       }
     }
   }
