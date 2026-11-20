@@ -3780,7 +3780,15 @@
             "description_partially_paid": "Bu sifariş qismən ödənilib. Sizin qalan balansınız var.",
             "description_waiting_for_manual_payment": "Bu sifarişin ödənişi gözlənilir. Ödəniş alındıqda balans yenilənəcək.",
             "description_due_on_receipt": "Ödəniş vaxtı çatdıqda sizə hesab-faktura göndəriləcək.",
-            "description_due_on_receipt_partially_paid": "Bu sifariş qismən ödənilib. Sizin qalıq borcunuz var. Ödəniş vaxtı çatdıqda sizə hesab-faktura göndəriləcək."
+            "description_due_on_receipt_partially_paid": "Bu sifariş qismən ödənilib. Sizin qalıq borcunuz var. Ödəniş vaxtı çatdıqda sizə hesab-faktura göndəriləcək.",
+            "banner_overdue": {
+              "one": "Sizin ödənişinizə {{count}} gün gecikmə olub",
+              "other": "Ödənişinizə {{count}} gün gecikmə olub"
+            },
+            "banner_due": {
+              "one": "Ödənişinizə {{count}} gün qalıb",
+              "other": "Ödənişinizə {{count}} gün qalıb"
+            }
           },
           "draft": {
             "in_review": {
@@ -3828,7 +3836,10 @@
           "title": "Ödəniş statusu"
         },
         "subtitle": "Təqdim edilib {{date}}",
-        "title": "Sifariş {{name}}"
+        "title": "Sifariş {{name}}",
+        "draft_order_subtitle": "Sifarişdən {{date}} tarixində təsdiqləndi {{draftOrderName}}",
+        "loading": "Sifariş detalları yüklənir",
+        "loading_finished_accessibility_message": "Sifariş detalları yükləndi"
       },
       "payment_methods": {
         "payment_delete": {
@@ -3842,6 +3853,75 @@
       },
       "purchase_order_number": {
         "title": "PO #{{poNumber}}"
+      },
+      "account_information": {
+        "company_card_section_accessibility_label": "Şirkət"
+      },
+      "locations": {
+        "contact_contact": "Əlaqə",
+        "contact_email": "E-poçt",
+        "contact_list_title": "İnsanlar",
+        "contact_name": "Ad",
+        "contact_permissions": "İcazələr",
+        "contact_phone_number": "Telefon nömrəsi",
+        "deposit_percentage": "{{percentage}} depozit",
+        "own_role_contact_name": "Sən",
+        "payment_details_title": "Ödəniş məlumatları",
+        "payment_terms": "Ödəniş şərtləri",
+        "section_title": "Məkan",
+        "shipping_address_required": "Sifariş verməyə başlamaq üçün bu ünvana çatdırılma ünvanı əlavə edin",
+        "staff_and_permissions_title": "Heyət və icazələr",
+        "tax_id": "Vergi ödəyicisinin eyniləşdirmə nömrəsi",
+        "tax_exemptions": "Vergi güzəştləri",
+        "multiple_tax_exemptions": "{{taxExemptionsCount}} əlavə",
+        "multiple_tax_exemptions_and": "və",
+        "tax_exemptions_modal_close": "Bağla",
+        "tax_exemption_not_applicable": "T/D",
+        "tax_exemptions_modal_button_accessibility_label": "Bütün vergi güzəştlərinə bax"
+      },
+      "location_selection": {
+        "description": "Səbətinizdə artıq məhsullar varsa, məkanın dəyişdirilməsi səbətdəki qiymətlərə və miqdarlara təsir edə bilər.",
+        "description_switch_later": "Daha sonra hər zaman dəyişə bilərsiniz",
+        "error_loading_locations": "Məkanların yüklənməsində problem yarandı. İnternet bağlantınızı yoxlayın və yenidən cəhd edin.",
+        "list_accessibility_label": "Məkanlar siyahısı",
+        "list_item_without_address_accessibility_label": "{{name}}: Ünvan yoxdur",
+        "list_loading_accessibility_message": "Məkanların siyahısı yüklənir",
+        "list_loading_address_accessibility_message": "{{locationName}} üçün yükləmə ünvanı",
+        "list_loading_finished_accessibility_message": "Məkanların siyahısı yükləndi",
+        "loading_store_accessibility_message": "Mağazaya gedirəm",
+        "no_locations_found": "Heç bir məkan tapılmadı",
+        "search": "Məkanları axtar",
+        "selection_cancel_button": "Ləğv et",
+        "selection_continue_button": "Davam et",
+        "title": "Hansı məkan üçün alırsınız?",
+        "title_choose_location": "Məkan seçin",
+        "try_new_search": "Yeni axtarışa cəhd edin"
+      },
+      "addresses": {
+        "add_billing_address_button": "Ödəniş ünvanı əlavə et",
+        "add_billing_address_section_accessibility_label": "Ödəniş ünvanı əlavə et",
+        "add_shipping_address_button": "Çatdırılma ünvanını əlavə et",
+        "add_shipping_address_section_accessibility_label": "Çatdırılma ünvanını əlavə et",
+        "billing_address_card_title": "Ödəniş ünvanı",
+        "no_billing_address_banner": "Faktura ünvanı əlavə edilməyib",
+        "cancel_adding_billing_address_accessibility_label": "Ödəniş ünvanının əlavə edilməsini ləğv et",
+        "cancel_adding_shipping_address_accessibility_label": "Çatdırılma ünvanının əlavə edilməsini ləğv et",
+        "save_new_billing_address_accessibility_label": "Ödəniş ünvanını yadda saxla",
+        "save_new_shipping_address_accessibility_label": "Çatdırılma ünvanını yadda saxla",
+        "shipping_address_card_title": "Çatdırılma ünvanı"
+      },
+      "orders": {
+        "draft_order_list": {
+          "title": "Gözləmədə",
+          "pending_tab_accessibility_label": {
+            "no_pending_orders": "Gözləyən sifarişiniz yoxdur",
+            "pending_orders": {
+              "one": "Sizin {{count}} gözləyən sifarişiniz var",
+              "other": "Sizin {{count}} gözləyən sifarişiniz var"
+            },
+            "more_than_pagination_length": "Sizin {{count}}-dən çox gözləyən sifarişiniz var"
+          }
+        }
       }
     },
     "errors": {
@@ -3914,6 +3994,58 @@
       "too_many_attempts": {
         "message": "Çoxsaylı cəhdlər",
         "description": "Zəhmət olmasa, bir neçə dəqiqədən sonra yenidən cəhd edin"
+      }
+    },
+    "address_form": {
+      "auto_complete_title": "Təkliflər",
+      "billing_address": "Ödəniş ünvanı kimi istifadə et",
+      "cancel": "Ləğv et",
+      "cancel_accessibility_label": "Ünvan redaktəsini ləğv et {{address}}",
+      "creation_success_notification": "Ünvan əlavə edildi",
+      "default_address": "Bu mənim standart ünvanımdır",
+      "default_address_creation_success_notification": "İlkin ünvan əlavə edildi",
+      "default_address_update_success_notification": "Defolt ünvan yeniləndi",
+      "loading_add_form_accessibility_message": "Yeni ünvan forması yüklənir",
+      "loading_edit_form_accessibility_message": "Ünvanı redaktə etmə forması yüklənir",
+      "loading_form_accessibility_message": "Ünvan forması yüklənir",
+      "loading_finished_accessibility_message": "Ünvan forması yükləndi",
+      "save": "Yadda saxla",
+      "save_accessibility_label": "Ünvanı yadda saxlayın {{address}}",
+      "section_title_accessibility_label": "Ünvan əlavə et",
+      "update_success_notification": "Ünvan yeniləndi"
+    },
+    "account_menu": {
+      "signed_out_state": {
+        "sheet_title": "Daxil olun və ya hesab yaradın",
+        "section_divider": "Daxil olmaq üçün daha çox üsul",
+        "alternate_divider": "YA DA",
+        "use_email_button": "Bunun əvəzinə elektron poçtdan istifadə edin",
+        "email_field_label": "E-poçt",
+        "orders_button": "Sifarişlər",
+        "profile_button": "Profil",
+        "shop_login_button": "Shop ilə daxil olun",
+        "continue_with_google": "Google ilə davam et",
+        "continue_with_facebook": "Facebook ilə davam et"
+      },
+      "signed_in_state": {
+        "greeting_with_name": "Salam, {{first_name}}",
+        "greeting_without_name": "Hesab",
+        "orders_button": "Sifarişlər",
+        "profile_button": "Profil"
+      },
+      "location_picker": {
+        "sheet_title": "Məkanlar",
+        "search_field_placeholder": "Axtar"
+      },
+      "aria_labels": {
+        "close_menu": "Menyunu bağla",
+        "back_to_main_menu": "<p>Əsas menyuya qayıt {{title}}</p>",
+        "open_submenu": "{{title}}, alt menyunu açır",
+        "loading_menu": "Menyu yüklənir",
+        "loading": "Yüklənir",
+        "account": "Hesab",
+        "sign_in_with_email": "E-poçt ilə daxil olun",
+        "sign_in": "Daxil ol"
       }
     }
   }
