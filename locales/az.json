@@ -3421,7 +3421,16 @@
     },
     "store_availability": {
       "pick_up_time": {
-        "next_day": "Növbəti gün götürməyə hazırdır"
+        "next_day": "Növbəti gün götürməyə hazırdır",
+        "one_hour": "Adətən 1 saata hazır olur",
+        "two_hours": "Adətən 2 saata hazır olur",
+        "four_hours": "Adətən 4 saata hazır olur",
+        "twenty_four_hours": "Adətən 24 saata hazır olur",
+        "two_to_four_days": "Adətən 2-4 günə hazır olur",
+        "five_or_more_days": "Adətən 5+ günə hazır olur",
+        "zero_to_two_hours": "Adətən 2 saata hazır olur",
+        "two_to_four_hours": "Adətən 4 saata hazır olur",
+        "immediately": "Hazırda götürülməyə hazırdır"
       }
     },
     "subscriptions": {
@@ -3653,8 +3662,149 @@
         "maximum_available_quantity_reached": "Bu məhsulun maksimum miqdarı artıq səbətinizdədir.",
         "less_than_minimum": "Bu məhsul üçün minimum miqdar %{min}-dir.",
         "more_than_maximum": "Bu əşyanın maksimum sayı %{max}-dir.",
-        "not_respect_step": "Bu əşyanı yalnız %{step} artımlarla əlavə edə bilərsiniz."
+        "not_respect_step": "Bu əşyanı yalnız %{step} artımlarla əlavə edə bilərsiniz.",
+        "all_items_in_cart": "Bütün %{count} %{name} səbətinizdədir.",
+        "empty_update": "Boş səbəti yeniləmək mümkün deyil",
+        "missing_parameters": "etibarlı ID və ya sətir parametri yoxdur",
+        "generic_error": "Səbət xətası",
+        "invalid_input": "%{parameter} parametri etibarsızdır.",
+        "product_not_available": "Məhsul mövcud deyil",
+        "too_many_line_items_error": "Səbətinizdə %{max} sayından çox məhsul ola bilməz.",
+        "link_expired": "Keçidin vaxtı bitib",
+        "link_no_longer_exists": "Keçid artıq mövcud deyil.",
+        "stock_problems_html": "Bir və ya bir neçə məhsul artıq mövcud deyil. Biz sizə <a href=\"%{link}\">yenilənmiş səbət</a> təqdim etdik.",
+        "changed": "Səbət dəyişdirildi",
+        "items_changed": "Bir və ya bir neçə element dəyişdirilib.",
+        "product_sold_out": "'%{name}' məhsulu artıq tükənib.",
+        "variant_not_found": "Variant tapılmadı",
+        "variant_requires_selling_plan": "Variant yalnız satış planı ilə alına bilər.",
+        "selling_plan_not_available_for_company_locations": "B2B sifarişləri üçün yalnız birdəfəlik alış mümkündür",
+        "digital_product_not_available_for_company_locations": "Bu məhsul B2B sifarişinə əlavə edilə bilməz",
+        "buyer_cannot_purchase_for_company_locations": "Bu məkan üçün alış-veriş edə bilməzsiniz",
+        "selling_plan_not_applicable": "Satış planını varianta tətbiq etmək mümkün deyil",
+        "shipping_address_not_required": "Bu səbət üçün çatdırılma tələb olunmur",
+        "shipping_address_invalid": "Çatdırılma tariflərinin hesablanması zamanı xəta baş verdi. Sifarişi tamamlamaq üçün çatdırılma tarifini seçmək məqsədilə ödəniş səhifəsinə keçin.",
+        "bundle_requires_components": "'%{name}' dəst məhsulu səbətə əlavə edilə bilməz.",
+        "gift_card_with_components_not_supported": "'%{name}' dəst məhsulu səbətə əlavə edilə bilməz.",
+        "gift_card_price_must_be_greater_than_zero": "'%{name}' dəst məhsulu səbətə əlavə edilə bilməz.",
+        "gift_card_recipient_validation_error": "Göstərilən hədiyyə kartı alıcısı etibarsızdır",
+        "view_lines_limit_reached": "Sətirlərin sayı %{limit}-dən çox olmamalıdır",
+        "cart_too_large": "Səbət çox böyükdür.",
+        "cart_attributes_error": "Səbət atributları yararsız məlumatlar ehtiva edir.",
+        "merchandise_line_transformers": {
+          "run_error": "Səbətinizdə xəta baş verdi."
+        },
+        "merchandise_not_applicable": "Məhsul bu konfiqurasiyada alına bilməz."
+      },
+      "storefront": {
+        "invalid_password": "Şifrə yanlışdır, zəhmət olmasa yenidən cəhd edin."
+      },
+      "tags": {
+        "add_articles": "Axtarışı %{tag} etiketini də ehtiva edən məqalələrlə məhdudlaşdırın",
+        "add_products": "Seçimi %{tag} teqinə uyğun məhsullarla məhdudlaşdırın",
+        "remove_articles": "Axtarışı %{tag} teqi olmayan məqalələrə qədər genişləndirin",
+        "remove_products": "%{tag} teqini sil"
       }
+    },
+    "email_marketing": {
+      "subscribed": {
+        "confirmation": "Məlumat bülletenimizə abunə olduğunuz üçün təşəkkür edirik.",
+        "disclaimer": "İstənilən vaxt abunəliyi dayandıra bilərsiniz.",
+        "unsubscribe": "Abunəliyi dayandır"
+      },
+      "unsubscribed": {
+        "confirmation": "Siz bizim abunə siyahımızdan çıxdınız.",
+        "disclaimer": "Artıq bizdən marketinq yeniləmələri almayacaqsınız. İstənilən vaxt yenidən abunə ola bilərsiniz.",
+        "preview": "Siz müştərilərin abunəlikdən çıxarkən görəcəkləri görüntüyə baxırsınız."
+      },
+      "unsubscribe_confirm": {
+        "title": "E-poçt bildirişlərindən çıxmaq istəyirsiniz?",
+        "description": "Artıq %{shop_name} mağazasından marketinq e-poçtlarını almayacaqsınız",
+        "button": "Abunəliyi dayandır"
+      },
+      "sms_unsubscribe_confirm": {
+        "message": "SMS marketinqindən abunəliyi ləğv etmək istədiyinizə əminsinizmi?",
+        "button": "Abunəliyi dayandır"
+      },
+      "open_tracking": {
+        "opt_in": {
+          "opted_in_html": "<b>Siz e-poçt açılma izlənməsini aktivləşdirmisiniz.</b>",
+          "visibility": "E-poçtların açılma nisbətləri anonim şəkildə bildiriləcəkdir. Biz yalnız e-poçtu açıb-açmadığınızı məcmu e-poçt açılma nisbətinin bir hissəsi kimi görəcəyik.",
+          "opt_out_html": "Əgər bu məlumatı paylaşmaq istəmirsinizsə, e-poçt açılış izlənməsindən <a style=\"text-decoration:underline;\" href=\"%{link}\">imtina edə</a> bilərsiniz.",
+          "preview_bar": "Müştərilərin e-poçt açılışlarının izlənməsinə razılıq verdikdə görəcəkləri məlumatın ilkin baxışını görürsünüz."
+        },
+        "opt_out": {
+          "opted_out_html": "<b>Siz e-poçt açılma izləməsindən imtina etdiniz.</b>",
+          "visibility": "E-məktublarımızı açıb-açmadığınızı görməyəcəyik.",
+          "opt_in_html": "<a style=\"text-decoration:underline;\" href=\"%{link}\">E-poçt açılışının izlənilməsinə</a> razılıq verin.",
+          "preview_bar": "Müştərilərin e-poçt açılışlarının izlənilməsindən imtina etdikdə görəcəkləri görüntüyə öncədən baxırsınız."
+        },
+        "no_longer_track": {
+          "status_html": "<b>Biz artıq heç bir e-poçt açılışını izləmirik.</b>",
+          "privacy_policy": "Bu e-poçt göndərildikdən sonra biz məxfilik siyasətimizi yenilədik və artıq açılışları izləmirik."
+        },
+        "track": {
+          "status_html": "<b>E-poçtun açılması izlənilir.</b>",
+          "visibility": "E-poçtu açıb-açmadığınızı yalnız ümumi e-poçt açılma nisbətinin bir hissəsi kimi görəcəyik."
+        },
+        "updated_policy": {
+          "status_html": "<b>E-poçtun açılması izlənilir.</b>",
+          "visibility": "Biz siyasətimizi yenilədik və artıq e-poçt açılışlarını izləyirik. E-poçt açılma dərəcələri anonim şəkildə bildiriləcək. Biz yalnız e-poçtu açıb-açmadığınızı ümumi e-poçt açılma dərəcəsinin bir hissəsi kimi görəcəyik.",
+          "opt_out_html": "Bu məlumatı paylaşmaq istəmirsinizsə, <a style=\"text-decoration:underline;\" href=\"%{link}\">abunəliyinizi ləğv edə</a> bilərsiniz."
+        }
+      }
+    },
+    "filters": {
+      "availability": {
+        "value": {
+          "in_stock": "Anbarda var",
+          "out_of_stock": "Anbarda yoxdur"
+        }
+      },
+      "boolean": {
+        "true_label": "Bəli",
+        "false_label": "Xeyr"
+      }
+    },
+    "search": {
+      "error": "Axtarış nəticələrinin yüklənməsi zamanı problem yarandı. Zəhmət olmasa səhifəni yeniləyin və ya bir az sonra yenidən cəhd edin.",
+      "sorting": {
+        "relevance": "Aktuallıq",
+        "price_ascending": "Qiymət, ucuzdan bahaya",
+        "price_descending": "Qiymət, azalan sıra ilə"
+      }
+    },
+    "page_titles": {
+      "blog_or_article_with_error": "Xəta - %{title}",
+      "products": "Məhsullar",
+      "shopping_cart": "Səbətiniz",
+      "account": "Hesab",
+      "create_account": "Hesab yarat",
+      "reset_account": "Hesabı sıfırla",
+      "addresses": "Ünvanlar",
+      "order": "%{name} sifarişi",
+      "search": "Axtar",
+      "search_results": {
+        "one": "Axtarış: \"%{terms}\" üçün %{count} nəticə tapıldı",
+        "other": "Axtarış: \"%{terms}\" üçün %{count} nəticə tapıldı"
+      },
+      "collections": "Kolleksiyalar",
+      "not_found": "404 Tapılmadı",
+      "challenge": "Çağırış",
+      "checkpoint": "Yoxlama məntəqəsi"
+    },
+    "cart": {
+      "discounts_with_count": "%{count} endirim tətbiq edildi"
+    },
+    "challenge": {
+      "message": "Davam etmək üçün robot olmadığınızı təsdiqləyin.",
+      "error": "Cavabınız düzgün deyildi, zəhmət olmasa yenidən cəhd edin.",
+      "submit_button_text": "Təqdim et"
+    },
+    "checkpoint": {
+      "message": "Davam etmək üçün Captcha-nı həll edin",
+      "error": "Captcha təsdiqi uğursuz oldu",
+      "submit_button_text": "Təqdim et"
     }
   },
   "customer_accounts": {
