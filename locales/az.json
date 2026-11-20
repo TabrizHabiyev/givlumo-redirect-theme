@@ -400,7 +400,79 @@
           "fields": {
             "default": "Defolt olaraq təyin et"
           }
-        }
+        },
+        "shop_pay_hsa": {
+          "eligible_product": "HSA/FSA üçün yararlıdır",
+          "partially_eligible_product": "Hissəsinə HSA/FSA üçün uyğun",
+          "mixed_cart_description": "Səbətinizdə yalnız HSA/FSA üçün uyğun məhsullar ola bilər",
+          "mixed_cart_lmn_description": "Şəxsi kartdan istifadə edin və uyğun məbləğ üçün ödənişin geri qaytarılmasını tələb edin. Çünki alış tamamilə HSA/FSA üçün uyğun deyil, imtiyaz kartları rədd ediləcək.",
+          "label": "Mən bu alış üçün HSA/FSA vəsaitlərindən istifadə etmək istəyirəm",
+          "description": "Birbaşa güzəşt kartınızla ödəniş edin və ya şəxsi kartınızdan istifadə edərək uyğun məbləğin geri ödənilməsini tələb edin.",
+          "powered_by_truemed": "Truemed tərəfindən təqdim olunan HSA/FSA ödənişləri",
+          "truemed_terms_disclaimer_html": "Satınalma ilə siz Truemed-in %{terms_link}-nə razılıq verir və Truemed-in %{privacy_link}-ni qəbul edirsiniz",
+          "terms_of_service": "Xidmət Şərtləri",
+          "privacy_policy": "Məxfilik Siyasəti",
+          "eligibility_disclaimer_html": "HSA/FSA uyğunluğu Truemed tərəfindən müəyyən edilir. %{terms_link}",
+          "truemed": "Truemed",
+          "view_terms": "Şərtləri nəzərdən keçirin",
+          "login_message": "HSA/FSA vəsaitlərinizdən istifadə etmək üçün Shop-a daxil olun"
+        },
+        "network_card_payment_options": "Kart şəbəkəsi seçin",
+        "network_card_persistence_description": "Seçilmiş şəbəkə gələcək əməliyyatlar üçün ödəniş üsulunuzla birlikdə yadda saxlanılacaq.",
+        "amazon_payments_label": "Amazon Pay",
+        "amazon_payments_login_hint": "Sizdən Amazon ilə daxil olmağınız tələb olunacaq.",
+        "amazon_payments_logout": "Amazon Pay-dən çıxış edin",
+        "amazon_payments_failed_mfa_challenge": "Seçilmiş ödəniş üsulundan istifadə etmək mümkün olmadı. Başqa bir üsul seçin və ya bankınız və ya kartı verən təşkilatla əlaqə saxlayın.",
+        "amazon_payments_abandoned_mfa_challenge": "Ödənişiniz tamamlanmadı. Fərqli bir ödəniş üsulu sınayın və ya bankınız və ya kartı verən qurumla əlaqə saxlayın.",
+        "amazon_payments_could_not_enqueue_authorize": "Ödənişinizin işlənməsi zamanı xəta baş verdi. Yenidən cəhd edin və ya başqa bir ödəniş üsulundan istifadə edin.",
+        "title": "Ödəniş",
+        "amount_left_to_pay_label": "Ödəniş müddəti:",
+        "discount_button_action_label": "Endirim kodunu tətbiq et",
+        "discount_codes_removed_summary": {
+          "one": "%{count} endirim kodu silindi",
+          "other": "%{count} endirim kodu silindi"
+        },
+        "discount_codes_modified_summary": {
+          "one": "%{count} endirim kodu dəyişdirildi",
+          "other": "%{count} endirim kodu dəyişdirildi"
+        },
+        "discount_codes_removed_or_modified_summary": {
+          "one": "%{count} endirim kodu silindi və ya dəyişdirildi",
+          "other": "%{count} endirim kodu silindi və ya dəyişdirildi"
+        },
+        "discount_show_more_warnings": {
+          "one": "Daha %{count} göstər",
+          "other": "Daha %{count} göstər"
+        },
+        "gift_card_code_label": "Hədiyyə kartı kodu",
+        "apply_gift_card_button_label": "Müraciət et",
+        "gift_card_balance_label": "Balans:",
+        "supported_card_brands_more_label": "və daha çox…",
+        "detected_card_brand": "Aşkarlanan kart brendi: {brand}",
+        "credit_card_vaulting_sign_in_banner_title": "Kredit kartınızı yadda saxlayın",
+        "credit_card_vaulting_sign_in_banner_info": "Gələcəkdə alış-veriş etmək üçün kredit kartınızı yadda saxlamaq məqsədilə daxil olun və ya hesab yaradın.",
+        "credit_card_vaulting_sign_in_banner_button_label": "Daxil ol",
+        "ftd_vault_credit_card_label": "Daha sürətli ödəniş üçün bu kredit kartını hesabımda yadda saxla",
+        "card_number_label": "Kart nömrəsi",
+        "card_number_placeholder": "Kart nömrəsi",
+        "bogus_test_checkout": {
+          "title": "Test təlimatı",
+          "intro": "Ödənişinizi yoxlamaq üçün bu dəyərlərdən istifadə edin:",
+          "approved_transaction": "{{card_number}} ilə təsdiqlənmiş əməliyyat simulyasiya edilsin",
+          "declined_transaction": "{{card_number}} rədd edilmiş əməliyyatı simulyasiya etmək üçün",
+          "gateway_failure": "{{card_number}} yoxlamaq üçün yoxlamaq üçün simulyasiya edin",
+          "additional_instructions": "İstənilən gələcək son istifadə tarixini və istənilən 3 rəqəmli təhlükəsizlik kodunu istifadə edin.",
+          "support_link": "Dəstək alın"
+        },
+        "card_pay_with": "Ödəniş üsulu:",
+        "card_security_notice": "Bütün tranzaksiyalar təhlükəsizdir və şifrələnib.",
+        "card_security_vault_notice": "Gələcək ödənişlər üçün məlumatlarınıza ehtiyacımız var. Bütün əməliyyatlar təhlükəsizdir və şifrələnib.",
+        "card_information_notice": "Bütün əməliyyatlar təhlükəsizdir və şifrələnir. Kredit kartı məlumatları heç vaxt saxlanılmır.",
+        "name_on_card_label": "Kartın üzərindəki ad",
+        "name_on_card_placeholder": "Kartın üzərindəki ad",
+        "card_nickname_label": "Ləqəb (isteğe bağlı)",
+        "card_expired": "Vaxtı keçmiş",
+        "card_expiry_label": "İstifadə müddəti (AA / İİ)"
       },
       "contact": {
         "street_number_label": "Bina nömrəsi",
@@ -1343,6 +1415,52 @@
         "address_area_blank": "Sahə daxil edin",
         "address_area_too_long": "Sahə çox uzundur (maksimum {{count}} simvoldur)",
         "address_area_contains_emojis": "Ərazi emojiləri ehtiva edə bilməz"
+      },
+      "shipping": {
+        "add_new_delivery_address": "Yeni çatdırılma ünvanı əlavə edin",
+        "choose_new_address": "Yeni ünvan seçin"
+      },
+      "localized_fields": {
+        "additional_information": {
+          "title": "Əlavə məlumat",
+          "tax_credential_br": "CPF/CNPJ",
+          "shipping_credential_br": "CPF/CNPJ",
+          "shipping_credential_kr": "Şəxsi Gömrük Kodu",
+          "shipping_credential_cn": "Rezidentin şəxsiyyət vəsiqəsinin nömrəsi",
+          "tax_credential_it": "Codice Fiscale (isteğe bağlı)",
+          "tax_email_it": "PEC (isteğe bağlı)",
+          "tax_credential_cl": "RUT",
+          "shipping_credential_cl": "RUT",
+          "tax_credential_co": "Şəxsiyyət vəsiqəsi/ƏDV",
+          "tax_credential_type_co": "Vəsiqə növü",
+          "shipping_credential_co": "Şəxsiyyət vəsiqəsi/ƏDV",
+          "shipping_credential_type_co": "Vəsiqə növü",
+          "tax_credential_cr": "Eyniləşdirmə nömrəsi/RUT",
+          "shipping_credential_cr": "Eyniləşdirmə nömrəsi/RUT",
+          "tax_credential_ec": "CI/RUC/ƏDV",
+          "shipping_credential_ec": "CI/RUC/ƏDV",
+          "tax_credential_gt": "NİT/ƏDV",
+          "shipping_credential_gt": "NİT/ƏDV",
+          "tax_credential_id": "Vergi ödəyicisinin eyniləşdirmə nömrəsi",
+          "shipping_credential_id": "Vergi ödəyicisinin eyniləşdirmə nömrəsi",
+          "tax_credential_my": "VÖEN/Qeydiyyat nömrəsi",
+          "shipping_credential_my": "VÖEN/Qeydiyyat nömrəsi",
+          "shipping_credential_mx": "Rəy üçün sorğu",
+          "tax_credential_mx": "Rəy üçün sorğu",
+          "tax_credential_type_mx": "Vergi rejimi",
+          "tax_credential_use_mx": "CFDI istifadəsi",
+          "tax_credential_py": "CI/RUC/ƏDV",
+          "shipping_credential_py": "CI/RUC/ƏDV",
+          "tax_credential_pe": "Şəxsiyyət vəsiqəsi/Vergi nömrəsi/Əcnəbi vətəndaşın şəxsiyyət vəsiqəsi",
+          "shipping_credential_pe": "Şəxsiyyət vəsiqəsi/Vergi nömrəsi/Əcnəbi vətəndaşın şəxsiyyət vəsiqəsi",
+          "tax_credential_pt": "NIF/ƏDV",
+          "shipping_credential_pt": "NIF/ƏDV",
+          "tax_credential_es": "Şəxsiyyət vəsiqəsi/Vergi ödəyicisinin eyniləşdirmə nömrəsi",
+          "shipping_credential_es": "Şəxsiyyət vəsiqəsi/Vergi ödəyicisinin eyniləşdirmə nömrəsi",
+          "shipping_credential_tw": "Şəxsiyyət vəsiqəsinin nömrəsi/ƏDV nömrəsi",
+          "tax_credential_tr": "Türkiyə Respublikası Şəxsiyyət Vəsiqəsi Nömrəsi/ƏDV",
+          "shipping_credential_tr": "Türkiyə Respublikası Şəxsiyyət Vəsiqəsi Nömrəsi/ƏDV"
+        }
       }
     },
     "store_availability": {
@@ -1493,8 +1611,86 @@
         "removed": "Silindi",
         "updated_at": "Sifariş yeniləndi {{date}}",
         "returned": "Qaytarılıb",
-        "return_line_item_removed": "Qaytarılmadan çıxarıldı"
-      }
+        "return_line_item_removed": "Qaytarılmadan çıxarıldı",
+        "custom_discount": "Xüsusi endirim ({{value}})",
+        "custom_line_discount_added": "Fərdi endirim ({{value}}) əlavə edildi",
+        "custom_line_discount_removed": "İstifadəçiya məxsus endirim ({{value}}) silinib",
+        "code_discount": "Endirim kodu ({{value}})",
+        "discount": "Endirim",
+        "shipping_address": "Çatdırılma ünvanı",
+        "shipping_address_taxes": "Əvvəlki vergilər: {{previousTaxes}} → Yeni vergilər: {{newTaxes}}",
+        "taxes_none": "Heç biri",
+        "updated": "Yenilənib",
+        "updated_count": {
+          "one": "Sifariş bir dəfə yeniləndi",
+          "other": "Sifariş {{count}} dəfə yeniləndi"
+        },
+        "discount_added": "Endirim əlavə edildi",
+        "discount_removed": "Endiriminiqazdırıldı",
+        "discount_updated": "Endirim yeniləndi"
+      },
+      "shop_pay": {
+        "order_completed_with": "Sifariş tamamlandı:",
+        "usdc_rewards_terms": "USDC mükafatlarının şərtlərinə baxın"
+      },
+      "taxes": "Vergilər",
+      "taxes_included": "Vergilərə {{amount}} daxil olmaqla",
+      "duties_and_taxes_included": "Yekun məbləğə rüsumlar və vergilər daxildir. Çatdırılma zamanı əlavə ödəniş tələb olunmur.",
+      "duties": "Vəzifələr",
+      "ok_duties_tooltip": "Bu sifariş başqa ölkədən göndərildiyi üçün sifarişinizin ümumi məbləğinə gömrük rüsumları əlavə edilib.",
+      "error_duties_tooltip": "Bu sifariş başqa ölkədən göndərilir, ona görə də çatdırılma zamanı rüsum və vergilər tətbiq oluna bilər.",
+      "zero_duties_tooltip": "Bu sifariş başqa ölkədən göndərilir. Bu məbləğdə olan sifarişlərə gömrük rüsumu tətbiq olunmur.",
+      "tip": "İpucu",
+      "title": "Sifariş {{name}}",
+      "total": "Cəmi",
+      "unit_price": "{{price}}/ədəd",
+      "pagination": {
+        "load_more": "Daha çox göstər",
+        "load_more_accessibility_label": "Daha çox göstər",
+        "loading_accessibility_label": "Məhsullar yüklənir"
+      },
+      "logged_in_account_no_permission_to_order": "Siz {{email}} kimi daxil olmusunuz. Bu hesab bu sifarişi idarə etmək icazəsinə malik deyil.",
+      "log_in_to_a_different_account": "Başqa bir hesabla daxil olun",
+      "fees": {
+        "restocking_fee": "Anbarlaşdırma haqqı",
+        "return_shipping_fee": "Geri qaytarılma çatdırılması",
+        "fees": "Hüquqlar"
+      },
+      "vat_invoices": {
+        "label": "ƏDV"
+      },
+      "link_sent": "Keçid göndərildi",
+      "cash_rounding": "Nağd ödənişin yuvarlaqlaşdırılması",
+      "adjusted_payment": "Düzəliş edilmiş ödəniş",
+      "adjusted_total": "Düzəliş edilmiş cəm",
+      "due_on_date": "Son tarix {{date}}",
+      "due_on_fulfillment": "İcra zamanı ödənilməlidir",
+      "due_on_receipt": "Alındıqda ödənilməlidir",
+      "timeline_images": {
+        "return_accessibility_label": "Bu qaytarılmada olan məhsullar",
+        "requested_edit_accessibility_label": "Bu redaktə sorğusundakı elementlər"
+      },
+      "line_item_status": {
+        "cancel_requested": "Ləğv etmək tələb olunur",
+        "return_in_progress": "Qaytarılma prosesindədir",
+        "return_requested": "Qaytarma tələb edilib"
+      },
+      "order_actions": {
+        "show_more": "Daha çox",
+        "show_more_accessibility_label": "Sifariş üçün daha çox əməliyyat göstər"
+      },
+      "waived": "İstisna edilmiş",
+      "readonly_custom_fields": {
+        "boolean_true": "Bəli"
+      },
+      "shop_promise_badging": {
+        "free_returns": "Pulsuz geri qaytarılma",
+        "free_returns_on_eligible_items": "Uyğun məhsullar üçün pulsuz qaytarma",
+        "returns_accepted": "Qaytarılma qəbul edilir",
+        "returns_on_eligible_items": "Uyğun məhsulların qaytarılması",
+        "trusted_delivery": "Etibarlı çatdırılma"
+      },
+      "return_deadline_details_accessibility_label": "Qaytarma müddəti haqqında məlumatlar"
     },
     "intents": {
       "subscription_replace_payment_method": {
@@ -1954,6 +2150,68 @@
           "description": "Marketinq üstünlüklərinizi yeniləməkdə problem yarandı. Zəhmət olmasa bu səhifəni yenidən yükləməyə cəhd edin və ya internet bağlantınızı yoxlayın."
         },
         "update_success": "Marketinq üstünlükləri yeniləndi"
+      }
+    },
+    "returns_and_cancellations": {
+      "request_withdrawal_page": {
+        "heading": {
+          "return": "Məhsulları qaytarın",
+          "cancel": "Məhsulları ləğv et",
+          "cancel_or_return": "Ləğv et və ya geri qaytar"
+        },
+        "back_to_order_accessibility_label": "Sifarişə qayıt",
+        "select_item_to_return_heading": "Qaytarmaq üçün məhsulları seçin",
+        "select_item_to_cancel_heading": "Ləğv etmək üçün elementləri seçin",
+        "item_return_heading": "Qaytarılacaq məhsullar",
+        "item_cancel_heading": "Ləğv ediləcək elementlər",
+        "apply_return_reason_to_all_items": "Hamısı üçün səbəb əlavə edin",
+        "bulk_apply_return_reason_modal": {
+          "title": "Qaytarma səbəbi göstərin",
+          "description": "Bu qaytarma səbəbi seçilmiş bütün məhsullara şamil ediləcək",
+          "shared_return_reasons": "Yalnız seçilmiş bütün elementlərə aid olan səbəblər göstərilir",
+          "apply": "Müraciət et",
+          "apply_accessibility_label": "Seçilmiş məhsullara qaytarma səbəbini tətbiq edin",
+          "cancel": "Ləğv et",
+          "cancel_accessibility_label": "Qaytarma səbəbinin tətbiqini ləğv et"
+        },
+        "review_changes_action": "Dəyişiklikləri nəzərdən keçirin",
+        "review_changes_modal": {
+          "title": "Dəyişiklikləri nəzərdən keçirin",
+          "items_to_cancel": {
+            "one": "Ləğvetmək üçün {{count}} element",
+            "other": "Ləğv ediləcək {{count}} element"
+          },
+          "items_to_return": {
+            "one": "{{count}} elementi qaytarılmalıdır",
+            "other": "{{count}} elementi qaytarın"
+          },
+          "confirm_action": "İstək göndər",
+          "back_action": "Geri",
+          "confirmation_email": "Təsdiq e-poçtunu {{email}} ünvanına göndərəcəyik",
+          "confirmation_unknown_email": "Sizə təsdiq e-poçtu göndərəcəyik",
+          "confirmation_email_hint": "Bu ünvana təsdiq e-poçtu göndərəcəyik",
+          "email_label": "E-poçt ünvanı",
+          "invalid_email_error": "Etibarlı bir e-poçt ünvanı daxil edin"
+        },
+        "select_all_action": "Hamısını seçin",
+        "unselect_all_action": "Hamısını seçilməkdən çıxar",
+        "line_items": {
+          "return_reason_label": "Səbəb",
+          "bundle_group_title_label": "Hissəsi: {{groupTitle}}",
+          "nested_line_item_parent_title_label": "Üçün: {{groupTitle}} - {{parentVariantTitle}}",
+          "return_reason_default_label": "Bir səbəb seçin",
+          "quantity_label": "Miqdar",
+          "note_label": "Qeyd (istəyə bağlı)",
+          "ineligible_items": {
+            "one": "{{count}} uyğun olmayan element",
+            "other": "{{count}} yararsız element"
+          },
+          "ineligible_reason": {
+            "final_sale": "Yekun satış",
+            "not_yet_shipped": "Hələ göndərilməyib",
+            "already_shipped": "Artıq göndərilib"
+          }
+        }
       }
     }
   }
