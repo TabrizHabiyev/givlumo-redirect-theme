@@ -257,7 +257,83 @@
               "steps": {
                 "scan_barcode_at_oxxo": "Ən yaxın OXXO mağazasında barkodu skan edin."
               },
-              "barcode_alt": "Referans nömrəsi %{reference_number} üçün OXXO çeki barkodu"
+              "barcode_alt": "Referans nömrəsi %{reference_number} üçün OXXO çeki barkodu",
+              "label": "OXXO",
+              "number": "İstinad nömrəsi"
+            }
+          },
+          "multibanco": {
+            "voucher": {
+              "label": "Multibanco",
+              "codes": {
+                "entity": "Məxluq",
+                "reference_number": "İstinad"
+              },
+              "steps": {
+                "pay_at_atm_or_online": "Aşağıdakı məlumatlardan istifadə edərək Multibanco bankomatında və ya onlayn bankçılıq vasitəsilə ödəniş edin."
+              }
+            }
+          },
+          "konbini": {
+            "voucher": {
+              "label": "Konbini",
+              "outlets": {
+                "familymart": "FamilyMart",
+                "lawson": "Loson",
+                "ministop": "Ministop",
+                "seicomart": "Seykomart",
+                "seven_eleven": "7-Eleven"
+              },
+              "codes": {
+                "reference_number": "Ödəniş kodu",
+                "confirmation_number": "Təsdiq kodu"
+              },
+              "steps": {
+                "familymart": {
+                  "1": "Çoxfunksiyalı printerdə \"代金支払い／チャージ\" (\"Ödəniş / Yükləmə\") seçimini edin.",
+                  "2": "Ödəniş kodunuzu daxil edin və OK düyməsini basın",
+                  "3": "Təsdiq kodunu daxil edin və OK düyməsini basın",
+                  "4": "Məlumatları yoxlayın və qəbzi çap etmək üçün 確認 (\"Təsdiq et\") düyməsini sıxın",
+                  "5": "Qəbzi 30 dəqiqə ərzində kassaya aparın və nağd şəkildə və ya FamiPay ilə ödəyin"
+                },
+                "lawson": {
+                  "1": "Loppi terminalında \"各種番号をお持ちの方\" (\"Mənim nömrəm var\") seçimini edin.",
+                  "2": "Ödəniş kodunuzu daxil edin və \"Next\" (Növbəti) düyməsini basın.",
+                  "3": "Təsdiq kodunu daxil edin və \"次へ\" düyməsini basın",
+                  "4": "Məlumatları yoxlayın və qəbzi çap etmək üçün \"はい\" (\"Bəli\") düyməsinə basın.",
+                  "5": "Qəbzi 30 dəqiqə ərzində kassaya aparın və nağd şəkildə ödəyin"
+                },
+                "ministop": {
+                  "1": "Loppi terminalında \"各種番号をお持ちの方\" (\"Mənim nömrəm var\") seçimini edin.",
+                  "2": "Ödəniş kodunuzu daxil edin və \"Next\" (Növbəti) düyməsini basın.",
+                  "3": "Təsdiq kodunu daxil edin və \"次へ\" düyməsini basın",
+                  "4": "Məlumatları yoxlayın və qəbzi çap etmək üçün \"はい\" (\"Bəli\") düyməsinə basın.",
+                  "5": "Qəbzi 30 dəqiqə ərzində kassaya aparın və nağd şəkildə ödəyin"
+                },
+                "seicomart": {
+                  "1": "Kassada kassirə \"internet ödənişi\" deyin.",
+                  "2": "Ödəniş kodunuzu müştəri ekranına daxil edin və 登録 (\"Daxil et\") düyməsini seçin.",
+                  "3": "Təsdiq kodunuzu daxil edin və 登録 düyməsini seçin",
+                  "4": "Məlumatları yoxlayın və OK düyməsini seçin",
+                  "5": "Nağd ödəyin"
+                },
+                "seven_eleven": {
+                  "1": "Kassada kassirin oxutması üçün “Şərtli kodu göstər” düyməsinə toxunun"
+                },
+                "1": "Ödəniş kodunu və təsdiq kodunu mağazanın terminalına və ya kassasına aparın və kuponun vaxtı bitməmiş nağd şəkildə ödəyin."
+              },
+              "pay": "Ödəniləcək məbləğ: %{amount}",
+              "choose_outlet": "Kodlarınıza baxmaq və necə ödəniş edəcəyinizi öyrənmək üçün bir Konbini seçin",
+              "expires_at": "Bitmə tarixi: %{date}",
+              "expiry_date_time": "%{date}, saat %{time} JST",
+              "expired_title": "Ödəniş kodu vaxtı keçib",
+              "expired": "İstifadə müddəti bitib: %{date}",
+              "copy_code": "%{label} kopyala",
+              "code_copied": "Kopyalandı",
+              "show_barcode": "Ştrix kodu göstər",
+              "keep_receipt": "Ödəniş sübutu olaraq qəbzinizi saxlayın",
+              "view_instructions": "Ödəniş təlimatlarına baxın",
+              "view_instructions_accessibility_label": "Ödəniş təlimatlarına baxın (yeni tab-da açılır)"
             }
           }
         },
@@ -472,7 +548,65 @@
         "name_on_card_placeholder": "Kartın üzərindəki ad",
         "card_nickname_label": "Ləqəb (isteğe bağlı)",
         "card_expired": "Vaxtı keçmiş",
-        "card_expiry_label": "İstifadə müddəti (AA / İİ)"
+        "card_expiry_label": "İstifadə müddəti (AA / İİ)",
+        "afterpay_label": "Afterpay",
+        "cashapppay_label": "Cash App Pay",
+        "przelewy24_label": "Przelewy24",
+        "blik_label": "BLIK",
+        "twint_label": "TWINT",
+        "mobilepay_label": "MobilÖdəniş",
+        "swish_label": "Şırıltı",
+        "vipps_label": "Vipps",
+        "grabpay_label": "GrabPay",
+        "kcp_creditcard_label": "KCP Kredit Kartı",
+        "alipay_label": "Alipay",
+        "wechat_pay_label": "WeChat Pay",
+        "wechat_app_label": "WeChat",
+        "oxxo_label": "OXXO",
+        "konbini_label": "Konbini",
+        "satispay_label": "Satispay",
+        "paynow_label": "İndi Ödə",
+        "paypay_label": "PayPay",
+        "scalapay_label": "Scalapay",
+        "usdc_label": "USDC",
+        "usdc_cashback_title": "%{incentive_percentage}% keşbek",
+        "usdc_cashback_additional_info": "Base şəbəkəsində USDC ilə ödəyin və 30 gün ərzində %{incentive_percentage}%-ni geri pul cüzdanınıza əlavə edin.",
+        "usdc_cashback_terms": "Şərtlər və məhdudiyyətlər tətbiq olunur",
+        "purchase_options_card_update_agreement_label_html": "Ödəniş üsulunuzu yeniləməklə, siz bu mağazanın <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{cancellation_policy}\" href=\"%{policy_href}\">ləğvetmə siyasətinə</a> uyğun olaraq istənilən təkrarlanan və ya təxirə salınmış satınalmalar üçün ödənişlərə icazə verirsiniz.",
+        "subscription_card_update_agreement_label": "Ödəniş üsulunun dəyişdirilməsi abunəliyinizi və gələcək dövri ödənişlərinizi yeniləyəcək.",
+        "subscription_agreement_label": "Səbətinizdəki bir və ya daha çox məhsul təxirə salınmış və ya abunəlik əsaslı alışdır. Ödənişə davam edərək, ödəniş üsulunuzdan bu səhifədə göstərilən qiymət və tezliklə, müddət bitənədək və ya siz ləğv edənədək avtomatik ödəniş tutulacağına razılıq verirsiniz. Bütün ləğvetmələr %{cancelled} şərtlərinə tabedir.",
+        "subscription_agreement_cancelled": "ləğv etmə siyasəti",
+        "subscription_heading": "Abunəlik müqaviləsi",
+        "subscription_agreement_label_html": "Mən başa düşürəm ki, abunəliyə razılıq verirəm. O, qeyd olunan qiymətə və tezliyə uyğun olaraq bitənə və ya\n<a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{subscription_policy}\" href=\"%{policy_href}\">ləğv olunana</a> qədər yenilənəcək.\n",
+        "purchase_options_agreement_label": "Səbətinizdəki bir və ya bir neçə məhsul təxirə salınmış və ya təkrarlanan alqıdır. Ödənişə davam etməklə siz ödəniş üsulunuzun ləğv edilənə və ya başa çatana qədər bu səhifədə göstərilən qiymət və tezliklə avtomatik olaraq tutulacağını qəbul edirsiniz. Bütün ləğvetmələr %{cancellation_policy_label} uyğundur.",
+        "purchase_options_agreement_label_html": "Mən başa düşürəm ki, səbətimdəki bir və ya bir neçə məhsul təxirə salınmış və ya təkrarlanan alqıdır. Davam etməklə, mən\n<a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{subscription_policy}\" href=\"%{policy_href}\">ləğv siyasəti</a>\nilə razılaşıram və sifarişim yerinə yetirilənə və ya icazə verilərsə, ləğv edənə qədər ödəniş üsulumu bu səhifədə göstərilən qiymətlər, tezlik və tarixlərdə yükləməyə icazə verirəm.\n",
+        "purchase_options_agreement_label_wallets": "Ödənişinizi davam etdirərək, bu səhifədə göstərilən gələcək ödənişləri və %{cancellation_policy_label} qəbul edirsiniz.",
+        "purchase_options_subscription_confirmation_title": "Abunəliyinizi təsdiqləyin",
+        "purchase_options_subscription_agreement_label": "Sizin səbətiniz avtomatik yenilənən abunə ehtiva edir. \"%{button_label}\" düyməsinə klikləməklə, %{consent_text} %{cancellation_instructions}",
+        "purchase_options_subscription_agreement_label_wallets": "Səbətinizdə avtomatik yenilənən abunəlik var. Sürətli ödənişdən istifadə etməklə, %{consent_text} %{cancellation_instructions}",
+        "purchase_options_subscription_consent_text": "siz açıq şəkildə və təsdiqedici şəkildə razılaşırsınız ki, abunəlik(lər) bitənə və ya siz ləğv edənə qədər avtomatik olaraq səbətinizdə göstərilən təkrarlanan məbləğ(lər) (üstəgəl çatdırılma və vergilər) ilə yüklənəcəksiniz.",
+        "purchase_options_subscription_cancellation_instructions": "%{cancel_text} Zəhmət olmasa, ləğvetmə siyasətinə baxın: %{cancellation_policy_label}.",
+        "purchase_options_subscription_cancel_text": "İstənilən vaxt hesabınıza daxil olaraq və ya mağaza ilə əlaqə saxlayaraq ləğv edə bilərsiniz.",
+        "change_currency_section_description": "Valyuta seçimini edin",
+        "no_real_orders_dev_store": "Bu mağaza real sifarişləri və ya real ödənişləri qəbul edə bilməz.",
+        "loading": "Ödəniş yüklənir...",
+        "waiting_on_payment_methods": "Mövcud ödəniş üsulları əldə edilir...",
+        "apple_pay_payment_error": "Ödənişiniz tamamlanmadı. Yenidən cəhd edin və ya fərqli bir ödəniş üsulundan istifadə edin.",
+        "taxes_not_included": "Vergilər daxil deyil",
+        "no_taxes_banner_content": "Bu sifarişdən vergi tutulmayacaq. Ödənişi qəbul etdikdən sonra vergi əlavə etmək mümkün olmayacaq.",
+        "paypal": {
+          "connect": "PayPal hesabınızı bağlamaq üçün klikləyin"
+        },
+        "apple": {
+          "connect": "Apple Pay hesabınızı qoşmaq üçün klikləyin",
+          "not_available": "Apple Pay bu brauzerdə mövcud deyil. Apple Pay hesabınızı qoşmaq üçün Apple cihazında Safari brauzerindən istifadə etməlisiniz."
+        },
+        "google": {
+          "connect": "Google Pay hesabınızla əlaqələndirmək üçün klikləyin",
+          "error_authorizing": "Ödənişin təsdiqlənməsi zamanı xəta baş verdi"
+        },
+        "account_connected": "Hesab qoşuldu.",
+        "mor_disclaimer_html": "Aşağıya tıklamaqla və sifarişinizi tamamlamaqla, siz Global-e-dən satınalmağa razılıq verirsiniz, bu əməliyyat üçün qeydiyyat satıcısı kimi Global-e-nin <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{mor_terms}\" href=\"%{terms_href}\">Şərtləri və Qaydaları</a>\nvə <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{privacy_policy}\" href=\"%{policy_href}\">Məxfilik Siyasəti</a>. Global-e %{shop_name} üçün beynəlxalq\ntəchizat xidməti provayderidir.\n"
       },
       "contact": {
         "street_number_label": "Bina nömrəsi",
@@ -953,7 +1087,12 @@
           "currency_mismatch": "Yalnız %{shop_currency} valyutasında olan hədiyyə kartları qəbul edilir",
           "generic": "Hədiyyə kartını ödənişə əlavə etmək mümkün olmadı",
           "throttle_limit_exceeded": "Siz maksimum cəhd sayını keçmisiniz. Daha sonra yenidən cəhd edin.",
-          "no_longer_available": "Bu hədiyyə kartı artıq bu ödəniş prosesində istifadə oluna bilməz."
+          "no_longer_available": "Bu hədiyyə kartı artıq bu ödəniş prosesində istifadə oluna bilməz.",
+          "duplicate": "Hədiyyə kartı artıq sifarişinizə tətbiq olunub",
+          "insufficient_funds": "Bu hədiyyə kartında vəsait qalmayıb",
+          "expired": "Bu hədiyyə kartının istifadə müddəti bitib",
+          "not_available": "Bu hədiyyə kartı artıq mövcud deyil",
+          "invalid": "Etibarlı hədiyyə kartı daxil edin"
         }
       },
       "merchant_instruction_errors": {
@@ -1414,7 +1553,101 @@
         "address_block_contains_mathematical_symbols": "Blokda riyazi simvollar ola bilməz",
         "address_area_blank": "Sahə daxil edin",
         "address_area_too_long": "Sahə çox uzundur (maksimum {{count}} simvoldur)",
-        "address_area_contains_emojis": "Ərazi emojiləri ehtiva edə bilməz"
+        "address_area_contains_emojis": "Ərazi emojiləri ehtiva edə bilməz",
+        "address_area_contains_html_tags": "Sahə HTML teqlərini ehtiva edə bilməz",
+        "address_area_contains_mathematical_symbols": "Sahə riyazi simvollar ehtiva edə bilməz",
+        "address_city_blank": "Şəhər daxil edin",
+        "address_city_too_long": "Şəhər adı çox uzundur (maksimum 255 simvol)",
+        "address_city_contains_emojis": "Şəhər emojilərdən ibarət ola bilməz",
+        "address_city_contains_html_tags": "Şəhər HTML teqlərini ehtiva edə bilməz",
+        "address_city_contains_mathematical_symbols": "Şəhər adı riyazi simvollar ola bilməz",
+        "address_country_blank": "Ölkə/region seçin",
+        "address_country_not_supported": "Biz bu ölkəyə və ya regiona çatdırılma etmirik. Yeni çatdırılma ünvanı daxil edin və yenidən cəhd edin.",
+        "address_province_blank": "Ştat / əyalət seçin",
+        "address_province_invalid": "Keçərli ştat/əyalət seçin",
+        "address_company_blank": "Şirkət adını daxil edin",
+        "address_company_too_long": "Şirkət adı çox uzundur (maksimum 255 simvol)",
+        "address_company_contains_emojis": "Şirkət adı emojilərdən ibarət ola bilməz",
+        "address_company_contains_html_tags": "Şirkət adı HTML teqlərini ehtiva edə bilməz",
+        "address_company_contains_mathematical_symbols": "Şirkət adı riyazi simvollar ehtiva edə bilməz",
+        "address_phone_blank": "Etibarlı telefon nömrəsi daxil edin",
+        "address_phone_contains_emojis": "Telefon nömrəsində emojilər ola bilməz",
+        "address_phone_invalid": "Etibarlı telefon nömrəsi daxil edin",
+        "address_zip_blank": "ZIP / poçt indeksini daxil edin",
+        "address_zip_blocked_address": "Bu məkan dəstəklənmir",
+        "address_zip_too_long": "ZIP / poçt indeksi çox uzundur (maksimum 255 simvol)",
+        "address_zip_not_supported": "Bu məkan dəstəklənmir",
+        "address_zip_invalid_for_country": "%{country} üçün etibarlı bir poçt indeksi daxil edin",
+        "address_zip_invalid_for_province": "%{province} üçün etibarlı poçt indeksini daxil edin",
+        "address_zip_invalid_for_country_and_province": "%{province}, %{country} üçün etibarlı bir ZIP / poçt indeksi daxil edin",
+        "address_zip_contains_emojis": "ZIP / poçt indeksi emojilərdən ibarət ola bilməz",
+        "address_zip_contains_mathematical_symbols": "ZIP / poçt indeksi riyazi simvollar ola bilməz",
+        "address_generic_blank": "Məcburi sahə",
+        "address_generic_invalid": "Yanlış giriş",
+        "address_generic_error": "Sahə xətası",
+        "credit_card_name_blank": "Adınızı kartınızda yazıldığı kimi daxil edin",
+        "credit_card_name_invalid": "Adınızı kartınızda yazıldığı kimi daxil edin",
+        "credit_card_name_billing_invalid": "Əvvəlcə faktura ünvanına adınızı daxil edin",
+        "credit_card_number_invalid": "Etibarlı kart nömrəsi daxil edin",
+        "credit_card_expiry_invalid": "Etibarlı son istifadə tarixini daxil edin",
+        "credit_card_month_invalid": "Etibarlı son istifadə ayı daxil edin",
+        "credit_card_year_invalid": "Etibarlı bir son istifadə ili daxil edin",
+        "credit_card_start_invalid": "Etibarlı kartın başlanğıc tarixini daxil edin",
+        "credit_card_start_month_invalid": "Kartın etibarlılıq müddətinin başlanğıc ayını daxil edin",
+        "credit_card_start_year_invalid": "Karta əsasən etibarlı başlanğıc ilini daxil edin",
+        "credit_card_number_blank": "Kart nömrəsini daxil edin",
+        "credit_card_verification_value_blank": "Kartınızdakı CVV və ya təhlükəsizlik kodunu daxil edin",
+        "delivery_line_detail_changed": "Çatdırılma məlumatlarının bəziləri dəyişmiş ola bilər. Çatdırılma üsulunuzu yoxlayın və yenidən cəhd edin.",
+        "delivery_zone_not_found": "Göstərilən zona qeyd olunan ölkədə tapılmadı.",
+        "reduction_code_code_not_found": "Etibarlı endirim kodu və ya hədiyyə kartı daxil edin",
+        "reduction_code_discount_not_found": "Etibarlı endirim kodu daxil edin",
+        "reduction_code_gift_card_code_invalid": "Etibarlı hədiyyə kartı daxil edin",
+        "reduction_code_gift_card_unusable": "Hədiyyə kartı ilə başqa bir hədiyyə kartı ala bilməzsiniz.",
+        "reduction_code_gift_cards_not_supported_with_deferred_purchase_options": "Hədiyyə kartları təxirə salınmış ödəniş seçimləri ilə istifadə edilə bilməz.",
+        "shipping_line_phone_blank": "Bu çatdırılma üsulundan istifadə etmək üçün telefon nömrəsi daxil edin",
+        "shipping_line_phone_invalid": "Etibarlı telefon nömrəsi daxil edin",
+        "tips_invalid_tip_amount": "%{amount}-dan az bir məbləğdə çay pulu daxil edin",
+        "gift_card_already_applied": "Bu hədiyyə kartı artıq sifarişinizə tətbiq olunub",
+        "gift_card_disabled": "Bu hədiyyə kartı artıq mövcud deyil",
+        "gift_card_not_found": "Bu hədiyyə kartı tapılmadı",
+        "gift_card_expired": "Bu hədiyyə kartının istifadə müddəti bitib",
+        "gift_card_depleted": "Bu hədiyyə kartında vəsait qalmayıb",
+        "gift_card_currency_mismatch": "Bu sifariş üçün yalnız %{checkout_currency} valyutasında olan hədiyyə kartlarından istifadə etmək olar",
+        "gift_cards_not_supported_with_deferred_purchase_options": "Hədiyyə kartları təxirə salınmış ödəniş seçimləri ilə istifadə edilə bilməz.",
+        "gift_card_buying_gift_card": "Hədiyyə kartı ilə başqa bir hədiyyə kartı ala bilməzsiniz.",
+        "payment_gateway_missing": "Ödəniş üsulunu seçin.",
+        "payment_gateway_needs_paid_plan_error": "Bu ödəniş üsulu hazırda mağazada mövcud deyil",
+        "payment_gateway_not_in_test_mode": "sifarişləri test etmək üçün qurulmayıb. Bu mağaza real sifarişləri və ya real ödənişləri qəbul edə bilməz.",
+        "payment_gateway_incompatible_with_multi_currency": "Bu ödənişi yerli valyutanızla tamamlamaq üçün kredit kartı ilə ödəməlisiniz.",
+        "payment_gateway_unsupported_for_subscriptions": "Bu ödəniş üsulu abunə sifarişləri üçün mövcud deyil.",
+        "payment_gateway_unsupported_for_deferred_purchase_options": "Bu ödəniş üsulu təxirə salınmış satınalma seçimləri üçün mövcud deyil.",
+        "payment_gateway_unsupported_for_country": "Bu ödəniş üsulu çatdırılma ölkəniz üçün əlçatan deyil.",
+        "payment_gateway_unsupported_for_development_store_html": "Sınaq sifarişi vermək üçün sınaq ödəniş şlüzündən istifadə etməlisiniz. <a href=\"%{docs_link}\">İnkişaf mağazalarında sifarişlərin sınaqdan keçirilməsi</a> haqqında ətraflı məlumat əldə edin.",
+        "payment_gateway_unsupported_for_order_above_maximum_orders_html": "Siz bu ödəniş prosessoru ilə tərtibatçı mağaza sifarişləri üçün limitə çatmısınız. Başqa bir sifariş vermək üçün sınaq ödəniş şlüzündən istifadə etməli olacaqsınız. <a href=\"%{docs_link}\">Tərtibatçı mağazalarında sifarişlərin sınaqdan keçirilməsi</a> haqqında daha çox məlumat əldə edin.",
+        "purchase_options_agreement_blank": "Satınalma prosesini davam etdirmək üçün təxirəsalınmış və ya təkrarlanan satınalma şərtləri ilə razılaşın.",
+        "physical_gift_card_invalid_quantity": "Fiziki hədiyyə kartı satırlarının sayı hədiyyə kartı kodlarının sayına uyğun olmalıdır.",
+        "physical_gift_card_duplicate_code": "Fiziki hədiyyə kartı sətir elementində təkrarlanan kod var.",
+        "physical_gift_card_invalid_code": "Fiziki hədiyyə kartının kodu etibarsızdır.",
+        "email_blank": "E-poçt daxil edin",
+        "phone_blank": "Telefon nömrəsi daxil edin",
+        "shop_pay_mobile_phone_blank": "Mobil telefon nömrəsi daxil edin",
+        "address_country_invalid": "Siyahıdan ölkə/region seçin",
+        "address_zip_invalid": "Etibarlı bir ZIP / poçt indeksi daxil edin",
+        "gift_card_invalid": "\"••••%{last_four_characters}\" hədiyyə kartı artıq etibarlı deyil",
+        "vaulting_agreement_blank": "Ödəniş üsulunuz yadda saxlanılmalıdır, çünki bu sifarişin qalan hissəsinin ödənişi daha sonra ediləcək.",
+        "sms_marketing_phone_invalid": "Etibarlı telefon nömrəsi daxil edin",
+        "shipping_method_invalid_phone_number": "Çatdırılma ünvanınızdakı telefon nömrəsini yeniləyin ki, mövcud çatdırılma üsullarını görə biləsiniz.",
+        "address_suggestion_did_you_mean_html": "%{html} nəzərdə tuturdunuz?",
+        "split_cart_tax_engine_not_supported": "Mağaza məkanında istifadə olunan vergi mühərriki üçün bütün məhsullarda eyni çatdırılma üsulundan istifadə edilməlidir.",
+        "split_cart_international_shipping_not_supported": "Beynəlxalq göndərmə zamanı bütün məhsullar üçün eyni çatdırılma üsulundan istifadə edilməlidir. Çatdırılma üsulunu yeniləyin və ya bir neçə sifariş yaradın.",
+        "invalid_delivery_address_reference_handle": "Çatdırılma ünvanı senedi heç bir mövcud çatdırılma ünvanı ilə uyğunlaşdırıla bilmədi.",
+        "must_use_available_delivery_address": "Çatdırılma ünvanı mövcud çatdırılma ünvanları arasından seçilməlidir.",
+        "must_use_available_shipping_rate": "Çatdırılma tarifi mövcud çatdırılma tarifləri arasından seçilməlidir.",
+        "split_by_delivery_method_not_allowed": "Çatdırılma üsuluna görə bölməyə bu sessiya və ya mağaza üçün icazə verilmir.",
+        "split_by_delivery_method_requires_merchandise_from_single_location": "Çatdırılma üsuluna görə bölüşdürmə, ayrı-ayrı məhsul sətirlərinin vahid bir məkandan yerinə yetirilməsini tələb edir.",
+        "split_by_delivery_method_unsupported_method_type": "Dəstəklənməyən çatdırılma üsulu növü ilə cəhd edilmiş çatdırılma üsuluna görə bölünüb.",
+        "split_cart_not_allowed": "Etibarsız sessiya və ya göstərilən mağaza üçün funksiya aktiv deyil.",
+        "split_quantity_per_delivery_line_not_allowed": "Ən azı bir mal xəttinə çoxsaylı çatdırılma xətləri tərəfindən istinad edilir."
       },
       "shipping": {
         "add_new_delivery_address": "Yeni çatdırılma ünvanı əlavə edin",
@@ -1461,6 +1694,9 @@
           "tax_credential_tr": "Türkiyə Respublikası Şəxsiyyət Vəsiqəsi Nömrəsi/ƏDV",
           "shipping_credential_tr": "Türkiyə Respublikası Şəxsiyyət Vəsiqəsi Nömrəsi/ƏDV"
         }
+      },
+      "store_credit_errors": {
+        "generic_error": "Mağaza kreditinizlə bağlı problem yarandı. Yenidən cəhd edin və ya səhifəni yeniləyin."
       }
     },
     "store_availability": {
