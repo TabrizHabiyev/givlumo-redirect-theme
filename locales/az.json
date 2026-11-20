@@ -4109,7 +4109,8 @@
         "status": {
           "paid": "Ödənilib",
           "unpaid": "Ödənilməmiş"
-        }
+        },
+        "title": "Ödəniş"
       },
       "paid_with_shop_pay_installments_card": {
         "title": "Shop Pay Installments üçün ödəniş xatırlatmaları",
@@ -4272,7 +4273,54 @@
         "returns_on_eligible_items": "Uyğun məhsulların qaytarılması",
         "trusted_delivery": "Etibarlı çatdırılma"
       },
-      "return_deadline_details_accessibility_label": "Qaytarma müddəti haqqında məlumatlar"
+      "return_deadline_details_accessibility_label": "Qaytarma müddəti haqqında məlumatlar",
+      "order_details": "Sifarişin təfərrüatları",
+      "order_details_skeleton_accessibility_label": "Bütün sifariş detallarına baxmaq üçün daxil olun.",
+      "billing_address": "Ödəniş ünvanı",
+      "contact": "Əlaqə",
+      "company": "Şirkət",
+      "fulfillment_images": {
+        "one_products_accessibility_label": "İcra {{lineItemName1}} say {{lineItemQuantity1}} daxildir",
+        "two_products_accessibility_label": "Yerine yetirməyə {{lineItemName1}} sayda {{lineItemQuantity1}}, {{lineItemName2}} sayda {{lineItemQuantity2}} daxildir",
+        "three_products_accessibility_label": "Təminat daxildir: {{lineItemName1}} sayda {{lineItemQuantity1}}, {{lineItemName2}} sayda {{lineItemQuantity2}}, {{lineItemName3}} sayda {{lineItemQuantity3}}",
+        "four_products_accessibility_label": "İcra bunlardan ibarətdir: {{lineItemName1}} miqdarı {{lineItemQuantity1}}, {{lineItemName2}} miqdarı {{lineItemQuantity2}}, {{lineItemName3}} miqdarı {{lineItemQuantity3}}, {{lineItemName4}} miqdarı {{lineItemQuantity4}}",
+        "five_products_accessibility_label": "İcra daxildir: {{lineItemName1}} say {{lineItemQuantity1}}, {{lineItemName2}} say {{lineItemQuantity2}}, {{lineItemName3}} say {{lineItemQuantity3}}, {{lineItemName4}} say {{lineItemQuantity4}}, {{lineItemName5}} say {{lineItemQuantity5}}",
+        "six_products_accessibility_label": "Çatdırılmaya daxildir: {{lineItemName1}} miqdarı {{lineItemQuantity1}}, {{lineItemName2}} miqdarı {{lineItemQuantity2}}, {{lineItemName3}} miqdarı {{lineItemQuantity3}}, {{lineItemName4}} miqdarı {{lineItemQuantity4}}, {{lineItemName5}} miqdarı {{lineItemQuantity5}}, {{lineItemName6}} miqdarı {{lineItemQuantity6}}",
+        "six_and_more_products_accessibility_label": "Çatdırılmaya daxildir: {{lineItemName1}} miqdarı {{lineItemQuantity1}}, {{lineItemName2}} miqdarı {{lineItemQuantity2}}, {{lineItemName3}} miqdarı {{lineItemQuantity3}}, {{lineItemName4}} miqdarı {{lineItemQuantity4}}, {{lineItemName5}} miqdarı {{lineItemQuantity5}}, {{lineItemName6}} miqdarı {{lineItemQuantity6}} və sair"
+      },
+      "group_title_label": "Hissəsi: {{groupTitle}}",
+      "group_title_label_with_parent": "Üçün: {{groupTitle}}",
+      "grouped_view_components": {
+        "expand_line_items": "{{count}} elementi göstər",
+        "collapse_line_items": "{{count}} elementi gizlət",
+        "line_item_summary_list_accessibility_label": "{{productTitle}} paketindəki məhsullar"
+      },
+      "discount": "Endirim",
+      "discount_order_stacking": {
+        "one": "Sifariş endirimi",
+        "other": "Sifariş endirimləri"
+      },
+      "price_before_discount_accessibility_label": "İlkin qiymət",
+      "price_after_discount_accessibility_label": "Endirimli qiymət",
+      "compare_at_sale": "Endirim ({{saleAmount}})",
+      "loading": "Sifariş detalları yüklənir",
+      "loading_finished_accessibility_message": "Sifariş detalları yükləndi",
+      "location": "Məkan",
+      "image_gallery": {
+        "next": "Növbəti elementləri göstər",
+        "previous": "Əvvəlki elementləri göstər",
+        "additional_items": {
+          "one": "+ {{count}} əlavə element",
+          "other": "+ {{count}} əlavə element"
+        }
+      },
+      "no_data_provided_accessibility_label": "{{fieldName}} boşdur",
+      "paid_amount": "Ödənilib",
+      "payment_confirmation": {
+        "payment_received": "Təşəkkür edirik! Sizin {{amount}} ödənişiniz qəbul edildi.",
+        "full_payment_received": "Təşəkkür edirik! {{amount}} məbləğində ödənişiniz qəbul edildi və bu sifariş tam ödənildi.",
+        "payment_authorized": "Təşəkkür edirəm! Ödəniş alındıqdan sonra balans yenilənəcək."
+      }
     },
     "intents": {
       "subscription_replace_payment_method": {
@@ -5105,10 +5153,24 @@
               "may_be_eligible_label": "Shop Promise sürətli və etibarlı çatdırılmaya zəmanət verir. Sifarişiniz gecikərsə, Shop Cash tələb edin.",
               "may_be_eligible_not_authorized_label": "Bu sifariş gec çatdığı üçün Shop Cash tələb etmək hüququnuz ola bilər. Ətraflı məlumat üçün daxil olun.",
               "redeemed_label": "Bu sifariş gec çatdığı üçün siz artıq Shop Cash əldə etmisiniz.",
-              "no_shop_cash_label": "Bu sifariş \"Shop Pay\" ilə ödənilmədiyi üçün gec çatdırılma iddiasına uyğun deyil."
+              "no_shop_cash_label": "Bu sifariş \"Shop Pay\" ilə ödənilmədiyi üçün gec çatdırılma iddiasına uyğun deyil.",
+              "no_longer_guaranteed_label": "Bu məhsullar üçün artıq çatdırılma zəmanəti verilmir.",
+              "claim_shop_cash_title": "Shop Cash-dən {{amount}} əldə etmək üçün skan edin",
+              "claim_shop_cash_description": "Shop Cash-inizi Shop tətbiqində gələcək alış-verişlərinizdə istifadə edə bilərsiniz."
             }
           }
-        }
+        },
+        "arrives": "Gəlir {{date}}",
+        "arrives_today": "Bu gün çatır",
+        "arrives_tomorrow": "Sabah çatır",
+        "delivery_estimate_backed_by": "tərəfindən dəstəklənən",
+        "delivery_estimate_delayed_description": "Bölgənizə çatdırılmalar adətənkindən daha yavaşdır. Sifarişiniz gec çata bilər.",
+        "delivery_estimate_delayed_title": "Gecikdi",
+        "delivery_exception_shop_promise_delivered_late_description": "Sifarişiniz Mağaza Vədi tərəfindən dəstəklənir. Gec çatdığı üçün {{amount}} Mağaza Nağdı pulu tələb edin.",
+        "pickup_address_map_link_accessibility_label": "Xəritədə götürmə yerinə baxın {{address}} (yeni pəncərədə açılır)",
+        "pickup_location_label": "Çıxarış yeri:",
+        "predicted_by_shop": "Shop tərəfindən proqnozlaşdırılıb",
+        "confirmed_description_awaiting_payment": "Ödənişiniz bizə çatdıqdan sonra bu məhsulları hazırlayacağıq."
       },
       "list_title": "Sifarişlər",
       "list_title_confirmed_orders_accessibility_label": "Sifarişlər: təsdiqləndi",
@@ -5200,6 +5262,94 @@
         "empty_state_product_navigation_instructions": "Məhsullara baxmaq üçün Sol və Sağ ox düymələrindən istifadə edin. Açmaq üçün Enter və ya Boşluq düyməsinə basın.",
         "filters_title": "Filtrlər",
         "sort_by_title": "Sıralayın"
+      },
+      "fulfillment_status_title": "Yerine yetirmə statusu: {{status}}",
+      "buy_again": "Yenidən al",
+      "buy_again_accessibility_label": "Sifariş üçün yenidən al {{orderId}}",
+      "manage": "İdarə et",
+      "manage_accessiblity_label": "Sifarişin idarə edilməsi {{orderId}}",
+      "buy_again_review": {
+        "quantity_update": {
+          "heading": "Miqdar yenilənməsi",
+          "body": "Bu məhsulların mövcud miqdarları dəyişib və səbətinizdə yenilənib."
+        },
+        "out_of_stock": {
+          "heading": "Anbarda yoxdur",
+          "body": "Bəzi məhsullar artıq mövcud deyil və səbətinizə əlavə edilməyib.",
+          "none_body": "Bu məhsullar artıq mövcud deyil."
+        },
+        "unavailable_in_market": {
+          "heading": {
+            "one": "Mövcud olmayan məhsul",
+            "other": "Mövcud olmayan məhsullar"
+          },
+          "body": {
+            "one": "Bu məhsul səbətinizə əlavə edilmədi, çünki ölkənizdə/bölqənizdə mövcud deyil.",
+            "other": "Bu məhsullar ölkənizdə/bölqənizdə mövcud olmadığı üçün səbətinizə əlavə edilmədi."
+          },
+          "none_body": {
+            "one": "Bu məhsul sizin ölkənizdə/regionunuzda mövcud deyil.",
+            "other": "Bu məhsullar sizin ölkənizdə/bölgənizdə mövcud deyil."
+          }
+        },
+        "gift_card_sent": {
+          "heading": "Hədiyyə kartı əlavə edilmədi",
+          "body": "Səbətinizdə bu sifarişin qalan hissəsi var. Başqasına göndərilən hədiyyə kartları əlavə edilməyib. Alıcı, mesaj və göndərmə tarixini seçmək üçün onları yenidən əlavə edin.",
+          "none_body": "Kiməsə göndərilən hədiyyə kartları əlavə edilməyib. Alıcı, mesaj və göndərmə tarixi seçmək üçün onları yenidən əlavə edin."
+        },
+        "no_longer_available": {
+          "heading": "Bəzi əşyalar artıq mövcud deyil"
+        },
+        "changed": {
+          "heading": "Bəzi elementlər əlavə edilə bilmədi",
+          "body": "Səbətinizdə bu sifarişin qalan hissəsi var."
+        },
+        "none": {
+          "heading": "Elementlər əlavə edilə bilmədi",
+          "body": "Bu əşyalar mövcud deyil."
+        },
+        "not_added": {
+          "body": "Bu elementlərin heç biri səbətinizə əlavə edilmədi."
+        },
+        "error": {
+          "heading": "Məhsulları səbətinizə əlavə edə bilmədik",
+          "body": "Bu sifarişdəki məhsulları əlavə etmək zamanı problem yarandı. Yenidən cəhd edin və ya bizimlə əlaqə saxlayın."
+        },
+        "list_title": "Bu sifarişdəki məhsullar",
+        "columns": {
+          "image": "Məhsulun şəkli",
+          "description": "Təsvir",
+          "status": "Status"
+        },
+        "labels": {
+          "not_added": "Əlavə edilməyib",
+          "sold_out": "Satılıb",
+          "unavailable": "Mövcud deyil"
+        },
+        "item_count": {
+          "one": "{{count}} əşya",
+          "other": "{{count}} əşya"
+        },
+        "quantity_added": {
+          "one": "{{count}} elementdən {{added}} əlavə edildi",
+          "other": "{{count}} elementdən {{added}} əlavə edildi"
+        },
+        "reasons": {
+          "cart_too_large": "Səbətiniz doludur",
+          "gift_card_recipient_invalid": "Qəbuledənin məlumatlarını yeniləmək lazımdır. Məhsulun səhifəsindən yenidən əlavə edin.",
+          "gift_card_sent_to_recipient": "Kiməsə göndərildi",
+          "not_for_sale": "Yenidən almaq üçün mövcud deyil",
+          "parent_unavailable": "Onunla birlikdə gedən məhsul səbətinizdə yoxdur",
+          "selling_plan_unavailable": "Abunəlik artıq mövcud deyil",
+          "unavailable_in_market": "Ölkənizdə/bölqənizdə mövcud deyil"
+        },
+        "add_from_product_page": "Onu məhsul səhifəsindən əlavə edin",
+        "continue_to_cart": "Səbətə davam et",
+        "return_to": {
+          "order_details": "Sifarişə qayıt",
+          "order_list": "Sifarişlərə qayıt",
+          "store": "Mağazaya qayıt"
+        }
       }
     },
     "B2B": {
