@@ -4631,7 +4631,17 @@
           "description": "Marketinq üstünlüklərinizi yeniləməkdə problem yarandı. Zəhmət olmasa bu səhifəni yenidən yükləməyə cəhd edin və ya internet bağlantınızı yoxlayın."
         },
         "update_success": "Marketinq üstünlükləri yeniləndi"
-      }
+      },
+      "profile_update_confirmation_message": "Profil yeniləndi",
+      "title": "Profil",
+      "people": {
+        "pagination": {
+          "load_more": "Daha çox göstər",
+          "load_more_accessibility_label": "Daha çox insan göstərin",
+          "loading_accessibility_label": "İnsanlar yüklənir"
+        }
+      },
+      "add_button": "Əlavə et"
     },
     "returns_and_cancellations": {
       "request_withdrawal_page": {
@@ -4690,9 +4700,106 @@
           "ineligible_reason": {
             "final_sale": "Yekun satış",
             "not_yet_shipped": "Hələ göndərilməyib",
-            "already_shipped": "Artıq göndərilib"
-          }
+            "already_shipped": "Artıq göndərilib",
+            "cancellation_window_closed": "Ləğv etmə müddəti başa çatdı",
+            "cancellation_pending": "Ləğv olunma gözlənilir",
+            "not_eligible_for_cancellation": "Ləğvətinə şərait yaranmayıb",
+            "return_window_closed": "Qaytarma müddəti başa çatdı",
+            "already_returned": "Artıq qaytarılıb",
+            "not_eligible_for_return": "Qaytarılmaya yararlı deyil",
+            "not_eligible": "Uyğun deyil"
+          },
+          "quantity_less_than_or_equal_to_error": "{{maxQuantity}}-dan kiçik və ya buna bərabər miqdar daxil edin",
+          "quantity_greater_than_or_equal_to_error": "1-dən böyük və ya bərabər olan miqdar daxil edin",
+          "whole_number_quantity_error": "Tam ədəd daxil edin",
+          "missing_quantity_error": "Miqdar göstərilməlidir"
+        },
+        "view_all_line_items": "Bütün elementləri göstər"
+      },
+      "banner": {
+        "cannot_request_return_title": "Qaytarma tələb edilə bilməz",
+        "cannot_request_return_banner": "Qaytarma haqqı bu məsafəli məhsullar üçün təxmini geri qaytarma məbləğinizi mənfi göstərir. Suallarınız varsa, {{contactUsLink}}.",
+        "contact_us": "Bizimlə əlaqə saxlayın",
+        "selection_limit_title": "Qaytarma limitinə çatmısınız",
+        "selection_limit_content": "Əgər daha çox məhsulu qaytarmaq lazımdırsa, ikinci qaytarma sorğusu yaradın",
+        "cancellation_selection_limit_title": "Ləğvetmə həddinə çatmısınız",
+        "cancellation_selection_limit_content": "Əgər daha çox məhsulu ləğv etməlisinizsə, ikinci ləğv etmə sorğusu yaradın"
+      },
+      "customer_mismatch_banner": {
+        "title": {
+          "full_name": "Siz bu sifarişi verən {{firstName}} {{lastName}} adına qaytarma tələb edirsiniz",
+          "first_name": "Siz bu sifarişi verən {{firstName}} adına qaytarma tələb edirsiniz",
+          "last_name": "Siz bu sifarişi verən {{lastName}} adından qaytarma tələb edirsiniz",
+          "no_name": "Siz bu sifarişi verən müştəri adından qaytarma tələb edirsiniz"
+        },
+        "cancellation_title": {
+          "full_name": "Siz bu sifarişi verən {{firstName}} {{lastName}} adına ləğv etmək istəyirsiniz",
+          "first_name": "Siz bu sifarişi verən {{firstName}} adından ləğvetmə xahişi edirsiniz",
+          "last_name": "Siz bu sifarişi verən {{lastName}} adına ləğvetmə xahiş edirsiniz",
+          "no_name": "Siz bu sifarişi verən müştəri adından ləğv etmək istəyirsiniz"
+        },
+        "cancellation_or_return_title": {
+          "full_name": "Siz bu sifarişi verən {{firstName}} {{lastName}} adından ləğv edilməsi və ya qaytarılması üçün müraciət edirsiniz",
+          "first_name": "Siz bu sifarişi verən {{firstName}} adından sifarişin ləğvinə və ya qaytarılmasına müraciət edirsiniz",
+          "last_name": "Siz bu sifarişi verən {{lastName}} adına ləğvetmə və ya qaytarma xahiş edirsiniz",
+          "no_name": "Siz bu sifarişi verən müştəri adından ləğv etmə və ya qaytarma tələb edirsiniz"
+        },
+        "description": {
+          "with_email": "Bu qaytarma sorğusu ilə bağlı bütün bildirişlər {{email}} ünvanına göndəriləcək",
+          "without_email": "Bu qaytarma sorğusu ilə bağlı bildirişlər göndərilməyəcək, çünki bu sifarişə heç bir e-poçt ünvanı əlavə edilməyib"
+        },
+        "cancellation_description": {
+          "with_email": "Bu ləğvetmə sorğusu ilə bağlı hər hansı bildirişlər {{email}} ünvanına göndəriləcək",
+          "without_email": "Bu ləğvetmə sorğusu ilə bağlı bildirişlər göndərilməyəcək, çünki bu sifarişə heç bir e-poçt ünvanı əlavə edilməyib"
+        },
+        "cancellation_or_return_description": {
+          "with_email": "Bu sorğu ilə bağlı bütün bildirişlər {{email}} ünvanına göndəriləcək",
+          "without_email": "Bu sorğu ilə bağlı bildirişlər göndərilməyəcək, çünki bu sifarişə e-poçt ünvanı əlavə edilməyib"
         }
+      },
+      "errors": {
+        "submit_error": "Sorğunuzun işlənilməsi zamanı xəta baş verdi. Zəhmət olmasa, yenidən cəhd edin.",
+        "not_authorized_error": "Biz qaytarmanı onlayn emal edə bilmirik. Qaytarma üçün {{contactUs}}.",
+        "not_authorized_cancellation_error": "İmtinacı online emal edə bilmirik. İmtina etmək üçün {{contactUs}}.",
+        "contact_us": "Bizimlə əlaqə saxlayın"
+      },
+      "not_found": {
+        "heading": "Bu səhifəni yükləməkdə problem var",
+        "content": "URL ünvanını yoxlayın və ya bir neçə dəqiqə sonra yenidən cəhd edin"
+      },
+      "order_not_found": {
+        "heading": "Bu ünvanda heç bir sifariş yoxdur",
+        "description": "URL-ni yoxlayın və yenidən cəhd edin"
+      },
+      "estimated_refund_summary_card": {
+        "return_label": "Geri dönmək",
+        "item_subtotal_label": "Məhsulun ara cəmi",
+        "subtotal_with_count": {
+          "one": "Ara cəm · {{count}} məhsul",
+          "other": "Cəmi · {{count}} ədəd"
+        },
+        "discount_label": "Endirim",
+        "taxes_label": "Vergilər",
+        "estimated_total_label": "Təxmini cəm",
+        "item_selected": {
+          "one": "{{count}} əşya",
+          "other": "{{count}} əşya"
+        },
+        "refund_policy_notice": "Qaytarma və geri ödənişə aid şərtlər {{refundPolicy}} sənədə əsaslanacaq.",
+        "refund_policy": "pulun geri qaytarılması siyasəti",
+        "no_policy_notice": "Qaytarma və geri ödənişə yarxılıq qaydalarımız əsasında müəyyən ediləcəkdir.",
+        "free": "Pulsuz",
+        "restocking_fee_title": "Anbarlaşdırma haqqı",
+        "return_shipping_fee_title": "Çatdırılma haqqı"
+      },
+      "order_action": {
+        "request_return": "Geri qaytarılmasını tələb et",
+        "cancel_items": "Məhsulları ləğv et",
+        "return_items": "Məhsulları qaytarın",
+        "cancel_or_return": "Ləğv et və ya geri qaytar",
+        "cancel_items_accessibility_label": "{{orderName}} sifarişi üçün məhsulları ləğv edin",
+        "return_items_accessibility_label": "{{orderName}} sifarişi üçün məhsulları qaytarın",
+        "cancel_or_return_accessibility_label": "{{orderName}} sifarişi üçün məhsulları ləğv edin və ya geri qaytarın"
       }
     },
     "orders": {
@@ -4700,11 +4807,40 @@
         "fulfillment_tracking": {
           "status": {
             "ready_for_recipient_pickup": "Götürülməyə hazırdır",
-            "returning_to_sender": "Göndərənə qaytarılır"
+            "returning_to_sender": "Göndərənə qaytarılır",
+            "attempted_delivery": "Çatdırılma cəhdi",
+            "buyer_action_required": "Tədbir görülməsi tələb olunur",
+            "carrier_picked_up": "Daşıyıcı götürdü",
+            "confirmed": "Təsdiqləndi",
+            "delayed": "Gecikdi",
+            "delivered": "Çatdırılıb",
+            "exception": "Çatdırılma problemi",
+            "failure": "Çatdırılma problemi",
+            "in_transit": "Yoldadır",
+            "label_printed": "Etiket çap olunub",
+            "label_purchased": "Etiket alındı.",
+            "out_for_delivery": "Çatdırılmaq üzrədir",
+            "picked_up": "Götürülüb",
+            "ready_for_pickup": "Daşıyıcı tərəfindən götürülməyə hazırdır"
           },
           "delivery_progress_for_shipment_accessibility_label": "{{position}} nömrəli göndərişin çatdırılma gedişatı",
           "tracking_link_accessibility_label": "{{carrier}} göndərişini izləyin {{trackingNumber}} (yeni pəncərədə açılır)",
-          "unknown_carrier_banner": "Daha çox məlumat üçün bizimlə əlaqə saxlayın"
+          "unknown_carrier_banner": "Daha çox məlumat üçün bizimlə əlaqə saxlayın",
+          "attempted_delivery_banner": "Çatdırılma məlumatları üçün və ya yeni çatdırılmanı planlaşdırmaq üçün {{carrier}} ilə yoxlayın",
+          "buyer_action_required_banner": "{{carrier}}-i yoxlayın və ya əlavə məlumat üçün bizimlə əlaqə saxlayın",
+          "carrier_banner_link_accessibility_label": "{{carrier}} izləmə məlumatlarına baxın (yeni pəncərədə açılır)",
+          "carrier_link_accessibility_label": "{{carrier}} göndərişini izləyin (yeni pəncərədə açılır)",
+          "completed_gift_card": "Tamamlandı {{date}}",
+          "delivered_on": "Çatdırıldı {{date}}",
+          "delivery_progress_heading": "Çatdırılma statusu",
+          "gift_card_sent_to_recipient": {
+            "one": "Hədiyyə kartı alıcıya göndərildi.",
+            "other": "Hədiyyə kartları alıcılara göndərilib."
+          },
+          "in_store_purchase": "Mağazada alış-veriş",
+          "picked_up_on": "{{date}} tarixində götürüldü",
+          "pickup_details_banner": "Çatdırılma məlumatları üçün {{carrier}}-i yoxlayın",
+          "pickup_details_link_accessibility_label": "{{carrier}} çatdırılma təfərrüatlarına baxın (yeni pəncərədə açılır)"
         },
         "attempted_delivery_label": "Çatdırılma cəhdi",
         "attempted_to_deliver_label": "Çatdırılma cəhd edildi",
@@ -4839,6 +4975,97 @@
             }
           }
         }
+      },
+      "list_title": "Sifarişlər",
+      "list_title_confirmed_orders_accessibility_label": "Sifarişlər: təsdiqləndi",
+      "list_title_pending_orders_accessibility_label": "Sifarişlər: gözləmədə",
+      "switch_order_type_pending_orders_accessibility_label": "Sifariş növünü dəyişin, hazırda gözləyən sifarişlərə baxırsınız",
+      "switch_order_type_confirmed_orders_accessibility_label": "Sifariş növünü dəyişin, hazırda təsdiqlənmiş sifarişlərə baxırsınız",
+      "order_list": {
+        "empty_state_redesign_cta": "İndi al",
+        "empty_state_redesign_subtitle": "Alış-verişə hazırsınız?",
+        "empty_state_redesign_welcome": "Xoş gəlmisiniz",
+        "empty_state_redesign_welcome_with_name": "Xoş gəlmisiniz, {{firstName}}",
+        "empty_state_title": "Hələlik sifariş yoxdur",
+        "empty_state_with_location_title": "{{locationName}} üçün sifariş yoxdur",
+        "empty_state_title_for_pending_orders": "Gözləmədə olan sifariş yoxdur",
+        "no_order_banner": "Sifariş statusu səhifəsində genişləndirmənizi yoxlamaq üçün bir sifariş yaradın.",
+        "one_images_accessibility_label": "Sifarişə daxildir: {{lineItemName1}}",
+        "two_images_accessibility_label": "Sifarişə daxildir: {{lineItemName1}}, {{lineItemName2}}",
+        "three_images_accessibility_label": "Sifarişə daxildir: {{lineItemName1}}, {{lineItemName2}}, {{lineItemName3}}",
+        "four_images_accessibility_label": "Sifarişə {{lineItemName1}}, {{lineItemName2}}, {{lineItemName3}}, {{lineItemName4}} daxildir",
+        "more_than_three_products_accessibility_label": "Sifarişə {{lineItemName1}}, {{lineItemName2}} və daha {{numberOfAdditionalProducts}} məhsul daxildir",
+        "more_than_four_products_accessibility_label": "Sifarişə {{lineItemName1}}, {{lineItemName2}}, {{lineItemName3}} və daha {{numberOfAdditionalProducts}} məhsul daxildir",
+        "plus_more": "+{{numberOfAdditionalProducts}}",
+        "no_filtered_results_description": "Sifarişlərinizi görmək üçün filtrləri silin və ya dəyişdirin",
+        "no_filtered_results_title": "Filtrələnmiş nəticə yoxdur",
+        "order_link": "Sifarişə baxın: {{name}}, {{status}}, {{total}}",
+        "order_number": "Sifariş {{name}}",
+        "orders_title": "Təsdiqləndi",
+        "pagination": {
+          "load_more": "Daha çox göstər",
+          "load_more_accessibility_label": "Daha çox sifariş göstər"
+        },
+        "payment_status": {
+          "list_view": {
+            "overdue": "Gecikmiş",
+            "due": "Son tarix {{date}}",
+            "due_today": "Bu gün təhvil verilməlidir",
+            "due_without_date": "Müddəti",
+            "due_on_fulfillment": "İcra zamanı ödənilməlidir",
+            "pay_to_confirm": "Təsdiqləmək üçün ödəyin",
+            "payment_not_due": "Hələ vaxtı çatmayıb"
+          }
+        },
+        "sort_by": "Sırala: {{option}}",
+        "sort_options_accessibility_label": "Təsdiqlənmiş sifarişlər üçün çeşidləmə seçimləri",
+        "sort_show_options_accessibility_label": "Təsdiqlənmiş sifarişlər üçün çeşidləmə seçimlərini göstər.",
+        "sort_currently_sorted_by_accessibility_label": "Hazırda çeşidlənib: {{option}}",
+        "sort": {
+          "date": {
+            "newest": "Ən yenidən ən köhnəyə",
+            "oldest": "Əskidən yeniyə doğru"
+          },
+          "location": {
+            "ascending": "Məkan (A-Z)",
+            "descending": "Məkan (Z-A)"
+          },
+          "order_number": {
+            "ascending": "Sifariş nömrəsi (azdan çoxa)",
+            "descending": "Sifariş nömrəsi (çoxdan aza)"
+          },
+          "order_total": {
+            "ascending": "Sifarişin cəmi (azdan çoxa)",
+            "descending": "Sifarişin cəmi (yüksəkdən aşağıya)"
+          }
+        },
+        "location_filter_picker": {
+          "all_location": "Bütün məkanlar",
+          "current_location": "Cari yerləşmə",
+          "switch_view": "Görünüşü dəyiş"
+        },
+        "filter": {
+          "clear_section": "Bölməni təmizlə",
+          "apply": "Müraciət et",
+          "date_section_accessibility_label": "<p>Süzgəc: {{sectionTitle}}</p>",
+          "date": {
+            "start_date": "Başlanğıc tarixi",
+            "end_date": "Bitmə tarixi",
+            "title": "Sifariş tarixi",
+            "today": "Bu gün",
+            "last_7_days": "Son 7 gün",
+            "last_30_days": "Son 30 gün",
+            "last_90_days": "Son 90 gün",
+            "last_365_days": "Son 12 ay",
+            "custom": "Fərdi"
+          }
+        },
+        "view_order": "Sifarişə bax",
+        "view_order_accessibility_label": "Sifarişə bax {{orderName}}",
+        "empty_state_product_navigation_accessibility_label": "Tövsiyə olunan məhsullar",
+        "empty_state_product_navigation_instructions": "Məhsullara baxmaq üçün Sol və Sağ ox düymələrindən istifadə edin. Açmaq üçün Enter və ya Boşluq düyməsinə basın.",
+        "filters_title": "Filtrlər",
+        "sort_by_title": "Sıralayın"
       }
     },
     "B2B": {
@@ -5087,7 +5314,10 @@
       "save": "Yadda saxla",
       "save_accessibility_label": "Ünvanı yadda saxlayın {{address}}",
       "section_title_accessibility_label": "Ünvan əlavə et",
-      "update_success_notification": "Ünvan yeniləndi"
+      "update_success_notification": "Ünvan yeniləndi",
+      "attention_company": "Şirkət/diqqətinə",
+      "attention_help_text": "Şəxsin və ya şöbənin adı",
+      "auto_complete_close_accessibility_label": "Təklifləri bağla"
     },
     "account_menu": {
       "signed_out_state": {
@@ -5239,6 +5469,44 @@
         "success": "Ödəniş üsulu yeniləndi",
         "use_new_payment_method": "+ Yeni ödəniş üsulundan istifadə edin"
       }
+    },
+    "addresses": {
+      "add_button_text": "Əlavə et",
+      "add_button_accessibility_label": "Ünvan əlavə et",
+      "back_button": "Geri",
+      "back_button_accessibility_label": "Ünvanı redaktə etməyə qayıt {{address}}",
+      "no_addresses_banner": "Heç bir ünvan əlavə edilməyib",
+      "address_deleted_notification": "Ünvan silindi",
+      "cancel_adding_address_accessibility_label": "Ünvan əlavə etməyi ləğv et",
+      "default_address": {
+        "badge_label": "İlkin",
+        "title": "Varsayılan ünvan",
+        "title_accessibility_label": "Defolt ünvan: {{address}}"
+      },
+      "delete_button": "Sil",
+      "delete_button_accessibility_label": "Sil {{address}}",
+      "delete_confirmation_button": "Ünvanı sil",
+      "delete_confirmation_button_accessibility_label": "Sil {{address}}",
+      "delete_confirmation_title": "Ünvan silinsin?",
+      "delete_confirmation_description": "Mövcud sifarişlərə təsir edilmir.",
+      "edit_button_accessibility_label": "{{address}} redaktə et",
+      "edit_modal_title": {
+        "default": "Ünvanı redaktə et",
+        "billing": "Ödəniş ünvanını redaktə et",
+        "shipping": "Çatdırılma ünvanını redaktə et"
+      },
+      "loading_accessibility_message": "Ünvan yüklənir",
+      "loading_addresses_accessibility_message": "Ünvanlar yüklənir",
+      "loading_billing_accessibility_message": "Ödəniş ünvanı yüklənir",
+      "loading_finished_accessibility_message": "Ünvanlar səhifəsi yükləndi",
+      "loading_shipping_accessibility_message": "Çatdırılma ünvanı yüklənir",
+      "pagination": {
+        "load_more": "Daha çox göstər",
+        "load_more_accessibility_label": "Daha çox ünvan göstər"
+      },
+      "save_new_address_accessibility_label": "Ünvanı yadda saxla",
+      "title": "Ünvanlar",
+      "billing_address_dropdown_placeholder": "Ödəniş ünvanı"
     }
   }
 }
