@@ -2271,6 +2271,58 @@
       "vaulted": {
         "change_button": "Dəyiş",
         "loading_section": "Yüklənir {{section}}…"
+      },
+      "taxes": {
+        "vat_number": {
+          "status": {
+            "invalid_number": {
+              "at": "Etibarlı Avstriya ƏDV nömrəsini daxil edin",
+              "be": "Etibarlı Belçika ƏDV nömrəsini daxil edin",
+              "bg": "Etibarlı Bolqarıstan ƏDV nömrəsini daxil edin",
+              "hr": "Keçərli Xorvatiya ƏDV nömrəsini daxil edin",
+              "cy": "Etibarlı Kipr ƏDV nömrəsini daxil edin",
+              "cz": "Etibarlı Çexiya ƏDV nömrəsini daxil edin",
+              "dk": "Danimarkanın etibarlı ƏDV nömrəsini daxil edin",
+              "ee": "Etibarlı Estoniya ƏDV nömrəsini daxil edin",
+              "fi": "Etibarlı Finlandiya ƏDV nömrəsini daxil edin",
+              "fr": "Etibarlı Fransa ƏDV nömrəsini daxil edin",
+              "de": "Etibarlı bir Almaniya ƏDV nömrəsi daxil edin",
+              "gr": "Etibarlı bir Yunanıstan ƏDV nömrəsi daxil edin",
+              "hu": "Etibarlı Macarıstan ƏDV nömrəsini daxil edin",
+              "ie": "Etibarlı İrlandiya ƏDV nömrəsini daxil edin",
+              "it": "Etibarlı İtaliya ƏDV nömrəsini daxil edin",
+              "lv": "Etibarlı Latviya ƏDV nömrəsini daxil edin",
+              "lt": "Etibarlı Litva ƏDV nömrəsini daxil edin",
+              "lu": "Etibarlı Lüksemburq ƏDV nömrəsini daxil edin",
+              "mt": "Etibarlı bir Malta ƏDV nömrəsi daxil edin",
+              "nl": "Etibarlı bir Niderland ƏDV nömrəsi daxil edin",
+              "pl": "Etibarlı bir Polşa ƏDV nömrəsini daxil edin",
+              "pt": "Etibarlı bir Portuqaliya ƏDV nömrəsi daxil edin",
+              "ro": "Etibarlı Rumıniya ƏDV nömrəsini daxil edin",
+              "sk": "Etibarlı Slovakiya ƏDV nömrəsini daxil edin",
+              "si": "Etibarlı Sloveniya ƏDV nömrəsini daxil edin",
+              "es": "Düzgün İspaniya ƏDV nömrəsini daxil edin",
+              "se": "Etibarlı İsveç ƏDV nömrəsini daxil edin",
+              "gb": "Etibarlı Böyük Britaniya ƏDV nömrəsini daxil edin"
+            },
+            "service_unavailable": "Doğrulama xidməti əlçatan deyil",
+            "service_error": "Doğrulama xidməti əlçatan deyil"
+          },
+          "accessibility": {
+            "status": {
+              "validating": "ƏDV nömrəsinin yoxlanılması davam edir",
+              "valid": "ƏDV nömrəsi etibarlıdır",
+              "applied": "ƏDV-dən azadolma tətbiq edilmişdir",
+              "domestic": "ƏDV-dən azadolma tətbiq edilməyib",
+              "invalid_number": "ƏDV-dən azadolma uğursuz oldu",
+              "service_unavailable": "ƏDV-dən azadolmanı təsdiqləmək mümkün deyil",
+              "service_error": "ƏDV-dən azadolmanı təsdiqləmək mümkün deyil"
+            }
+          }
+        }
+      },
+      "address_management": {
+        "saved_with_store": "Bu mağaza ilə yadda saxlanıldı"
       }
     },
     "store_availability": {
@@ -2287,6 +2339,84 @@
       "buyer_consent": "Sifarişinizi yerləşdirməklə, Global-e-nin %{termsAndConditionsLink} və %{privacyPolicyLink} şərtlərinə uyğun olaraq, Global-e-dən qeydə alınmış tacir kimi alış-veriş etməyə və məlumatlarınızı %{shopName} ilə paylaşmağa razılaşırsınız.",
       "terms_and_conditions": "Şərtlər və Qaydalar",
       "privacy_policy": "Məxfilik Siyasəti"
+    },
+    "pagination": {
+      "previous": "Əvvəlki",
+      "next": "Növbəti"
+    },
+    "links": {
+      "powered_by_shopify": "Shopify tərəfindən dəstəklənir",
+      "learn_more": "Daha çox məlumat əldə edin"
+    },
+    "feed": {
+      "more": "Daha çox"
+    },
+    "attributes": {
+      "email": "elektron poçt",
+      "password": "parol",
+      "password_confirmation": "Şifrənin təsdiqi",
+      "first_name": "ad",
+      "last_name": "soyadı",
+      "body": "bədən",
+      "signature": "Ünvan"
+    },
+    "addresses": {
+      "zip_code": "Poçt indeksi",
+      "postal_code": "Poçt indeksi",
+      "postcode": "Poçt indeksi",
+      "pincode": "PİN kodu",
+      "region": "Region",
+      "prefecture": "Prefektura",
+      "province": "Vilayət",
+      "state": "Dövlət",
+      "state_and_territory": "Ştat/ərazi",
+      "county": "Rayon",
+      "emirate": "Əmirlik",
+      "governorate": "Mühafizəlik",
+      "confirm": "Bu ünvanı silmək istədiyinizə əminsinizmi?"
+    },
+    "collections": {
+      "sorting": {
+        "manual": "Seçilmiş",
+        "best_selling": "Ən çox satılan",
+        "az": "Əlifba sırası ilə, A-Z",
+        "za": "Əlifba sırası ilə, Z-A",
+        "price_ascending": "Qiymət, ucuzdan bahaya",
+        "price_descending": "Qiymət, azalan sıra ilə",
+        "date_ascending": "Tarix, köhnədən yeniyə",
+        "date_descending": "Tarix, yenidən köhnəyə",
+        "most_relevant": "Ən uyğun"
+      }
+    },
+    "errors": {
+      "blank": "boş ola bilməz",
+      "blocked_address": "Bu məkan dəstəklənmir",
+      "credit_card_session_expired": "Kredit kartının icazə müddəti bitib, zəhmət olmasa ödəniş məlumatlarınızı yenidən daxil edin. Kartınızdan heç bir məbləğ çıxılmayıb.",
+      "empty": "boş ola bilməz",
+      "invalid_email": "etibarlı e-poçt ünvanı olmalıdır",
+      "discount_disabled": "Bu endirim deaktiv edilib",
+      "discount_expired": "Bu endirim artıq keçərli deyil",
+      "discount_limit_reached": "Bu endirim üçün istifadə limiti dolub",
+      "discount_not_found": "Daxil edilmiş kodla uyğun gələn etibarlı endirim tapılmadı",
+      "customer_already_used_once_per_customer_discount_notice": "Bu endirim üçün istifadə limiti dolub",
+      "gift_card_already_applied": "Kod artıq ödənişinizə tətbiq edilib",
+      "gift_card_code_invalid": "Kod yanlışdır",
+      "gift_card_currency_mismatch": "Bu hədiyyə kartından bu alış üçün istifadə etmək mümkün deyil. Kartın yenidən təsvir edilməsi üçün %{shop_name} ilə əlaqə saxlayın.",
+      "gift_card_depleted": "Bu hədiyyə kartında vəsait qalmayıb",
+      "gift_card_disabled": "Hədiyyə kartı deaktiv edilib",
+      "gift_card_expired": "Hədiyyə kartının istifadə müddəti bitib",
+      "invalid": "etibarsızdır",
+      "bad_domain": "etibarsız domen adı ehtiva edir",
+      "taken": "artıq götürülüb",
+      "contains_html_tags": "HTML teqlərini ehtiva edə bilməz",
+      "too_short": "çox qısadır (minimum %{count} simvol olmalıdır)",
+      "too_long": "çox uzundur (maksimum %{count} simvol)",
+      "password_mismatch": "təqdim olunan şifrə ilə uyğun olmalıdır",
+      "contains_spaces": "boşluqlarla başlayır və ya bitir.",
+      "invalid_for_country": "%{country} üçün keçərli deyil",
+      "invalid_for_country_and_province": "%{province} və %{country} üçün etibarlı deyil",
+      "invalid_province_in_country": "%{country} ölkəsində etibarlı əyalət deyil",
+      "invalid_state_in_country": "%{country} ölkəsində keçərli ştat deyil"
     }
   },
   "customer_accounts": {
@@ -3020,6 +3150,152 @@
             "final_sale": "Yekun satış",
             "not_yet_shipped": "Hələ göndərilməyib",
             "already_shipped": "Artıq göndərilib"
+          }
+        }
+      }
+    },
+    "orders": {
+      "order_status": {
+        "fulfillment_tracking": {
+          "status": {
+            "ready_for_recipient_pickup": "Götürülməyə hazırdır",
+            "returning_to_sender": "Göndərənə qaytarılır"
+          },
+          "delivery_progress_for_shipment_accessibility_label": "{{position}} nömrəli göndərişin çatdırılma gedişatı",
+          "tracking_link_accessibility_label": "{{carrier}} göndərişini izləyin {{trackingNumber}} (yeni pəncərədə açılır)",
+          "unknown_carrier_banner": "Daha çox məlumat üçün bizimlə əlaqə saxlayın"
+        },
+        "attempted_delivery_label": "Çatdırılma cəhdi",
+        "attempted_to_deliver_label": "Çatdırılma cəhd edildi",
+        "preparing_for_shipping_label": "Çatdırılmaya hazırlanır",
+        "ready_for_pickup_label": "Götürülməyə hazırdır",
+        "ready_for_pickup_description": "Bu məhsullar təhvil alınmağa hazırdır. Zəhmət olmasa, sifarişinizi təhvil alarkən sifariş təsdiqini özünüzlə gətirin.",
+        "picked_up_label": "Götürülüb",
+        "canceled_label": "Ləğv edilib",
+        "canceled_title": "Sifarişiniz ləğv edildi",
+        "come_back": "Göndərişinizin statusu ilə bağlı yenilikləri öyrənmək üçün bu səhifəyə yenidən daxil olun.",
+        "company_tracking_number": "{{company}} izləmə nömrəsi:",
+        "confirmed_label": "Təsdiqləndi",
+        "confirmed_title": "Sifarişiniz təsdiqləndi",
+        "confirmed_description_pickup": "Bu əşyaları təhvil vermək üçün hazırlayırıq.",
+        "confirmed_description_shipping": "Bu məhsulları göndərilməyə hazırlayırıq.",
+        "confirmed_description_digital": "Sifarişiniz hazır olduqda sizə e-poçt göndəriləcək.",
+        "confirmed_description_gift_card_text": "Sifarişiniz hazır olduqda sizə mesaj gələcək.",
+        "complete_label": "Tamamla",
+        "delivered_label": "Çatdırılıb",
+        "delivered_description_gift_card": {
+          "one": "Hədiyyə kartı e-poçt vasitəsilə göndərilib.",
+          "other": "Hədiyyə kartları e-poçt vasitəsilə göndərilib."
+        },
+        "delivered_description_gift_card_text": {
+          "one": "Hədiyyə kartı mesajla göndərilib.",
+          "other": "Hədiyyə kartları mesajla göndərilib."
+        },
+        "gift_card_resend_button": {
+          "one": "Hədiyyə kartını yenidən göndər",
+          "other": "Hədiyyə kartlarını yenidən göndərin"
+        },
+        "gift_resend_success": {
+          "one": "Hədiyyə kartı yenidən göndərildi",
+          "other": "Hədiyyə kartları yenidən göndərildi"
+        },
+        "gift_resend_failure": {
+          "one": "Hədiyyə kartınızın yenidən göndərilməsi zamanı problem yarandı. Yenidən cəhd edin və ya bizimlə əlaqə saxlayın.",
+          "other": "Hədiyyə kartlarınızın yenidən göndərilməsi zamanı problem yarandı. Yenidən cəhd edin və ya bizimlə əlaqə saxlayın."
+        },
+        "confirmed_gift_card_additional_description": {
+          "one": "Hədiyyə kartı ayrıca bir e-poçt vasitəsilə göndəriləcək.",
+          "other": "Hər bir hədiyyə kartı ayrıca e-poçt vasitəsilə göndəriləcək."
+        },
+        "confirmed_gift_card_additional_description_text": {
+          "one": "Hədiyyə kartı ayrıca bir mesajla göndəriləcək.",
+          "other": "Hər hədiyyə kartı ayrı bir mesajla göndəriləcək."
+        },
+        "status_timestamp": "Yenilənib {{date}}",
+        "estimated_delivery": "Gözlənilən {{date}}",
+        "was_expected_by": "Tarixinə qədər gözlənilirdi: {{date}}",
+        "delivered": "Çatdırıldı {{date}}",
+        "buy_with_prime_logo_accessibility_label": "Amazon Buy with Prime loqosu",
+        "in_review_label": "Nəzərdən keçirilir",
+        "in_review_title": "Sifarişiniz yoxlanılır",
+        "last_updated": "Son yenilənmə tarixi {{date}}",
+        "multiple_shipments_label": "Çoxsaylı göndərişlər",
+        "multiple_statuses_label": "Çoxsaylı sifariş statusları",
+        "tracking_number": {
+          "one": "İzləmə nömrəsi",
+          "other": "İzləmə nömrələri"
+        },
+        "on_its_way_label": "Yoldadır",
+        "out_for_delivery_label": "Çatdırılmaq üzrədir",
+        "resume_tracking": "İzləməni davam etdir",
+        "submitted_label": "Təqdim edildi",
+        "submitted_description": "Sifarişi və ödəniş detallarını nəzərdən keçirin.",
+        "there_was_a_problem_label": "Problem yarandı",
+        "track_shipment": "Göndərişi izləyin",
+        "request_return": "Geri qaytarılmasını tələb et",
+        "view_order_for_details": "Təfərrüatlar üçün sifarişə baxın",
+        "external_promise_manage_button_label": {
+          "buy_with_prime": "Amazon-da idarə et"
+        },
+        "amazon_buy_with_prime": {
+          "order_tracking_link": {
+            "text": "Amazon ilə idarə et",
+            "new_window_disclaimer": "(yeni bir pəncərə açır)"
+          }
+        },
+        "delivery_promise_v2": {
+          "promise_line": {
+            "shop_promise_brand_label": "Çatdırılma zəmanəti:",
+            "external_promise_brand_label": "Çatdırılma tarixi:",
+            "not_delivered_by_label": "{{date}} tarixindən sonra çatdırıldı",
+            "delivery_guarantee_expired_label": "Çatdırılma zəmanəti başa çatıb",
+            "modal_accessibility_button_label": "Çatdırılma öhdəliyi haqqında məlumat",
+            "download_shop_app_button_label": "İzləmək üçün Shop tətbiqini yükləyin",
+            "track_with_shop_button_label": "Shop ilə izlə",
+            "claim_shop_cash_button_label": "Mağaza Nağd Pulunu əldə edin"
+          },
+          "details_modal": {
+            "title": "Çatdırılma zəmanəti",
+            "active_delivery_guarantee_label": "Çatdırılma {{date}} tarixinə qədər",
+            "expired_shop_promise_guarantee_description": "Bu sifarişin Mağaza Zəmanəti başa çatıb.",
+            "expired_badge_label": "Vaxtı keçmiş",
+            "order_includes_guarantees_label": "Sizin sifarişinizə {{deliveryAgreementsCount}} zəmanət daxildir",
+            "order_includes_guarantees_description": "Shop Promise sürətli, etibarlı çatdırılmaya zəmanət verir. Sifarişiniz {{date}} tarixindən sonra çatdırılarsa, Shop Cash tələb edin.",
+            "delivered_after_label": "{{date}} tarixindən sonra çatdırıldı",
+            "delivered_after_description": "Sifarişiniz gec çatdığı üçün, {{amount}} məbləğində Shop Cash tələb etmək hüququnuz var.",
+            "claimed_shop_cash_description": "Bu sifariş gec gəldiyi üçün siz {{amount}} Shop Cash tələb etdiniz.",
+            "eligible_to_claim_shop_cash_description": "Sifarişiniz gec çatdığı üçün, {{amount}} məbləğində Shop Cash tələb etmək hüququnuz var.",
+            "learn_more_button_label": "Daha çox məlumat əldə edin",
+            "claim_shop_cash_button_label": "Mağaza Nağd Pulunu əldə edin",
+            "view_balance_in_shop_button_label": "Mağazada balansı yoxla",
+            "scan_to_claim_shop_cash_label": "{{amount}} Shop Cash tələb etmək üçün skan edin",
+            "buyer_trust_description": "Shop Promise sürətli, etibarlı çatdırılma və inamlı qaytarma təklif edən mağazaları ön plana çıxarır ki, siz rahatlıqla alış-veriş edə biləsiniz."
+          }
+        },
+        "delivery_promise": {
+          "promise_line": {
+            "single_brand_label": "Çatdırılma təminatı",
+            "mixed_brands_label": "Çatdırılma zəmanətlidir",
+            "not_delivered_by_label": "{{date}} tarixinədək çatdırılmayıb",
+            "modal_accessibility_button_label": "Çatdırılma öhdəliyi haqqında məlumat"
+          },
+          "claim_shop_cash_cta": {
+            "has_shop_app_label": "Shop Cash-ınızı tələb edin",
+            "no_shop_app_label": "{{appDownloadLink}} Mağaza Nağd pulunu tələb etmək üçün",
+            "download_shop_app_label": "Mağazanı yüklə"
+          },
+          "details_modal": {
+            "title": "Çatdırılma təminatı",
+            "modal_accessiblity_label": "Çatdırılma öhdəliyi haqqında məlumat",
+            "delivery_guarantee_label": "Çatdırılma zəmanəti",
+            "delivery_by_label": "Çatdırılma {{date}} tarixinə qədər",
+            "delivery_guaranteed_by_label": "Çatdırılma {{date}} tarixinə qədər təmin edilir.",
+            "shop_cash_claim": {
+              "may_be_eligible_label": "Shop Promise sürətli və etibarlı çatdırılmaya zəmanət verir. Sifarişiniz gecikərsə, Shop Cash tələb edin.",
+              "may_be_eligible_not_authorized_label": "Bu sifariş gec çatdığı üçün Shop Cash tələb etmək hüququnuz ola bilər. Ətraflı məlumat üçün daxil olun.",
+              "redeemed_label": "Bu sifariş gec çatdığı üçün siz artıq Shop Cash əldə etmisiniz.",
+              "no_shop_cash_label": "Bu sifariş \"Shop Pay\" ilə ödənilmədiyi üçün gec çatdırılma iddiasına uyğun deyil."
+            }
           }
         }
       }
