@@ -712,7 +712,18 @@
         "have_an_account_label": "Hesabınız var?",
         "sign_in_link_label": "Daxil ol",
         "sign_out_link_label": "Çıxış et",
-        "save_my_information_label": "Bu məlumatı növbəti dəfə üçün saxla"
+        "save_my_information_label": "Bu məlumatı növbəti dəfə üçün saxla",
+        "invalid_address": "Seçilmiş ünvan etibarsızdır. %{update_address_link} və ya başqa bir ünvan seçin.",
+        "incomplete_address": "Seçilmiş ünvan natamamdır. %{update_address_link} və ya başqa bir ünvan seçin.",
+        "rollup_label": "Hesab",
+        "rollup_accessibility_label": "Hesab seçimləri",
+        "invalid_shipping_method_summary": "Mövcud çatdırılma üsullarını görmək üçün etibarlı çatdırılma ünvanı seçin",
+        "saved_address_option_description": {
+          "one": "Sizdə {{count}} saxlanmış ünvan var.",
+          "other": "Sizin {{count}} saxlanmış ünvanınız var."
+        },
+        "saved_address_option_link": "Yadda saxlanılmış ünvandan istifadə edin",
+        "saved_address_modal_title": "Yadda saxlanılan ünvanımdan istifadə et"
       },
       "split_delivery": {
         "pickup_items_count": {
@@ -911,7 +922,8 @@
       "subscriptions": {
         "recurring_total_intervals": {
           "day": {
-            "other": "%{count} gün"
+            "other": "%{count} gün",
+            "one": "gün"
           },
           "week": {
             "one": "həftə",
@@ -1697,6 +1709,428 @@
       },
       "store_credit_errors": {
         "generic_error": "Mağaza kreditinizlə bağlı problem yarandı. Yenidən cəhd edin və ya səhifəni yeniləyin."
+      },
+      "review": {
+        "blocks": {
+          "change_link_label": "Dəyiş",
+          "change_contact_method_link_label": "Əlaqə məlumatlarını dəyişin",
+          "change_billing_address_link_label": "Ödəniş ünvanını dəyişin",
+          "change_company_location_link_label": "Şirkətin yerini dəyişin",
+          "change_shipping_address_link_label": "Çatdırılma ünvanını dəyişin",
+          "change_shipping_method_link_label": "Çatdırılma üsulunu dəyişin",
+          "change_payment_method_link_label": "Ödəniş üsulunu dəyişin",
+          "pick_up_in_store_shipping_method_html": "Mağazadan götürmə · %{location_name}",
+          "purchase_order_number_title": "Sifariş nömrəsi",
+          "change_purchase_order_number_label": "Satınalma sifarişi nömrəsini dəyişin",
+          "change_delivery_method_link_label": "Çatdırılma üsulunu dəyişin",
+          "no_address": "(Ünvan yoxdur)",
+          "no_purchase_order_number": "(Sifariş nömrəsi yoxdur)",
+          "no_purchase_order_number_long": "Alış-veriş sifariş nömrəsi yoxdur",
+          "due_after_order_reviewed_html": "Sifariş yoxlanıldıqdan sonra ödəniləcək",
+          "review_title_free_order": "Sifarişinizi nəzərdən keçirin və tamamlayın",
+          "payment_method_saved_company_location": "Bu məkan üçün kartı yadda saxla",
+          "company_location": "Şirkətin yerləşdiyi ünvan",
+          "pickup_items_at": {
+            "one": "%{count} əşyanı götür:",
+            "other": "%{count} əşyanı götür:"
+          },
+          "ship_items_to": {
+            "one": "%{count} əşyanı göndər:",
+            "other": "%{count} ədəd məhsulu göndər:"
+          }
+        },
+        "block_title": "Məlumatlarınızı nəzərdən keçirin",
+        "item_header": {
+          "change_value": "Dəyəri dəyişin",
+          "section": "Bölmə",
+          "value": "Dəyər"
+        }
+      },
+      "marketing": {
+        "accept_marketing_checkbox_label": "Xəbərlər və təkliflər barədə mənə e-poçt göndərin",
+        "post_accept_marketing_checkbox_label": "Siz elektron poçt vasitəsilə xəbərlər və təkliflər almaq üçün abunə oldunuz",
+        "pending_accept_marketing_checkbox_label": "Xəbərlər və təkliflər üçün abunəliyinizi təsdiqləmək üçün e-poçtunuzu yoxlayın",
+        "accept_sms_checkbox_label": "Xəbərlər və təkliflər barədə mənə mesaj göndərin",
+        "accept_whatsapp_marketing_checkbox_label": "Xəbərlər və təkliflərlə bağlı mənə WhatsApp-da yazın",
+        "disclaimer": {
+          "privacy_policy": "Məxfilik Siyasəti",
+          "terms_of_service": "Xidmət Şərtləri"
+        },
+        "sms": {
+          "disclaimer": {
+            "privacy_policy": "Məxfilik Siyasəti",
+            "terms_of_service": "Xidmət Şərtləri",
+            "description_html": "SMS vasitəsilə qeydiyyatdan keçməklə, siz təqdim etdiyiniz telefon nömrəsinə səbət xatırlatmaları da daxil olmaqla, vaxtaşırı avtomatlaşdırılmış marketinq mesajları almağa razılıq verirsiniz. Razılıq alış üçün məcburi şərt deyil. Abunəliyi ləğv etmək üçün STOP yazaraq cavab verin. Kömək üçün HELP yazaraq cavab verin. Mesajların tezliyi dəyişə bilər. Mesaj və məlumat tarifləri tətbiq oluna bilər. %{privacy_policy_link} və %{terms_of_service_link} səhifələrimizə baxın.",
+            "description_transactional_html": "Sizə sifarişin təsdiqi və çatdırılma yeniləmələri ilə bağlı mətn mesajları göndərilə bilər. Abunəliyi dayandırmaq üçün STOP yazın. Kömək üçün HELP yazın. Mesajların tezliyi dəyişə bilər. Mesaj və məlumat tarifləri tətbiq oluna bilər. %{privacy_policy_modal_link} və %{terms_of_service_modal_link} bölmələrimizə baxın."
+          },
+          "mobile_phone_number": "Mobil telefon nömrəsi",
+          "get_offers_by_text": "Təklifləri SMS vasitəsilə alın"
+        },
+        "whatsapp": {
+          "disclaimer": {
+            "description_html": "WhatsApp vasitəsilə qeydiyyatdan keçməklə siz göstərilən telefon nömrəsinə WhatsApp marketinq mesajları almağa razılıq verirsiniz. Razılıq alış-veriş üçün şərt deyil. Abunəliyi ləğv etmək üçün STOP yazın. Mesaj tezliyi dəyişir. Mesaj və məlumat tarifləri tətbiq oluna bilər. %{privacy_policy_link} və %{terms_of_service_link} səhifələrimizə baxın."
+          }
+        },
+        "unsubscribe": {
+          "title": "Siz abunəliyi ləğv etdiniz",
+          "description": "Artıq bizdən səbət xatırlatmaları almayacaqsınız."
+        },
+        "accept_shop_pay_marketing_checkbox_label": "Bu mağazadan xəbərlər və təkliflər almaq üçün məni qeydiyyatdan keçirin"
+      },
+      "shop_policies": {
+        "policy_label": "Siyasət",
+        "policies_label": "Siyasətlər",
+        "select_policy_label": "Bir siyasət seçin",
+        "refund_policy": "Geri ödəniş siyasəti",
+        "privacy_policy": "Məxfilik siyasəti",
+        "terms_of_service": "Xidmət şərtləri",
+        "legal_notice": "Hüquqi bildiriş",
+        "shipping_policy": "Çatdırılma",
+        "terms_of_sale": "Satış şərtləri",
+        "subscription_policy": "Ləğvetmələr",
+        "purchase_options_policy": "Satınalma seçimləri siyasəti",
+        "contact_information": "Əlaqə",
+        "purchase_options_cancellation_policy": "Ləğvetmələr",
+        "cookie_preferences": "Peçenyelər",
+        "terms_and_policies": "Şərtlər və qaydalar"
+      },
+      "remote_policies": {
+        "unavailable_policy": "Bu mağaza üçün heç bir %{policy_name} təqdim edilməyib. Əlavə məlumat üçün birbaşa %{shop_name} ilə əlaqə saxlayın."
+      },
+      "mor_policies": {
+        "terms_and_conditions": "Qeydiyyatdan keçmiş tacir üçün şərtlər və qaydalar",
+        "privacy_policy": "Tacir Məxfilik Siyasəti"
+      },
+      "markets": {
+        "invalid_market_manager_error": "Ödənişi tamamlamazdan əvvəl əlaqə məlumatlarınızı yoxlayın"
+      },
+      "notifications": {
+        "title": "Bildirişlər"
+      },
+      "order_payment_collection": {
+        "custom_line_item_description": "%{order_name} sifarişi üçün ödəniləcək məbləğ",
+        "changes_summary": {
+          "added": {
+            "one": "Əlavə edildi",
+            "other": "%{count} ədəd əlavə edildi"
+          },
+          "removed": "Silindi",
+          "subtracted": "%{count} ədəd silindi",
+          "returned": "%{count} geri qaytarıldı",
+          "return_line_item_removed": "%{count} element geri qaytarılmadan silindi"
+        },
+        "additional_payment_requested": "%{total_outstanding} məbləğində ödəniş tələb olunur",
+        "checkout_review_and_pay": "%{order_name} nömrəli sifarişiniz yeniləndi. Dəyişiklikləri nəzərdən keçirin və sifarişinizi təsdiqləmək üçün ödəniş edin.",
+        "order_updated_on": "Sifarişiniz %{last_edited_at} tarixində yeniləndi.",
+        "order_review_and_pay": "Sifarişiniz yeniləndi. Sifarişi təsdiqləmək üçün nəzərdən keçirin və ödəniş edin.",
+        "pay_now": "İndi ödəyin"
+      },
+      "change_currency": {
+        "currency_button_label": "%{currency} (%{currency_symbol})",
+        "credit_card_will_be_charged_html": "Kredit kartınızdan %{amount} məbləğində vəsait çıxılacaq",
+        "payment_total_label": "Ödəniş cəmi",
+        "conversion_rate": "1 %{from_currency_code} = %{rate} %{to_currency_code}",
+        "change_currency_link": "%{currency_name} valyutasına keçin",
+        "card_provider_fx_charges_warning": "Kart təchizatçınız %{currency_code} valyutası ilə aparılan əməliyyatlardan komissiya tuta bilər.",
+        "currency_not_supported_by_shop": "Seçdiyiniz valyuta artıq mövcud deyil. Bütün qiymətlər hazırda %{currency_code} ilə göstərilir."
+      },
+      "change_country": {
+        "cart_updated_based_on_country": "Səbətiniz çatdırılma ölkənizə əsasən yeniləndi.",
+        "cart_and_currency_updated_based_on_country": "Səbətiniz və valyutanız çatdırılma ölkənizə əsasən yeniləndi.",
+        "currency_updated_for_country": "Valyuta %{country} üçün yeniləndi"
+      },
+      "change_cart_localization": {
+        "verify_shipping_address": "Ölkəniz/bölgəniz yeniləndi. Ödənişi davam etdirmək üçün çatdırılma ünvanınızı daxil edin."
+      },
+      "tips": {
+        "title": "Çay pulu əlavə et",
+        "description": "%{shop_name} komandasına dəstəyinizi göstərin",
+        "presets_description": "Çay pulu faizini seçin",
+        "custom_label": "Xüsusi məbləğdə çaypulu",
+        "add_tip": "Çay pulu əlavə et",
+        "update_tip": "Yeniləmə ipucu",
+        "message": "Təşəkkür edirik, biz bunu yüksək qiymətləndiririk.",
+        "preset_label": "%{tip_percent}%",
+        "no_tip_label": "Heç biri",
+        "not_available_with_spi": "Shop Pay Installments ilə mövcud deyil"
+      },
+      "open_graph_meta_tag": {
+        "title_with_products": {
+          "zero": "%{product_name} məhsulunu al",
+          "one": "%{product_name} və daha %{count} əşya alın",
+          "other": "%{product_name} və daha %{count} əşya alın"
+        }
+      },
+      "order_summary": {
+        "price_before_discount_aria_text": "İlkin qiymət",
+        "price_after_discount_aria_text": "Endirimli qiymət",
+        "discount_code_aria_text": "Endirim kodu",
+        "total_savings": "Ümumi qənaət",
+        "total_label": "Cəmi",
+        "total_due_label": "Ödəniləcək cəmi",
+        "total_paid_label": "Cəmi ödənilən",
+        "total_price_label": "Ümumi qiymət",
+        "total_outstanding_label": "Ödəniləcək məbləğ",
+        "deposit_label": "Depozit",
+        "total_due_today_label": "Bu gün ödənilməli olan məbləğ",
+        "total_due_later_label": "Daha sonra ödəniləcək ümumi məbləğ",
+        "partial_total_label": "Cəmi",
+        "free_total_label": "Pulsuz",
+        "free_shipping_total_label": "Pulsuz",
+        "paid_label": "Ödənilib",
+        "payment_due_label": "Ödəniş müddəti çatıb",
+        "vat_label_html": "%{amount} vergi daxil olmaqla",
+        "duties_included_label": "Ümumi məbləğə vergilər və rüsumlar daxildir. Çatdırılma zamanı əlavə ödəniş tələb olunmur.",
+        "discount_and_gift_card_savings_notice": "%{discount_amount} məbləğində endirim və %{gift_card_amount} məbləğində hədiyyə kartından sonra",
+        "discount_savings_notice": "%{discount_amount} endirimdən sonra",
+        "gift_card_savings_notice": "%{gift_card_amount} məbləğində hədiyyə kartlarından sonra",
+        "cost_table_title": "Xərclərin xülasəsi",
+        "cost_table_item_column_header": "Əşya",
+        "cost_table_value_column_header": "Dəyər",
+        "description_label": "Təsvir",
+        "price_label": "Qiymət",
+        "price_per_item": {
+          "accessibility_label": "hər məhsul üçün %{price}",
+          "label": "%{price}/ədəd"
+        },
+        "quantity_label": "Miqdar",
+        "product_change_label": "Dəyiş",
+        "product_image_label": "Məhsulun şəkli",
+        "product_image_quantity_label": "Miqdar",
+        "scroll_order_summary": "Daha çox element üçün aşağı sürüşdürün",
+        "expand_order_summary_short": "Göstər",
+        "collapse_order_summary_short": "Gizlət",
+        "original_price": "İlkin qiymət",
+        "sale_price": "Satış qiyməti",
+        "compare_at_sale": "Endirim (%{sale_amount})",
+        "total_updated_label": "Yenilənmiş ümumi qiymət:",
+        "order_total_updated_label": "Yenilənmiş cəmi",
+        "total_already_paid_label": "Ödənilib",
+        "waived_label": "İstisna edilmiş",
+        "unit_price": {
+          "accessible_separator": "hər",
+          "content_html": "%{price}%{accessible_separator}%{per_unit}",
+          "per_item": {
+            "single": "hər biri %{price}",
+            "one": "%{count} ədəd üçün %{price}",
+            "other": "%{count} ədəd üçün %{price}"
+          },
+          "per_unit": {
+            "single": "%{price}/%{unit}",
+            "plural": "%{price}/%{count}%{unit}"
+          }
+        },
+        "gift_card_ending": "%{last_characters} ilə bitən hədiyyə kartı",
+        "estimated_tax_label": "Təxmini vergi",
+        "multiple_shipping_lines_label": "Çatdırılma cəmi",
+        "recurring_subtotal_label": "Dövri aralıq cəmi",
+        "recurring_total_label": "Dövri cəm",
+        "recurring_total_tooltip": "Çatdırılma, vergi, rüsumlar və ya tətbiq oluna biləcək endirimlər daxil deyil",
+        "recurring_total_tooltip_taxes_included": "Çatdırılma, rəsmi rüsumlar və ya verilə biləcək endirimlər daxildir",
+        "recurring_total_tooltip_duties_included": "Çatdırılma, vergi və ya hər hansı etibarlı endirimlər daxildir",
+        "recurring_total_tooltip_taxes_and_duties_included": "Çatdırılma və ya verilə biləcək heç bir endirim daxildir",
+        "confirmation_number_label": "Təsdiq nömrəsi #%{confirmation_number}",
+        "higher_value_discount_applied": "<strong style=\"text-transform:uppercase\">%{code}</strong> mövcud endirimlərinizlə birlikdə istifadə edilə bilmədi.",
+        "percent_off_shipping": "Çatdırılmada %{percent}% endirim",
+        "amount_off_shipping": "Çatdırılmadan %{amount} endirim",
+        "deferred_payment_info": {
+          "title": "%{amount_due} məbləğində ödənişin son tarixi %{due_at}-dir.",
+          "description_html": "Sifarişinizlə bağlı suallarınız üçün %{contact_us}.",
+          "paid_today": "Bu gün ödənilən cəmi",
+          "paid_today_next": "Bu gün ödənildi",
+          "due_on_fulfillment_title": "%{amount_due} məbləğində ödəniş icra zamanı edilməlidir",
+          "due_on_receipt_title": "%{amount_due} məbləğində ödəniş təhvil alındıqda ödənilməlidir"
+        },
+        "deferred_balance_info": {
+          "title": "Balans {{amount_due}} {{due_at}} tarixində ödənilməlidir",
+          "due_on_fulfillment_title": "Təchizatla bağlı qalıq {{amount_due}} təşkil edir"
+        },
+        "payment_terms_totals": {
+          "due_today": "Bu gün ödənilməli olan məbləğ",
+          "due_today_next": "Bu gün təhvil verilməlidir",
+          "due_later": "Ödəniləcək məbləğ %{due_at}",
+          "due_on_fulfillment": "İcra zamanı ödəniləcək məbləğ",
+          "due_on_fulfillment_next": "İcra zamanı ödənilməlidir",
+          "due_on_receipt": "Alınan kimi ödənilməlidir",
+          "due_later_checkout_to_draft": "Daha sonra ödəniləcək ümumi məbləğ",
+          "total_paid": "Cəmi ödənilən"
+        },
+        "maximum_discount_code_limit_reached": "Siz endirim kodlarının maksimum sayına çatmısınız. <strong style=\"text-transform:uppercase\">%{code}</strong> kodundan istifadə etmək üçün mövcud olan kodlardan birini silin.",
+        "discount_code_application_failed": "<strong style=\"text-transform:uppercase\">%{code}</strong> hazırda işləmir. Kömək üçün bizimlə əlaqə saxlayın.",
+        "discount_code_client_error": "%{code} tətbiq edilərkən problem yarandı. Yenidən cəhd edin.",
+        "due_on_fulfillment": "İcra zamanı ödənilməlidir",
+        "gift_card_masked": "•••• %{last_characters}",
+        "subscriptions": "Abunəliklər",
+        "duties_label": "Vəzifələr",
+        "duty_label": "Vəzifə",
+        "duties_and_taxes_label": "Rüsumlar və vergilər",
+        "error_duties_tooltip": "Bu sifariş başqa ölkədən göndərilir, ona görə də çatdırılma zamanı rüsum və vergilər tətbiq oluna bilər.",
+        "may_be_charged_on_delivery": "Çatdırılma zamanı ödəniş tətbiq oluna bilər",
+        "total_updated_label_with_price": "Yenilənmiş yekun qiymət: %{totalPrice}",
+        "shipping_total_updated_label_with_price": "Yenilənmiş çatdırılma cəmi: %{totalPrice}",
+        "updated_shipping_method": "Yenilənmiş çatdırılma üsulu: %{shipping_method}",
+        "recurring_payments": "Dövri ödənişlər",
+        "recurring_total_multiple_label": "Bu sifarişin bir neçə məhsul üçün təkrarlanan ödənişi var",
+        "deferred_total_due_date_label": "Ümumi borc {{date}}",
+        "deferred_total_due_date_label_next": "Son tarix: %{date}",
+        "full_price": "Tam qiymət: %{price}",
+        "custom_discount": "Fərdi endirim",
+        "expand_component_information": {
+          "one": "%{count} elementi göstər"
+        },
+        "title": "Sifariş xülasəsi"
+      },
+      "remote_merchandise_only": {
+        "title": "Satınalmanı tamamla",
+        "remote_only_notice": "Bu məhsullar digər mağazalar tərəfindən satılır və çatdırılır. Satın almanı tamamlamaq üçün hər mağaza ilə ödəniş edin.",
+        "return_to_store_label": "Mağazaya qayıt",
+        "detail_item_label": {
+          "one": "{{count}} əşya",
+          "other": "{{count}} əşya"
+        },
+        "checkout_on_shop_label": "%{shop_name} saytında ödəniş edin",
+        "single_shop_transition": "Satınalma prosesini tamamlamaq üçün sizi %{advertiser}-ə yönləndiririk."
+      },
+      "stock": {
+        "page_title": "Anbar problemləri",
+        "title": "Anbarda yoxdur",
+        "items_unavailable_notice": "Bəzi əşyalar artıq mövcud deyil.",
+        "product_column_header": "Məhsullar",
+        "quantity_column_header": "Miqdar",
+        "price_column_header": "Qiymət",
+        "status_column_header": "Status",
+        "removed_from_cart_notice": "Səbətdən çıxarıldı",
+        "sold_out_label": "Satılıb",
+        "reduced_label": "Azaldılmış",
+        "reduced_with_quantity_label": "Yalnız %{quantity_available} ədəd qaldı",
+        "remove_from_cart_button_label": "Səbətdən sil",
+        "continue_shopping_button_label": "Davam et",
+        "go_back_to_cart_button_label": "Səbətimə qayıt",
+        "remove": "Sil",
+        "return_to_store_label": "Mağazaya qayıt",
+        "continue_cta_label": "Ödənişi davam etdir",
+        "item_label": {
+          "one": "{{count}} əşya",
+          "other": "{{count}} əşya"
+        },
+        "empty_cart_label": "Səbətiniz boşdur",
+        "quantity_update": {
+          "page_title": "Miqdar yenilənməsi",
+          "title": "Miqdar yenilənməsi",
+          "description": "Bu məhsulların mövcud miqdarları dəyişib və səbətinizdə yenilənib."
+        },
+        "unpurchasable_product": {
+          "title": "Alınması mümkün olmayan məhsul",
+          "header": "Səbətinizdən bəzi məhsullar çıxarıldı",
+          "message": "Bu məhsullar B2B sifarişləri üçün mövcud deyil.",
+          "status_column_header": "Mövcud deyil"
+        },
+        "unpurchasable_product_generic": {
+          "title": "Alınması mümkün olmayan məhsul",
+          "header": "Səbətinizdən bəzi məhsullar çıxarıldı",
+          "message": "Bu əşyalar mövcud deyil.",
+          "status_column_header": "Mövcud deyil"
+        },
+        "unfulfillable_product": {
+          "title": "Çatdırılma mümkün deyil",
+          "message": {
+            "one": "%{delivery_method} bu məhsul üçün artıq əlçatan deyil.",
+            "other": "%{delivery_method} bu məhsullar üçün artıq əlçatan deyil."
+          },
+          "default_message": {
+            "one": "Seçilmiş çatdırılma üsulu bu məhsul üçün artıq əlçatan deyil.",
+            "other": "Seçilmiş çatdırılma üsulu bu məhsullar üçün artıq əlçatan deyil."
+          }
+        },
+        "unshippable_product": {
+          "title": "Çatdırılma mümkün deyil",
+          "header": {
+            "one": "%{count} məhsul üçün çatdırılma mövcud deyil",
+            "other": "%{count} məhsul üçün çatdırılma mümkün deyil"
+          },
+          "message": {
+            "one": "Bu məhsul səbətinizdən çıxarılacaq, çünki ünvanınız üçün çatdırılma üsulu mövcud deyil.",
+            "other": "Bu məhsullar səbətinizdən silinəcək, çünki ünvanınız üçün mövcud çatdırılma üsulu yoxdur."
+          },
+          "status_column_header": "Çatdırılma yoxdur"
+        },
+        "price_update": {
+          "title": "Qiymət yeniləməsi",
+          "description": "Bu məhsulların qiymətləri dəyişib və səbətinizdə yenilənib.",
+          "updated_price": "Yenilənmiş qiymət"
+        },
+        "price_and_quantity_update": {
+          "title": "Qiymət və miqdar yeniləməsi",
+          "description": "Bu məhsulların qiymətləri və mövcud miqdarları dəyişib və səbətinizdə yenilənib."
+        },
+        "out_of_stock": {
+          "description": "Bu məhsullar artıq mövcud deyil və səbətinizdən silinəcək.",
+          "items_unavailable": "Bəzi məhsullar artıq mövcud deyil və səbətinizdən silinəcək.",
+          "missing_items": {
+            "title": {
+              "one": "{{count}} əşya artıq mövcud deyil",
+              "other": "{{count}} məhsul artıq mövcud deyil"
+            },
+            "some_available_notice": {
+              "one": "Qalan məhsullar hələ də kassada mövcuddur. Mövcud olmayan məhsul səbətdən silinəcək.",
+              "other": "Qalan əşyalar hələ də ödəniş üçün mövcuddur. Mövcud olmayan əşyalar səbətdən silinəcək."
+            },
+            "none_available_notice": {
+              "one": "Bu məhsul artıq mövcud deyil və sizin səbətinizdən silinib.",
+              "other": "Bu məhsullar artıq mövcud deyil və səbətinizdən çıxarılıb."
+            },
+            "mixed_issues_title": "Bəzi əşyalar artıq mövcud deyil"
+          }
+        },
+        "out_of_stock_in_context_label": "Bu məhsul sizin ölkənizdə/regionunuzda mövcud deyil.",
+        "unavailable_at_pickup_location_label": "Bu məhsul seçilmiş ünvanda təhvil alınmaq üçün mövcud deyil."
+      },
+      "contextual_availability": {
+        "title": {
+          "one": "Mövcud olmayan məhsul",
+          "other": "Mövcud olmayan məhsullar"
+        },
+        "products_not_available": {
+          "one": "Bu məhsul ölkənizdə/regionunuzda əlçatan olmadığı üçün səbətinizdən çıxarılacaq.",
+          "other": "Bu məhsullar ölkənizdə/regionunuzda mövcud olmadığı üçün səbətinizdən silinəcək."
+        },
+        "all_products_in_cart_unavailable": {
+          "one": "Bu məhsul sizin ölkənizdə/regionunuzda mövcud deyil.",
+          "other": "Bu məhsullar sizin ölkənizdə/bölgənizdə mövcud deyil."
+        },
+        "unavailable_label": "Mövcud deyil"
+      },
+      "merchandise_unavailable_in_buyer_location": {
+        "banner_title": {
+          "some_products_one": "Bu məhsul %{location_name} ünvanına çatdırılmır.",
+          "some_products_other": "Bu məhsulların %{location_name} ünvanına çatdırılması mümkün deyil.",
+          "all_products_one": "Səbətinizdəki məhsul %{location_name} ünvanına çatdırılmaq üçün əlçatan deyil.",
+          "all_products_other": "Səbətinizdəki məhsulların %{location_name} ünvanına çatdırılması mümkün deyil."
+        },
+        "missing_country_fallback": "sizin ölkəniz",
+        "indeterminate_location_fallback": "sizin yeriniz",
+        "cart_updated": "Səbətiniz yeniləndi.",
+        "change_address_only": "Davam etmək üçün çatdırılma ünvanını dəyişin.",
+        "change_address_or_remove": "Çatdırılma ünvanını dəyişin və ya %{remove_action}.",
+        "remove_items_action": {
+          "one": "mövcud olmayan elementi silin",
+          "other": "mövcud olmayan elementləri silin"
+        },
+        "empty_cart_action": "səbəti boşalt və mağazaya qayıt",
+        "unavailable_line_item": "%{product_name} / %{variant_label}"
+      },
+      "deliverability": {
+        "not_deliverable": {
+          "title": {
+            "one": "%{count} məhsul üçün çatdırılma mövcud deyil",
+            "other": "%{count} məhsul üçün çatdırılma mümkün deyil"
+          },
+          "message": {
+            "one": "Bu məhsul səbətinizdən çıxarılacaq, çünki ünvanınız üçün çatdırılma üsulu mövcud deyil.",
+            "other": "Bu məhsullar səbətinizdən silinəcək, çünki ünvanınız üçün mövcud çatdırılma üsulu yoxdur."
+          },
+          "label": "Çatdırılma yoxdur"
+        }
       }
     },
     "store_availability": {
