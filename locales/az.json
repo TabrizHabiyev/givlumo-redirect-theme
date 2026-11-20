@@ -1788,7 +1788,125 @@
       },
       "shipping": {
         "add_new_delivery_address": "Yeni çatdırılma ünvanı əlavə edin",
-        "choose_new_address": "Yeni ünvan seçin"
+        "choose_new_address": "Yeni ünvan seçin",
+        "title": "Çatdırılma",
+        "delivery_title": "Çatdırılma",
+        "shipping_method_title": "Çatdırılma üsulu",
+        "shipping_method_rollup_accessibility_label": "Çatdırılma üsulu seçimləri",
+        "shipping_method_one_time_purchase_group_title": "Birdəfəlik alış",
+        "shipping_method_first_shipment_group_title": {
+          "one": "İlk göndəriş",
+          "other": "İlk göndərişlər"
+        },
+        "shipping_method_subscription_group_title": "Abunəlik",
+        "shipping_method_recurring_shipments_group_title": {
+          "one": "Dövri çatdırılma",
+          "other": "Dövri çatdırılmalar"
+        },
+        "subscription_shipping": "Abunəliklə çatdırılma",
+        "subscription_local_delivery": "Abunəliklə yerli çatdırılma",
+        "subscription_pickup": "Abonəlik təhvil alınması",
+        "waiting_on_rate_notice": "Çatdırılma qiymətləri hesablanır…",
+        "waiting_on_pickup_location_notice": "Mövcud çatdırılma məntəqələri əldə edilir…",
+        "no_rates_for_cart_or_destination_notice": "Səbətiniz və ya ünvanınız üçün mövcud çatdırılma üsulu yoxdur",
+        "no_pickup_location_notice": "Məhsullarınızdan ən azı biri götürülmə üçün əlçatan deyil",
+        "no_rates_for_country_notice": "Bu ünvan üçün çatdırılma tarifi tapılmadı.",
+        "no_rates_contact_notice": "Daha çox məlumat üçün bizimlə əlaqə saxlayın",
+        "free_rate_label": "Pulsuz",
+        "cheapest_rate_label": "Ən ucuz",
+        "included_rate_label": "Daxildir",
+        "included_rate_accessibility_label": "Birləşdirilmiş çatdırılma haqqına daxildir",
+        "estimated_delivery_date": {
+          "one": "%{count} iş günü",
+          "other": "%{count} iş günü"
+        },
+        "estimated_delivery_date_range": "%{minimum} - %{maximum} iş günü",
+        "delivery_date_range": "%{min_time}–%{max_time}",
+        "estimated_delivery_time": "Təxmini çatdırılma vaxtı %{time}",
+        "estimated_delivery_time_range": "Təxmini çatdırılma %{min_time}–%{max_time}",
+        "delivery_today": "Eyni gündə çatdırılma %{time}",
+        "delivery_tomorrow": "Növbəti gün çatdırılma %{time}",
+        "two_day_delivery": "2 gün ərzində çatdırılma %{time}",
+        "delivery": "Çatdırılma %{time}",
+        "delivery_to": "Çatdırılma ünvanı",
+        "arrives_time": "%{time} çatır",
+        "arrives_time_range": "Çatdırılma: %{min_time}–%{max_time}",
+        "estimated_time": "Təxmini %{time}",
+        "estimated_time_range": "Təxmini %{min_time}–%{max_time}",
+        "default_description": "1 iş günü ərzində göndərilir",
+        "unbranded_default_description": "Göndərilməyə hazırdır",
+        "unbranded_description_same_day": "Eyni iş günü ərzində göndərilir",
+        "unbranded_description_with_fulfillment_days": {
+          "one": "Növbəti iş günü göndərilir",
+          "other": "%{count} iş günü ərzində göndərilir"
+        },
+        "unbranded_description_with_fulfillment_weeks": {
+          "one": "%{count} həftə ərzində göndərilir",
+          "other": "%{count} həftə ərzində göndərilir"
+        },
+        "shipping_line_phone_label": "Mobil telefon nömrəsi (tələb olunur)",
+        "shipping_line_phone": "Kuryeriniz sizinlə əlaqə saxlamaq üçün bu nömrədən istifadə edə bilər.",
+        "shipping_line_delivery_phone_label": "Mobil telefon nömrəsi",
+        "shipping_line_delivery_phone": "Çatdırılmanızla bağlı yeniliklər üçün sizinlə əlaqə saxlanıla bilər.",
+        "optional_shipping_line_delivery_instructions_label": "Çatdırılma təlimatları (istəyə bağlı)",
+        "shipping_line_delivery_instructions": "Qapı kodları və ya çatdırılma təlimatları kimi lazımi məlumatları daxil edin.",
+        "other_method": {
+          "zero": "Başqa heç bir üsul mövcud deyil",
+          "one": "%{count} digər metod mövcuddur:",
+          "other": "%{count} digər üsul mövcuddur, başlanğıc qiyməti:"
+        },
+        "shipping_rate_discounted_amount": "Əvvəl: %{original_amount}. İndi: %{amount}",
+        "local_delivery": "Yerli çatdırılma",
+        "prime_not_available": {
+          "default": "Sifarişiniz üçün Prime çatdırılma mümkün deyil. Çatdırılma seçimləriniz yeniləndi."
+        },
+        "subscription_delivery_description": {
+          "free_shipping_cycles": {
+            "one": "%{count} çatdırılma üçün pulsuz çatdırılma",
+            "other": "%{count} çatdırılma üçün pulsuz çatdırılma"
+          },
+          "free_shipping_cycles_delivery_not_included": {
+            "one": "%{count} çatdırılma üçün pulsuz çatdırılma",
+            "other": "%{count} çatdırılma üçün pulsuz çatdırılma"
+          },
+          "first_n_order_free_with_cycle": {
+            "one": "%{count} çatdırılma üçün pulsuz çatdırılma, daha sonra %{recurring_order_shipping_price}",
+            "other": "%{count} çatdırılma üçün pulsuz çatdırılma, daha sonra %{recurring_order_shipping_price}"
+          },
+          "first_n_order_free_with_cycle_delivery_not_included": {
+            "one": "%{count} çatdırılma üçün pulsuz çatdırılma, sonra isə %{recurring_order_shipping_price}",
+            "other": "%{count} çatdırılma üçün pulsuz çatdırılma, sonra %{recurring_order_shipping_price}"
+          },
+          "max_cycles_base_shipping": {
+            "one": "%{shipping_price} qiymətinə daha %{count} çatdırılma",
+            "other": "%{count} çatdırılma daha, hər biri %{shipping_price} dəyərində"
+          },
+          "max_cycles_base_shipping_delivery_not_included": {
+            "one": "%{count} çatdırılma, %{shipping_price} qiymətinə",
+            "other": "%{count} çatdırılma daha, hər biri %{shipping_price} dəyərində"
+          },
+          "prepaid_free_shipping_with_cycles": {
+            "one": "İlk %{cycle} üçün pulsuz çatdırılma, daha sonra isə %{recurring_order_shipping_price}",
+            "other": "İlk %{cycle} üçün pulsuz çatdırılma, daha sonra isə %{recurring_order_shipping_price}"
+          },
+          "prepaid_order_one_cycle": {
+            "one": "%{count} çatdırılma üçün %{shipping_price}",
+            "other": "%{count} əlavə çatdırılma üçün %{shipping_price} (%{per_delivery_cost})"
+          },
+          "prepaid_order_one_cycle_delivery_not_included": {
+            "one": "%{count} çatdırılma üçün %{shipping_price}",
+            "other": "%{count} çatdırılma üçün %{shipping_price} (%{per_delivery_cost})"
+          },
+          "prepaid_order_no_cycle": {
+            "one": "%{count} əlavə çatdırılma üçün %{shipping_price}, daha sonra isə %{recurring_order_shipping_price}",
+            "other": "%{count} çatdırılma üçün %{shipping_price} (%{per_delivery_cost}), ardınca isə %{recurring_order_shipping_price}"
+          },
+          "prepaid_order_no_cycle_delivery_not_included": {
+            "one": "%{count} çatdırılma üçün %{shipping_price}, ardınca isə %{recurring_order_shipping_price}",
+            "other": "%{count} çatdırılma üçün %{shipping_price} (%{per_delivery_cost}), ardınca isə %{recurring_order_shipping_price}"
+          },
+          "subscription_free_with_frequency_label": "Pulsuz çatdırılma %{delivery_frequency}"
+        }
       },
       "localized_fields": {
         "additional_information": {
@@ -2112,9 +2230,163 @@
         "full_price": "Tam qiymət: %{price}",
         "custom_discount": "Fərdi endirim",
         "expand_component_information": {
-          "one": "%{count} elementi göstər"
+          "one": "%{count} elementi göstər",
+          "other": "%{count} element göstər"
         },
-        "title": "Sifariş xülasəsi"
+        "title": "Sifariş xülasəsi",
+        "collapse_component_information": {
+          "one": "%{count} elementi gizlət",
+          "other": "%{count} elementi gizlət"
+        },
+        "component_quantity_title": "%{quantity} × %{product_title}",
+        "discount_discovery": {
+          "add_code": "Endirim əlavə et",
+          "back_to_finalize_order": "Sifarişi tamamlamaq üçün qayıtdım",
+          "merchandise_quantity_label": {
+            "one": "%{count} ədəd",
+            "other": "%{count} element"
+          }
+        },
+        "alternative_payment_currency_total": "%{amount_due} məbləğində hesablanıb",
+        "alternative_payment_currency_chinese_yuan": "%{wallet} tətbiqində yekun CNY ümumi məbləğini təsdiqləyin.",
+        "lpm": {
+          "wechat_pay": {
+            "checkout_disclosure": "WeChat tətbiqində yekun CNY məbləğini təsdiqləyin",
+            "checkout_disclosure_with_alternative_payment_currency": "%{shop_name} bu ödənişi %{amount_due} %{processing_currency} olaraq emal edəcək və WeChat bunu CNY-ə çevirəcək",
+            "checkout_disclosure_charged_in_cny": "%{shop_name} bu ödənişi %{amount_due} %{processing_currency} olaraq emal edəcək.",
+            "post_purchase_disclosure": "WeChat-da ümumi CNY məbləğinə baxın"
+          },
+          "alipay": {
+            "checkout_disclosure": "Alipay proqramında yekun CNY məbləğini təsdiqləyin",
+            "checkout_disclosure_with_alternative_payment_currency": "%{shop_name} bu ödənişi %{processing_currency} %{amount_due} olaraq emal edəcək və Alipay bunu CNY-ə çevirəcək",
+            "checkout_disclosure_charged_in_cny": "%{shop_name} bu ödənişi %{amount_due} %{processing_currency} olaraq emal edəcək.",
+            "post_purchase_disclosure": "Alipay-də CNY cəminə baxın"
+          }
+        },
+        "pay_merchant_label": "%{merchant_name}-ə ödəyin",
+        "discount_applies_to_subscription_items_only": "Bu endirim yalnız abunəlik məhsullarına şamil edilir",
+        "secondary_aside_label": "Ödəniş zamanı əlavə məlumat",
+        "final_sale": "Yekun satış",
+        "product_disclosures": {
+          "title": "Məhsul haqqında məlumatların açıqlanması"
+        },
+        "group_title_label": "\"%{group_title}\" qrupunun bir hissəsi",
+        "for_add_on": "Üçün: %{group_title}",
+        "from_shop_heading": "%{shop_name}-dən",
+        "from_other_stores_heading": "Digər mağazalardan",
+        "from_multiple_stores_heading": "Müxtəlif mağazalardan",
+        "number_items": {
+          "one": "%{count} ədəd",
+          "other": "%{count} element"
+        },
+        "view_all_items": {
+          "one": "%{count} elementə bax",
+          "other": "Bütün %{count} elementi göstər"
+        },
+        "more_items_modal": {
+          "search_item": "Axtar",
+          "clear_search": "Axtarışı təmizlə",
+          "empty_results": "\"%{searchText}\" üçün heç bir nəticə tapılmadı. Yazılışı yoxlayın və ya başqa söz və ya ifadədən istifadə edin.",
+          "number_items_shown": "%{totalNumber} elementdən %{shownNumber}-i"
+        },
+        "order_name_label": "%{name} sifarişi",
+        "shopping_cart_label": "Alış-veriş səbəti",
+        "discount_title": "Endirim",
+        "item_discounts_label": "Məhsul Endirimləri",
+        "discount_title_with_position": "Endirim %{position}",
+        "discount_title_stacking": {
+          "one": "Endirim",
+          "other": "Endirimlər"
+        },
+        "discount_order_stacking": {
+          "one": "Sifariş endirimi",
+          "other": "Sifariş endirimləri"
+        },
+        "discount_label": "Endirim kodu",
+        "discount_not_found": "Daxil edilmiş kodla uyğun gələn etibarlı endirim tapılmadı",
+        "discount_placeholder": "Endirim kodu",
+        "discount_code_applied": "Endirim kodu tətbiq edildi",
+        "discount_code_applied_with_code": "%{code} endirim kodu tətbiq edildi",
+        "discount_code_removed": "%{code} endirim kodu silindi",
+        "discount_code_replaced": "%{old_code} endirim kodu silindi və %{code} tətbiq edildi",
+        "discount_code_replaced_multiple": "Bir neçə endirim kodu ləğv edildi və %{code} tətbiq olundu",
+        "discount_code_allocations_mismatch": "<strong style=\"text-transform:uppercase\">%{code}</strong> endirim kodunuz dəyişdirilib. Səbətinizi nəzərdən keçirin və yenidən cəhd edin.",
+        "order_discounts_apply_to_local_shop": "Sifariş endirimləri yalnız %{shop_name} mağazasından olan məhsullara şamil edilir",
+        "gift_card_applied": "Hədiyyə kartı tətbiq edildi",
+        "enter_shipping_address": "Çatdırılma ünvanını daxil edin",
+        "gift_card_title": "Hədiyyə kartı",
+        "gift_card_label": "Hədiyyə kartı",
+        "gift_card_placeholder": "Hədiyyə kartı",
+        "gift_card_and_discount_title": "Endirim kodu və ya hədiyyə kartı",
+        "gift_card_and_discount_label": "Endirim kodu və ya hədiyyə kartı",
+        "gift_card_and_discount_placeholder": "Endirim kodu və ya hədiyyə kartı",
+        "gift_cards_apply_to_local_shop": "Hədiyyə kartları yalnız %{shop_name} mağazasının məhsullarına şamil edilir",
+        "add_discount_or_gift_card": "Endirim kodu və ya hədiyyə kartı əlavə edin",
+        "remove_gift_card_label": "Şəffaf hədiyyə kartı",
+        "remove_discount_label": "Endirimi ləğv et",
+        "return_restocking_fee_label": "Anbarlaşdırma haqqı",
+        "return_shipping_fee_label": "Geri qaytarılma çatdırılması",
+        "free_shipping_discount_label": "Pulsuz çatdırılma",
+        "applied_free_shipping_discount_label": "Müraciət edildi",
+        "apply_discount_button_label": "Müraciət et",
+        "applied_discount_message": "Ümumi sifariş məbləğindən %{amount} endirim",
+        "discount_has_been_applied": "Endirim tətbiq edildi",
+        "discount_has_been_removed": "Endirim ləğv edildi",
+        "automatic_discount_tooltip": "Avtomatik tətbiq olunan endirimləri silmək mümkün deyil",
+        "gift_card_has_been_applied": "Hədiyyə kartı tətbiq edildi",
+        "gift_card_has_been_removed": "Hədiyyə kartı silindi",
+        "gift_card_subscriptions_notice": "Hədiyyə kartları yalnız ilk ödənişinizə şamil ediləcək.",
+        "discount_already_applied": "Bu sifarişə endirim tətbiq edilib. Siz başqa bir endirim əlavə edə bilməzsiniz.",
+        "cart_does_not_meet_discount_requirements_notice": "<strong style=\"text-transform:uppercase\">%{code}</strong> endirim kodu səbətinizdəki məhsullar üçün keçərli deyil",
+        "discount_requires_customer_notice": "<strong style=\"text-transform:uppercase\">%{code}</strong> endirim kodunu tətbiq etmək üçün çatdırılma məlumatlarınızı daxil edin",
+        "customer_does_not_meet_discount_requirements_notice": "<strong style=\"text-transform:uppercase\">%{code}</strong> endirim kodu hazırda sizin üçün aktiv deyil",
+        "eligible_customer_missing_notice": "<strong style=\"text-transform:uppercase\">%{code}</strong> endirim kodu uyğun müştəri tələb edir",
+        "shipping_information_does_not_meet_discount_requirements_notice": "<strong style=\"text-transform:uppercase\">%{code}</strong> endirim kodu çatdırılma ünvanınız üçün keçərli deyil",
+        "customer_already_used_once_per_customer_discount_notice": "<strong style=\"text-transform:uppercase\">%{code}</strong> endirim kodu artıq istifadə olunub",
+        "subtotal_label": "Ara cəm",
+        "subtotal_label_with_quantity": {
+          "one": "Cəmi · %{count} məhsul",
+          "other": "Ara cəmi · %{count} məhsul"
+        },
+        "shipping_label": "Çatdırılma",
+        "pickup_label": "Mağazadan təhvil alma",
+        "no_pickup_location": "Heç bir çatdırılma məntəqəsi mövcud deyil.",
+        "pickup_unavailable_banner_title": {
+          "one": "Axtardığınız məhsul üçün mağaza tapılmadı",
+          "other": "Sizin seçdiyiniz məhsulların olduğu mağaza yoxdur"
+        },
+        "pickup_unavailable_banner_title_with_country": {
+          "one": "%{country}-də əşyanız üçün heç bir mağaza mövcud deyil",
+          "other": "%{country}-da seçdiyiniz məhsullar üçün mağaza tapılmadı"
+        },
+        "pickup_unavailable_banner_body": {
+          "ship_to_address": "Çatdırılma ünvanı",
+          "ship_to_address_instead_html": "%{link} əvəzinə"
+        },
+        "tip_label": "İpucu",
+        "unconfirmed_label": "Təsdiqlənməmiş",
+        "calculating_shipping": "Hesablanır…",
+        "calculating": "Hesablanır…",
+        "shipping_default_value": "Növbəti mərhələdə hesablanacaq",
+        "shipping_discount_title": "Çatdırılma endirimi",
+        "shipping_pending_message": "Hələ mövcud deyil",
+        "shipping_policy_link": "Çatdırılma xərcləri",
+        "taxes_label": "Vergilər",
+        "tax_label": "Vergi",
+        "tax_line": {
+          "hst": "HST",
+          "gst": "ƏDV",
+          "pst": "PST",
+          "rst": "RST",
+          "qst": "QST",
+          "vpt": "VPT"
+        },
+        "estimated_taxes_label": "Vergi hesablamaları",
+        "estimated_taxes_label_short": "Təxmini",
+        "information_estimated_taxes_label": "Vergilər (təxmini)",
+        "estimated_taxes_finalization_tooltip_content": "Sifarişinizi yerləşdirdikdən sonra yekun vergi və ümumi məbləğ e-poçt və ya SMS vasitəsilə təsdiqlənəcək.",
+        "estimated_taxes_finalization_tooltip_content_short": "Ödənişdən sonra vergi yekunlaşdırıldı",
+        "order_total_label": "Sifarişin yekunu"
       },
       "remote_merchandise_only": {
         "title": "Satınalmanı tamamla",
