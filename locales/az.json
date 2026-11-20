@@ -1092,7 +1092,37 @@
           "one": "Məhsulunuz üçün təhvil məntəqəsi mövcud deyil",
           "other": "Məhsullarınız üçün təhvil məntəqəsi mövcud deyil"
         },
-        "no_pickup_points_found": "Heç bir çatdırılma məntəqəsi tapılmadı"
+        "no_pickup_points_found": "Heç bir çatdırılma məntəqəsi tapılmadı",
+        "paginator": {
+          "next_accessibility_label": "Növbəti səhifə",
+          "previous_accessibility_label": "Əvvəlki səhifə",
+          "header": {
+            "one": "%{count} nöqtədən %{first} - %{last} arası göstərilir",
+            "other": "%{first} - %{last} arası, cəmi %{count} xal göstərilir"
+          },
+          "selected_pickup_point_label": {
+            "one": "%{count} məntəqədən %{pickup_point_index}-si",
+            "other": "%{count} nöqtədən %{pickup_point_index}-si"
+          },
+          "selected_page": {
+            "one": "%{first} - %{last}, %{count} xaldan",
+            "other": "%{first} - %{last} / %{count} xal"
+          }
+        },
+        "number_of_pickup_points_near_location": {
+          "one": "Məkanınızın yaxınlığında %{count} çatdırılma məntəqəsi",
+          "other": "Məkanınızın yaxınlığında %{count} çatdırılma nöqtəsi"
+        },
+        "change": "Məkanı dəyişin",
+        "waiting_on_pickup_point_location_notice": "Çatdırılma məntəqələri axtarılır...",
+        "geolocation": {
+          "shared_location_button": "Məkanımdan istifadə et",
+          "errors": {
+            "unsuported_by_browser": "Brauzeriniz coğrafi mövqe təyini funksiyasını dəstəkləmir. Yenidən cəhd edin və ya başqa brauzerdən istifadə edin.",
+            "permission_not_allowed": "Məkanınızı paylaşmağa icazə verin.",
+            "permission_denied": "Məkanınızı təyin etmək mümkün olmadı. Yenidən cəhd edin."
+          }
+        }
       },
       "redeemable_errors": {
         "gift_card": {
@@ -1580,6 +1610,52 @@
         },
         "geolocation": {
           "permission_not_allowed": "Məkan paylaşımına icazə verin və ya bunun əvəzinə axtarın."
+        },
+        "title": "Məkan",
+        "only_fully_stocked_locations": "Yalnız bütün məhsulları stokda olan məkanları göstər",
+        "unavailable_item_count": {
+          "one": "%{count} ədəd mövcud deyil",
+          "other": "%{count} məhsul mövcud deyil"
+        },
+        "ship_separately_notice": {
+          "one": "%{count} ədəd məhsul ayrıca göndəriləcək",
+          "other": "%{count} ədəd məhsul ayrı-ayrılıqda göndəriləcək"
+        },
+        "stock_details": {
+          "out_of_stock": "Bu ünvanda stokda yoxdur",
+          "in_stock": "Anbarda var",
+          "ship_separately": {
+            "one": "Ayrı göndəriləcək",
+            "other": "Ayrı göndəriləcək"
+          },
+          "remove_items": {
+            "one": "Sifarişinizdən silinəcək",
+            "other": "Sifarişinizdən silinəcək"
+          }
+        },
+        "stock_details_modal": {
+          "unavailable_title": "Götürülmə üçün əlçatan deyil",
+          "location": "%{location}-da",
+          "can_ship_description": {
+            "one": "Bu məhsul seçdiyiniz təhvil məntəqəsində tükənib.",
+            "other": "Bu məhsullar seçdiyiniz təhvil məntəqəsində mövcud deyil."
+          },
+          "cannot_ship_description": {
+            "one": "Bu məhsul seçdiyiniz təhvil məntəqəsində yoxdur və çatdırılması mümkün deyil.",
+            "other": "Bu məhsullar seçdiyiniz təhvil məntəqəsində mövcud deyil və çatdırılması mümkün deyil."
+          },
+          "cannot_ship_bundle_description": {
+            "one": "Bu məhsul seçdiyiniz təhvil məkanında yoxdur və göndərilə bilməz. Paket halında olan digər məhsullar da siyahıdan silinəcək.",
+            "other": "Seçdiyiniz əlaqə nöqtəsində bu məhsullar yoxdur və göndərilə bilməz. Paket halında olan məhsullar da silinəcək."
+          },
+          "ship_separately": "Ayrı göndərin",
+          "choose_different_location": "Başqa bir məkan seçin"
+        },
+        "bundle_removal_modal": {
+          "message": {
+            "one": "{{items}} {{bundle}}-ın bir hissəsidir. Paketdəki digər elementlər də silinəcək.",
+            "other": "{{items}} {{bundle}}-in bir hissəsidir. Paketdəki digər elementlər də silinəcək."
+          }
         }
       },
       "billing": {
@@ -2595,6 +2671,100 @@
       },
       "address_management": {
         "saved_with_store": "Bu mağaza ilə yadda saxlanıldı"
+      },
+      "error_page": {
+        "terminal": {
+          "title": "Ödəniş prosesində bir problem yarandı",
+          "message": "Bu səhifəni yeniləyin və ya bir neçə dəqiqədən sonra yenidən cəhd edin",
+          "action": {
+            "cta": "Səhifəni yenilə"
+          },
+          "request_id": "Sorğu ID: {{requestId}}"
+        },
+        "embed_errors": {
+          "storefront_password_required": "Bu mağaza parolla qorunur",
+          "customer_account_required": "Sifarişi tamamlamaq üçün müştəri hesabı tələb olunur",
+          "cart_completed": "Bu ödəniş artıq tamamlanıb",
+          "invalid_cart": "Səbət artıq etibarlı deyil",
+          "not_authorized": "Ödənişin təsdiqi alınmadı. Tətbiqinizin etimadnamələrini (credentials) yoxlayın.",
+          "killswitch_enabled": "Ödəniş sistemi müvəqqəti olaraq fəaliyyət göstərmir",
+          "policy_violation": "Siyasət konfiqurasiyası məhdudiyyətləri səbəbindən ödənişi tamamlamaq mümkün deyil",
+          "unrecoverable_failure": "Ödəniş səhifəsini yükləmək mümkün olmadı. Yenidən cəhd edin"
+        }
+      },
+      "notice_banner": {
+        "return_to_cart_link_text": "Səbətə qayıt",
+        "return_to_cart_to_update_quantities": "Miqdarları yeniləmək üçün %{return_to_cart_link_text}",
+        "subscription_changed": "Abunəliklərinizdən biri dəyişdirildi.",
+        "company_location_changed": "Səbətiniz yeniləndi. Sifarişi təsdiqləməzdən əvvəl onu nəzərdən keçirin.",
+        "company_location_changed_product_removed": "Səbətiniz yeniləndi, çünki bəzi məhsullar bu məkanda mövcud deyil. Sifarişinizi təsdiqləməzdən əvvəl nəzərdən keçirin.",
+        "violations_title": "{{violation}} əskikdir və ya etibarsızdır",
+        "individual_violations_title": {
+          "DeliveryViolations": "Çatdırılma ünvanı",
+          "PaymentViolations": "Ödəniş ünvanı",
+          "OtherViolations": "Sifariş məlumatı",
+          "UnhandledViolations": "Sifariş məlumatı"
+        },
+        "all_violations_content": "Bu məlumatları yeniləmək və sifarişinizi tamamlamaq üçün bizə zəng edin və ya {{emailLink}} yazın:",
+        "all_violations_email_link": "elektron poçt",
+        "editable_shipping_address_violations_message_title": "Sifarişinizi tamamlamaq üçün bu məlumatı əlavə edin:",
+        "editable_shipping_address_violations_message_footer": "Bu məkanın ünvanını daimi olaraq yeniləmək üçün {{emailLink}}.",
+        "editable_shipping_address_violations_email_link": "Bizimlə əlaqə saxlayın",
+        "delivery_address_validation_errors_banner": {
+          "title": "Çatdırılma ünvanı yanlışdır",
+          "text_html": "Ünvanınızı redaktə etmək üçün %{contact_us}",
+          "contact_us": "Bizimlə əlaqə saxlayın",
+          "use_different_address": "Fərqli göndərmə ünvanından istifadə edin"
+        },
+        "shipping_address_incomplete_title": "Çatdırılma ünvanı natamamdır",
+        "calculating_shipping": "Çatdırılma haqqı hələ də hesablanır. Bir neçə saniyədən sonra yenidən cəhd edin. Sizdən ödəniş tutulmayıb.",
+        "calculating_taxes": "Vergilər hələ də hesablanır. Bir neçə saniyədən sonra yenidən cəhd edin. Sizdən ödəniş tutulmayıb.",
+        "generic_processing_error": {
+          "title": "Sifarişinizin emalı zamanı problem yarandı",
+          "body": "Sizdən ödəniş tutulmayıb. Yenidən cəhd edin və ya başqa ödəniş üsulundan istifadə edin."
+        },
+        "payment_method_not_available_with_payment_terms": "Siz tərəfindən seçilmiş ödəniş üsulu artıq mövcud deyil, çünki bu sifariş üzrə ödəniş indi {{paymentTerms}} şərtləri ilədir.",
+        "payment_method_not_available_with_fulfillment_terms": "Seçdiyiniz ödəniş üsulu artıq aktiv deyil, çünki bu sifarişin ödənişi çatdırılma zamanı həyata keçirilməlidir.",
+        "payment_method_not_available_with_fixed_terms": "Seçdiyiniz ödəniş üsulu artıq aktiv deyil, çünki bu sifarişin ödənişi daha sonraya nəzərdə tutulub.",
+        "payment_method_not_available_with_review_requirement": "Seçdiyiniz ödəniş üsulu artıq əlçatan deyil, çünki sifarişiniz təsdiqləndikdən sonra ödəniş tələb olunacaq.",
+        "contact_information": {
+          "title": "Əlaqə məlumatları etibarsızdır",
+          "header": "Məlumatlarınızı yeniləmək üçün {{emailLink}}.",
+          "email_link": "Bizimlə əlaqə saxlayın"
+        },
+        "validation_errors_banner": {
+          "heading": {
+            "one": "{{count}} xəta var:",
+            "other": "{{count}} səhv aşkar edildi:"
+          },
+          "section_label": {
+            "delivery": "Çatdırılma",
+            "contact": "Əlaqə",
+            "payment": "Ödəniş",
+            "billing": "Hesablaşma"
+          }
+        }
+      },
+      "review_address_modal": {
+        "title": "Ünvanı yoxlayın",
+        "subtitle": {
+          "one": "Bu sifariş {{merchant}} tərəfindən təqdim olunan ünvana göndəriləcək.",
+          "other": "Bu sifariş {{merchant}} tərəfindən təqdim olunan ünvana göndəriləcək. Çatdırılma ünvanını seçin."
+        },
+        "subtitle_no_match": "Bu ünvan yadda saxlanılan ünvanlarınızın heç biri ilə uyğun gəlmir.",
+        "subtitle_must_use": "Sifarişiniz bu ünvana göndəriləcək.",
+        "continue": "Bu ünvanla davam edin",
+        "use_saved_address": "Başqa bir ünvandan istifadə edin",
+        "return_to_cart": "Səbətə qayıt"
+      },
+      "marketplaces": {
+        "legal_notice": {
+          "legal_text": "Rəy",
+          "link_label": "{{partnerDisplayName}} Şərtlər və Qaydalar"
+        }
+      },
+      "online_store_chat": {
+        "title": "Suallarınız var? Bizimlə çat vasitəsilə əlaqə saxlayın"
       }
     },
     "store_availability": {
@@ -3199,7 +3369,31 @@
       "update_success": {
         "title": "Ödəniş üsulu yeniləndi",
         "done_button": "Alış-verişə davam et"
-      }
+      },
+      "replacement_payment_method_title": "Əvəzedici ödəniş üsulu",
+      "title": "Ödəniş üsulları",
+      "add_payment_method_button": "Ödəniş üsulu əlavə et",
+      "add_payment_method_dropdown": {
+        "bank_account_consent": "Ödəniş üsulu əlavə etməklə, siz təsdiqlədiyiniz gələcək alış-verişlər üçün ləğv edənə qədər kartınızdan və ya bank hesabınızdan vəsait çıxılmasına icazə verirsiniz."
+      },
+      "bank_account": {
+        "iframe_title_accessibility_label": "Bank hesabı quraşdırılması",
+        "display_name": "Bank hesabı",
+        "generic_error": "Bank hesabını əlavə etmək mümkün olmadı. Bir az sonra yenidən cəhd edin."
+      },
+      "no_payment_methods_banner": "Heç bir ödəniş üsulu əlavə edilməyib",
+      "edit_payment_method_button_accessibility_label": "{{paymentMethodName}}-i redaktə edin, son rəqəmlər {{lastDigits}}",
+      "edit_payment_method_brand_button_accessibility_label": "Redaktə et {{paymentMethodName}}",
+      "delete_payment_method_button": "Sil",
+      "delete_payment_method_button_accessibility_label": "{{paymentMethodName}}-i silin",
+      "back_button": "Geri",
+      "back_button_accessibility_label": "{{paymentMethodStepTitle}} hissəsinə geri qayıt",
+      "default": "İlkin",
+      "generic_card": "Kart",
+      "expires_soon": "Bu kartın vaxtı tezliklə bitir",
+      "expired": "Bu kartın istifadə müddəti bitib",
+      "expired_badge_label": "Vaxtı keçmiş",
+      "expiring_badge_label": "Müddəti bitir"
     },
     "payment_method_brands": {
       "visa": "Viza",
@@ -3570,6 +3764,156 @@
             }
           }
         }
+      }
+    },
+    "B2B": {
+      "draft_order_details": {
+        "payment_status": {
+          "pending": {
+            "banner_due_today": "Ödənişinizin son tarixi bu gündür",
+            "banner_due_today_for_multiple_fulfillments": "Bu gün {{count}} yerinə yetirmə üçün ödəniş edilməlidir",
+            "banner_overdue_for_multiple_fulfillments": "{{count}} yerinə yetirilmə üçün ödəniş edilməlidir",
+            "title": "Ödəniş müddəti çatıb",
+            "title_with_date": "Ödəniş tarixi {{date}}",
+            "title_due_on_receipt": "Ödənişin vaxtı hələ çatmayıb",
+            "title_due_on_fulfillment": "Ödəniş icra olunduqda həyata keçirilməlidir",
+            "description_partially_paid": "Bu sifariş qismən ödənilib. Sizin qalan balansınız var.",
+            "description_waiting_for_manual_payment": "Bu sifarişin ödənişi gözlənilir. Ödəniş alındıqda balans yenilənəcək.",
+            "description_due_on_receipt": "Ödəniş vaxtı çatdıqda sizə hesab-faktura göndəriləcək.",
+            "description_due_on_receipt_partially_paid": "Bu sifariş qismən ödənilib. Sizin qalıq borcunuz var. Ödəniş vaxtı çatdıqda sizə hesab-faktura göndəriləcək."
+          },
+          "draft": {
+            "in_review": {
+              "description": "Ödəniş detalları sifariş təsdiqləndikdə müəyyən edilir.",
+              "title": "Ödəniş müddəti hələ çatmayıb"
+            },
+            "submitted": {
+              "description": "Bu sifarişi təsdiqləmək üçün ödənişi həyata keçirin.",
+              "title": "Təsdiqləmək üçün ödəyin",
+              "deposit": {
+                "title": "Ödəniş vaxtı çatıb",
+                "due_later": "Balans {{translatedName}} şərtlərinə əsaslanır və {{dueDate}} tarixində ödənilməlidir.",
+                "due_on_fulfillment": "Qalıq məbləğ bu sifarişdəki bütün məhsullar tam yerinə yetirildikdən sonra ödənilməlidir.",
+                "due_on_receipt": "Qalan məbləğ üçün sizə faktura göndəriləcək.",
+                "due_on_date": "Balans {{dueDate}} tarixində ödənilməlidir."
+              }
+            },
+            "deposit": {
+              "due_later": "{{depositAmount}} sifarişiniz təsdiqləndikdə ödəniləcək. Qalıq {{translatedName}} şərtlərinə uyğun olacaq.",
+              "due_on_fulfillment": "{{depositAmount}} sifarişiniz təsdiqləndikdə ödəniləcəkdir. Qalan məbləğ sifariş yerinə yetirildikdə ödəniləcəkdir.",
+              "due_on_receipt": "{{depositAmount}} sifarişiniz təsdiqləndikdə ödənilməlidir. Qalıq məbləğ daha sonra ödəniləcək.",
+              "due_on_date": "{{depositAmount}} sifarişiniz təsdiq edildikdə ödənilməlidir. Balans {{dueDate}} tarixində ödənilməlidir."
+            }
+          },
+          "paid": {
+            "title": "Ödənilib",
+            "title_with_date": "Ödənilib {{date}}",
+            "description": "Sifarişinizin ödənişi tam şəkildə yerinə yetirilib."
+          },
+          "refund": {
+            "title": "Geri ödənilib",
+            "title_with_date": "Geri qaytarıldı {{date}}",
+            "description_full_refund": "Bu sifariş üçün tam məbləğdə geri ödəniş aldınız.",
+            "description_single_refund": "Bu sifariş üçün sizə qismən geri ödəniş edildi.",
+            "description_multiple_refunds": "Bu sifariş üçün qismən geri ödəmələr aldınız."
+          },
+          "canceled": {
+            "title": "Ödəniş ləğv edildi",
+            "description": "Sizdən ödəniş alınmadı."
+          },
+          "due_date": "Son tarix {{date}}",
+          "total_balance": "Ümumi balans",
+          "pay_now": "İndi ödəyin",
+          "pay_now_accessibility_label": "İndi sifariş üçün ödəyin {{orderName}}",
+          "title": "Ödəniş statusu"
+        },
+        "subtitle": "Təqdim edilib {{date}}",
+        "title": "Sifariş {{name}}"
+      },
+      "payment_methods": {
+        "payment_delete": {
+          "description_without_replacement": "Bu ödəniş üsulu gələcək alış-verişlər üçün bu məkanda artıq əlçatan olmayacaq.",
+          "description_with_replacement": "Bu ödəniş üsulunun silinməsi bu məkan üçün əvvəlcədən təsdiqlənmiş ödənişlərə təsir edəcək. Qarşıdakı sifarişləri almağa davam etmək üçün onu alternativ ödəniş üsulu ilə əvəz edin."
+        },
+        "payment_details": {
+          "order_label": "Sifariş {{name}}",
+          "draft_label": "Sifariş layihəsi {{name}}"
+        }
+      },
+      "purchase_order_number": {
+        "title": "PO #{{poNumber}}"
+      }
+    },
+    "errors": {
+      "address_deletion_error": {
+        "description": "Bu ünvanı silərkən problem yarandı. Yenidən cəhd edin və ya səhifəni yeniləyin."
+      },
+      "addresses_loading_issue": {
+        "description": "Bağlantı xətası. İnternet bağlantınızı yoxlayın və yenidən cəhd edin."
+      },
+      "banner_title": {
+        "one": "{{count}} səhv var",
+        "other": "{{count}} xəta var"
+      },
+      "failed_address_creation": {
+        "description": "Ünvanınız yaradılarkən problem baş verdi. Bu səhifəni yeniləməyə çalışın və ya internet bağlantınızı yoxlayın."
+      },
+      "failed_address_update": {
+        "description": "Ünvanınızın yenilənməsi zamanı xəta baş verdi. Səhifəni yeniləməyə çalışın və ya internet bağlantınızı yoxlayın."
+      },
+      "load_address_form_error": {
+        "title": "Ünvan formasını yükləmək mümkün deyil",
+        "description": "Ünvan formasını yükləmək mümkün olmadı.",
+        "refresh_button": "Səhifəni yeniləyin"
+      },
+      "load_orders_error": {
+        "title": "Sifarişləri yükləmək mümkün olmadı",
+        "description": "Yenidən cəhd edin və ya bir az sonra qayıdın.",
+        "retry_button": "Yenidən cəhd et"
+      },
+      "load_paypal_error": {
+        "description": "PayPal yüklənərkən problem yarandı. Zəhmət olmasa, yenidən cəhd edin."
+      },
+      "logout_everywhere": {
+        "description": "Hesabdan çıxış zamanı xəta baş verdi. Zəhmət olmasa yenidən cəhd edin."
+      },
+      "no_access_to_locations": {
+        "description": "Sizin heç bir məkana girişiniz yoxdur"
+      },
+      "not_found": {
+        "description": "URL-i yoxlayın və ya bir neçə dəqiqədən sonra yenidən cəhd edin.",
+        "title": "Bu səhifəni yükləməkdə problem var"
+      },
+      "order_not_found": {
+        "description": "Bu sifariş mövcud deyil və ya onu görmək üçün icazəniz yoxdur.",
+        "title": "Sifariş tapılmadı"
+      },
+      "profile_update_error": {
+        "description": "Profilinizi yeniləyərkən problem yarandı. Səhifəni yeniləməyə çalışın və ya internet bağlantınızı yoxlayın."
+      },
+      "profile_name_update_error": {
+        "description": "Adınız yenilənərkən bir problem yarandı. Bu səhifəni yeniləməyə çalışın və ya internet bağlantınızı yoxlayın."
+      },
+      "retry_action_label": "Yenidən cəhd edin",
+      "resend_link": {
+        "too_many_requests": "Çox sayda sorğu göndərilib. Bir qədər sonra yenidən cəhd edin.",
+        "generic": "Uğursuz sorğu"
+      },
+      "load_extension_error": {
+        "title": "Xəta",
+        "description": "Bu səhifəni yeniləyin və ya bir neçə dəqiqədən sonra yenidən cəhd edin.",
+        "refresh_button": "Səhifəni yeniləyin"
+      },
+      "already_upgraded": "Müştəri hesabları artıq yenilənib.",
+      "failed_to_upgrade": "Müştəri hesabı parametrlərini yeniləmək mümkün olmadı.",
+      "not_upgraded": "Müştəri hesabları yenilənməyib.",
+      "failed_to_revert": "Müştəri hesabı parametrlərini geri qaytarmaq alınmadı.",
+      "revert_window_expired": "Geri qaytarma müddəti başa çatdı."
+    },
+    "throttle": {
+      "too_many_attempts": {
+        "message": "Çoxsaylı cəhdlər",
+        "description": "Zəhmət olmasa, bir neçə dəqiqədən sonra yenidən cəhd edin"
       }
     }
   }
