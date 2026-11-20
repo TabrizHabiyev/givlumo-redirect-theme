@@ -1319,7 +1319,132 @@
         "picked_up_title": "Sifarişiniz təhvil alındı",
         "picked_up_description_html": "Sifarişiniz %{date} tarixində %{location_name} məntəqəsindən götürülüb.",
         "contact_us": "Bizimlə əlaqə saxlayın",
-        "contact_us_lowercase": "Bizimlə əlaqə saxlayın"
+        "contact_us_lowercase": "Bizimlə əlaqə saxlayın",
+        "contact_us_html": "Köməyə ehtiyacınız var? %{contact_us}",
+        "updated_time": "%{time_ago} əvvəl yenilənib",
+        "failure": "Çatdırılmayıb",
+        "failed_title": "Sifarişiniz çatdırıla bilmədi",
+        "failed_contact_merchant": "Çatdırılmanı təşkil etmək üçün %{company} ilə əlaqə saxlayın.",
+        "failed_contact_merchant_no_company": "Çatdırılmanı təşkil etmək üçün bizimlə əlaqə saxlayın.",
+        "non_shippable_title": "Sifarişiniz tamamlandı",
+        "let_us_know": "Bizə xəbər verin",
+        "login_title": "Bütün sifariş təfərrüatlarına baxmaq üçün daxil olun",
+        "login_description": "Sifariş nömrənizi e-poçt vasitəsilə aldığınız qəbzdə tapa bilərsiniz.",
+        "login_description_phone": "Sifariş nömrənizi sizə mətn mesajı vasitəsilə göndərilən qəbzdə tapa bilərsiniz.",
+        "login_not_customer_html": "%{name} deyilsiniz? %{link} edə bilərsiniz",
+        "login_reorder_link_text": {
+          "one": "bu məhsulu da alın",
+          "other": "bu məhsulları da al"
+        },
+        "customer_information_hidden_fields_message": "Bütün müştəri məlumatlarına baxmaq üçün daxil olun.",
+        "cancelled_title": "Sifarişiniz ləğv edildi",
+        "cancelled_description": "Sifarişiniz %{date} tarixində ləğv edilib. Hər hansı bir sualınız olarsa, bizimlə əlaqə saxlayın.",
+        "order_number_label": "Sifariş nömrəsi",
+        "customer_validation_error": "Keçərli bir e-poçt ünvanı və ya sifariş nömrəsi daxil edin.",
+        "customer_validation_error_phone": "Etibarlı telefon nömrəsi və ya sifariş nömrəsi daxil edin.",
+        "login": "Daxil ol",
+        "unfulfilled_items_title": "Çatdırılmaya hazırlanır",
+        "unfulfilled_items_description": "Biz hazırda bu məhsulları çatdırılma üçün hazırlayırıq.",
+        "marker": {
+          "current": "Göndərişin cari yeri",
+          "shipping": "Çatdırılma ünvanı"
+        },
+        "pickup_map_marker": {
+          "callout": "{{location}} ünvanından götürülmə",
+          "directions_link_accessibility_label": "{{location}} ünvanından götürülmə, istiqamətləri al"
+        },
+        "pick_up_in_store_marker": {
+          "current": "Göndərişin cari yeri",
+          "shipping": "Götürmə yeri"
+        },
+        "fulfillment": {
+          "fulfilled_table_title": "Bu göndərişdəki əşyalar",
+          "unfulfilled_table_title": "Çatdırılmaya hazırlanan əşyalar",
+          "product_image_label": "Məhsulun şəkli",
+          "description_label": "Təsvir",
+          "quantity_label": "Miqdar"
+        },
+        "order_updates_description_missing": "Siz çatdırılma yeniləmələrini almırsınız.",
+        "order_updates_subscribe_to_email_notifications": "Çatdırılma ilə bağlı yenilikləri e-poçt vasitəsilə alın",
+        "order_updates_subscribe_to_email_or_phone_notifications": "Çatdırılma ilə bağlı yenilikləri e-poçt və ya SMS vasitəsilə alın",
+        "order_updates_subscribe_to_phone_notifications": "Çatdırılma yeniliklərini SMS vasitəsilə alın",
+        "order_updates_submit_subscription": "Təqdim et",
+        "track_shipment": "Göndərişi izləyin",
+        "other_options": "Digər seçimlər",
+        "delivery_information_label": "Çatdırılma məlumatı:",
+        "gift_card_sent_confirmation": "Hədiyyə kartları göndərildi",
+        "qr_code": {
+          "send_link_to_phone": "Yaxud telefonunuza bir keçid göndərin",
+          "title": "Telefonunuzdan izləyin"
+        },
+        "shop_qr_with_sms_upsell": {
+          "qr_code": {
+            "title": "Telefonunuzla skan edin"
+          },
+          "sms": {
+            "title": "Yaxud telefonunuza bir keçid göndərin"
+          }
+        },
+        "view_business_customer_account": "Hesaba bax",
+        "breadcrumbs_submitted": "Təqdim edildi",
+        "breadcrumbs_in_review": "Nəzərdən keçirilir",
+        "breadcrumbs_confirmed": "Təsdiqləndi",
+        "missing_shipping_address_banner": {
+          "title": "Sifarişin çatdırılma ünvanı yoxdur",
+          "text_html": "Ünvanınızı əlavə etmək üçün %{contact_us}",
+          "contact_us": "Bizimlə əlaqə saxlayın"
+        },
+        "first_payment_complete": "İlkin ödəniş tamamlandı",
+        "in_store_purchase": "Mağazada alış-veriş",
+        "company_location_section_title": "Şirkət və yerləşdiyi məkan",
+        "thank_you_ready_for_picked_up": "Sifarişiniz %{address} ünvanından təhvil alındı.",
+        "ready_for_delivery": "Çatdırılma üçün hazırdır",
+        "order_updates_subscribe_to_email_notifications_failed": "Bu e-poçt ünvanını yeniləmələr üçün saxlaya bilmirik. Yenidən cəhd edin və ya başqa bir e-poçt ünvanından istifadə edin.",
+        "order_updates_subscribe_to_email_notifications_email_already_exists": "Daxil etdiyiniz e-poçt artıq mövcuddur.",
+        "subscriptions_management": {
+          "title": "Abunəlik",
+          "description": "Abonəliklərinizə baxmaq və onları idarə etmək üçün hesabınıza daxil olun.",
+          "button_label": "Abunəliyinizi idarə edin"
+        },
+        "manage_order_label": "Sifarişinizi idarə edin",
+        "gift_card_confirmation_by_text_typ": {
+          "one": "Hədiyyə kartınızla bağlı məlumatı bir neçə dəqiqə ərzində mesaj olaraq alacaqsınız.",
+          "other": "Hədiyyə kartlarınız olan mesajı bir neçə dəqiqə ərzində alacaqsınız."
+        },
+        "gift_card_confirmation_by_email_typ": {
+          "one": "Hədiyyə kartınız olan e-poçt bir neçə dəqiqə ərzində sizə göndəriləcək.",
+          "other": "Hədiyyə kartlarınız olan e-poçt bir neçə dəqiqə ərzində sizə göndəriləcək."
+        },
+        "gift_card_email_title": {
+          "one": "Hədiyyə kartı e-poçt vasitəsilə göndərildi",
+          "other": "Hədiyyə kartları e-poçt vasitəsilə göndərildi"
+        },
+        "gift_card_text_title": {
+          "one": "Hədiyyə kartı mətn mesajı ilə göndərilib",
+          "other": "Hədiyyə kartları mətn mesajı ilə göndərilib"
+        },
+        "resend_gift_cards_by_email": "E-poçtu yenidən göndər",
+        "resend_gift_cards_by_text": "Mətn mesajını yenidən göndər",
+        "gift_card_resent_confirmation": {
+          "one": "Hədiyyə kartı yenidən göndərildi.",
+          "other": "Hədiyyə kartları yenidən göndərildi."
+        },
+        "gift_card_resend_failure": {
+          "one": "Hədiyyə kartınızın yenidən göndərilməsi zamanı problem yarandı. Yenidən cəhd edin və ya bizimlə əlaqə saxlayın.",
+          "other": "Hədiyyə kartlarınızın yenidən göndərilməsi zamanı problem yarandı. Yenidən cəhd edin və ya bizimlə əlaqə saxlayın."
+        },
+        "vat_invoices": {
+          "title": "ƏDV hesab-fakturaları"
+        },
+        "verify_shop_account_title": "Shop hesabınızı doğrulayın",
+        "verify_shop_account_message": "Məlumatlarınız Shop ilə yadda saxlanılıb, milyonlarla mağazada avtomatik istifadə etmək üçün hesabınızı təsdiqləyin.",
+        "verify_shop_account_cta": "Hesabınızı təsdiqləyin",
+        "verify_shop_account_confirmation": "Ödəniş məlumatları yadda saxlanıldı",
+        "announcement": {
+          "close": "Bağla",
+          "expand": "Genişləndir",
+          "collapse": "Çökmə"
+        }
       },
       "local_pickup": {
         "stock_details_banner": {
@@ -1737,14 +1862,25 @@
           "ship_items_to": {
             "one": "%{count} əşyanı göndər:",
             "other": "%{count} ədəd məhsulu göndər:"
-          }
+          },
+          "contact_method_title": "Əlaqə",
+          "billing_address_title": "Hesablaşma",
+          "shipping_address_title": "Çatdırılma ünvanı",
+          "shipping_method_title": "Çatdırılma üsulu",
+          "payment_method_title": "Ödəniş üsulu"
         },
         "block_title": "Məlumatlarınızı nəzərdən keçirin",
         "item_header": {
           "change_value": "Dəyəri dəyişin",
           "section": "Bölmə",
           "value": "Dəyər"
-        }
+        },
+        "title": "Rəy",
+        "review_title": "Sifarişinizi tamamlayın",
+        "review_and_confirm_title": "Nəzərdən keçirin və təsdiqləyin",
+        "checkout_as_guest": "Qonaq kimi ödəniş et",
+        "account_more_actions": "Bu hesab üçün daha çox əməliyyat",
+        "checkout_a_different_way": "Başqa bir yola nəzər sal"
       },
       "marketing": {
         "accept_marketing_checkbox_label": "Xəbərlər və təkliflər barədə mənə e-poçt göndərin",
@@ -2131,6 +2267,10 @@
           },
           "label": "Çatdırılma yoxdur"
         }
+      },
+      "vaulted": {
+        "change_button": "Dəyiş",
+        "loading_section": "Yüklənir {{section}}…"
       }
     },
     "store_availability": {
