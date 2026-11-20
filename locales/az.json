@@ -1856,7 +1856,118 @@
           "close": "Bağla",
           "expand": "Genişləndir",
           "collapse": "Çökmə"
-        }
+        },
+        "title": "Alış-verişiniz üçün təşəkkür edirik!",
+        "confirmation_email_sent_text": "%{email} ünvanına təsdiq e-poçtu göndərildi.",
+        "return_to_store_link_label": "Alış-verişə davam et",
+        "print_link_label": "Qəbzi çap et",
+        "payment_information_title": "Ödəniş məlumatları",
+        "shipping_information_title": "Çatdırılma məlumatı",
+        "page_title": "Təşəkkürlər, %{display_name}!",
+        "page_title_no_name": "Təşəkkür edirəm!",
+        "recommendations": {
+          "title": "Bunlar da xoşunuza gələ bilər"
+        },
+        "purchase_order_number_title": "Satınalma sifarişi nömrəsi #%{purchase_order_number}",
+        "cancelled_page_title": "Sifariş ləğv edildi",
+        "failed_pending_payment_page_title": "Ödənişinizlə bağlı problem var",
+        "customer_information_title": "Sifarişin təfərrüatları",
+        "contact_information_title": "Əlaqə məlumatları",
+        "billing_address_title": "Ödəniş ünvanı",
+        "cashback_notice": "Keşbəkinizi 30 gün sonra alacaqsınız",
+        "company_location_title": "Məkan",
+        "shipping_address_title": "Çatdırılma ünvanı",
+        "pickup_address_title": "-dan götürülmə",
+        "shipping_address_map_title": "Çatdırılma ünvanının yerini göstərən Google xəritəsi: %{address}",
+        "payment_method_title": "Ödəniş üsulu",
+        "payment_method_not_charged": "Ödəniş olunmayıb",
+        "shipping_method_title": "Çatdırılma üsulu",
+        "tracking_number": "İzləmə nömrəsi:",
+        "company_tracking_number": "%{company} izləmə nömrəsi:",
+        "estimated_arrival": "Təxmini çatdırılma tarixi:",
+        "estimated_delivery": "Cari çatdırılma proqnozu:",
+        "re-order": "Eyni elementlərin ardıcıllığını dəyişin",
+        "confirmed": "Təsdiqləndi",
+        "confirmed_items_count": "%{confirmed_count} / %{total_count} element təsdiqlənib",
+        "items_fulfilled_by_store": {
+          "one": "Aldığınız məhsullar %{remote_shop_name} tərəfindən göndəriləcək.",
+          "other": "Aldığınız məhsullar digər mağazalardan göndəriləcək."
+        },
+        "gift_card_confirmation_by_text": "Əgər mesajı almadınızsa, mətni yenidən göndərin və ya bizimlə əlaqə saxlayın.",
+        "gift_card_confirmation_by_email": "Əgər almamısınızsa, e-poçtu yenidən göndərin və ya bizimlə əlaqə saxlayın.",
+        "gift_card_title": "Hədiyyə kartları",
+        "resend_gift_cards": "Hədiyyə kartlarını yenidən göndərin",
+        "thank_you_title": "Sifarişiniz təsdiqləndi",
+        "thank_you_title_payment": "Ödənişiniz təsdiqləndi",
+        "thank_you_title_review": "Sifarişiniz nəzərdən keçirilmək üçün təqdim edildi",
+        "thank_you_title_payments_app_pending_default": "Ödənişiniz işlənilir",
+        "thank_you_title_payments_app_pending_buyer_action_required": "Sifarişiniz qəbul edildi",
+        "thank_you_title_payments_app_failed_pending_payment": "Ödənişiniz emal edilə bilmədi",
+        "hsa_qualification": {
+          "review_pending": "Sağlamlıq anketənizi nəzərdən keçiririk. Ödənişiniz Tibbi Zərurət Məktubunuz təqdim edildikdən sonra tutulacaq. Tezliklə təsdiq e-poçtu alacaqsınız.",
+          "review_pending_pickup": "Sağlamlıq anketinizi nəzərdən keçiririk. Ödənişiniz Tibbi Zərurət Məktubunuz tərtib edildikdən sonra tutulacaq."
+        },
+        "thank_you_confirmed_with_email_description": {
+          "single_store": "Tezliklə sizə təsdiq e-poçtu göndəriləcək",
+          "multi_store": "Tezliklə hər mağazadan ayrı-ayrı təsdiq e-poçtları alacaqsınız"
+        },
+        "thank_you_confirmed_with_phone_description": {
+          "single_store": "Tezliklə təsdiq mesajı alacaqsınız",
+          "multi_store": "Tezliklə hər mağazadan ayrı-ayrılıqda təsdiq mesajları alacaqsınız."
+        },
+        "thank_you_confirmed_with_email_and_phone_description": {
+          "single_store": "Tezliklə sizə təsdiq e-poçtu göndəriləcək",
+          "multi_store": "Tezliklə hər mağazadan ayrı-ayrı təsdiq e-poçtları alacaqsınız"
+        },
+        "thank_you_confirmed_order_with_email": "Qısa müddət ərzində sifariş nömrənizlə bağlı təsdiq e-poçtu alacaqsınız.",
+        "thank_you_confirmed_order_with_phone": "Sifariş nömrənizlə birlikdə təsdiq mesajı qısa müddətdə sizə göndəriləcək.",
+        "thank_you_confirmed_order_with_email_and_phone": "Qısa müddət ərzində sifariş nömrənizlə bağlı təsdiq e-poçtu alacaqsınız.",
+        "thank_you_confirmed_orders_with_email": "Sizə sifariş nömrələrinizlə birlikdə ayrı təsdiq e-poçtları tezliklə göndəriləcək.",
+        "thank_you_confirmed_orders_with_phone": "Sizə sifariş nömrələrinizlə bağlı ayrı təsdiq mesajları qısa zamanda göndəriləcək.",
+        "thank_you_confirmed_orders_with_email_and_phone": "Sizə sifariş nömrələrinizlə birlikdə ayrı təsdiq e-poçtları tezliklə göndəriləcək.",
+        "thank_you_confirmed_order_with_email_payment": "Siz %{date} tarixində sifarişiniz üçün ödəniş etdiniz.",
+        "thank_you_confirmed_order_with_phone_payment": "Siz %{date} tarixində sifarişiniz üçün ödəniş etdiniz.",
+        "thank_you_confirmed_order_with_email_and_phone_payment": "Siz %{date} tarixində sifarişiniz üçün ödəniş etdiniz.",
+        "thank_you_confirmed_order_with_email_pick_up": "Sifarişiniz götürülməyə hazır olduqda sizə e-poçt göndəriləcək.",
+        "thank_you_confirmed_order_with_phone_pick_up": "Sifarişiniz götürülməyə hazır olduqda sizə bildiriş göndəriləcək.",
+        "thank_you_confirmed_order_with_email_and_phone_pick_up": "Sifarişiniz götürülməyə hazır olduqda sizə e-poçt göndəriləcək.",
+        "thank_you_confirmed_order_with_missing": "Sifariş təsdiqini almaq üçün bizimlə e-poçt və ya telefon vasitəsilə əlaqə saxlayın.",
+        "thank_you_confirmed_order_with_missing_payment": "Sifariş təsdiqini almaq üçün bizimlə e-poçt və ya telefon vasitəsilə əlaqə saxlayın.",
+        "thank_you_confirmed_order_with_missing_pick_up": "Sifariş təsdiqini almaq üçün bizimlə e-poçt və ya telefon vasitəsilə əlaqə saxlayın.",
+        "thank_you_confirmed_order_with_draft": "Əlavə məlumat lazım olduqda və ya sifarişiniz təsdiqləndikdə sizə məlumat verəcəyik.",
+        "thank_you_confirmed_order_with_draft_payment": "Əlavə məlumat lazım olduqda və ya sifarişiniz təsdiqləndikdə sizə məlumat verəcəyik.",
+        "thank_you_confirmed_order_with_draft_pick_up": "Əlavə məlumat lazım olduqda və ya sifarişiniz təsdiqləndikdə sizə məlumat verəcəyik.",
+        "thank_you_unconfirmed_items_heading": {
+          "one": "1 element təsdiqlənməyib",
+          "other": "Bəzi əşyalar təsdiqlənməyib"
+        },
+        "thank_you_unconfirmed_items_description": {
+          "one": "Bunun üçün sizdən ödəniş tutulmayıb",
+          "other": "Bunlara görə sizdən haqq alınmayıb"
+        },
+        "thank_you_item_label": {
+          "one": "%{count} ədəd",
+          "other": "%{count} element"
+        },
+        "thank_you_from_shop": "%{shop_name}-dən",
+        "thank_you_from_other_store": "Digər mağazadan",
+        "thank_you_payments_app_failed_pending_payment": "Sifarişiniz üçün sizdən ödəniş tutulmadı. Sifarişinizi nəzərdən keçirmək və yenidən ödəmək üçün səbətinizə qayıdın.",
+        "thank_you_payments_app_failed_pending_payment_payment": "Sifarişiniz üçün sizdən ödəniş tutulmadı. Sifarişinizi nəzərdən keçirmək və yenidən ödəmək üçün səbətinizə qayıdın.",
+        "thank_you_payments_app_failed_pending_payment_pick_up": "Sifarişiniz üçün sizdən ödəniş tutulmadı. Sifarişinizi nəzərdən keçirmək və yenidən ödəmək üçün səbətinizə qayıdın.",
+        "thank_you_payments_app_pending_payment_description_default_with_missing": "Sifariş təsdiqini almaq üçün bizimlə e-poçt və ya telefon vasitəsilə əlaqə saxlayın.",
+        "thank_you_payments_app_pending_payment_description_default_with_missing_payment": "Sifariş təsdiqini almaq üçün bizimlə e-poçt və ya telefon vasitəsilə əlaqə saxlayın.",
+        "thank_you_payments_app_pending_payment_description_default_with_missing_pick_up": "Sifariş təsdiqini almaq üçün bizimlə e-poçt və ya telefon vasitəsilə əlaqə saxlayın.",
+        "thank_you_payments_app_pending_payment_description_default_with_email_and_phone": "Qısa müddət ərzində sifariş nömrənizlə bağlı təsdiq e-poçtu alacaqsınız.",
+        "thank_you_payments_app_pending_payment_description_default_with_email_and_phone_payment": "Qısa müddət ərzində sifariş nömrənizlə bağlı təsdiq e-poçtu alacaqsınız.",
+        "thank_you_payments_app_pending_payment_description_default_with_email_and_phone_pick_up": "Qısa müddət ərzində sifariş nömrənizlə bağlı təsdiq e-poçtu alacaqsınız.",
+        "thank_you_payments_app_pending_payment_description_default_with_email": "Qısa müddət ərzində sifariş nömrənizlə bağlı təsdiq e-poçtu alacaqsınız.",
+        "thank_you_payments_app_pending_payment_description_default_with_email_payment": "Qısa müddət ərzində sifariş nömrənizlə bağlı təsdiq e-poçtu alacaqsınız.",
+        "thank_you_payments_app_pending_payment_description_default_with_email_pick_up": "Qısa müddət ərzində sifariş nömrənizlə bağlı təsdiq e-poçtu alacaqsınız.",
+        "thank_you_payments_app_pending_payment_description_default_with_phone": "Sifariş nömrənizlə birlikdə təsdiq mesajı qısa müddətdə sizə göndəriləcək.",
+        "thank_you_payments_app_pending_payment_description_default_with_phone_payment": "Sifariş nömrənizlə birlikdə təsdiq mesajı qısa müddətdə sizə göndəriləcək.",
+        "thank_you_payments_app_pending_payment_description_default_with_phone_pick_up": "Sifariş nömrənizlə birlikdə təsdiq mesajı qısa müddətdə sizə göndəriləcək.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_missing": "Sifariş təsdiqini almaq üçün bizimlə e-poçt və ya telefon vasitəsilə əlaqə saxlayın.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_missing_payment": "Sifariş təsdiqini almaq üçün bizimlə e-poçt və ya telefon vasitəsilə əlaqə saxlayın."
       },
       "local_pickup": {
         "stock_details_banner": {
@@ -3417,6 +3528,15 @@
         "errors": {
           "interaction_required": "Ödənişi tamamlamaq üçün genişləndirmə qarşılıqlı əlaqəsi tələb olunur."
         }
+      },
+      "payment_gateway": {
+        "order_deposit_due_on_fixed_date": "{{depositAmount}} bu gün ödənilməlidir. Balans {{dueDate}} tarixində ödəniləcək.",
+        "draft_order_payment_due_later_no_terms": "Sifarişiniz təsdiqləndikdən sonra ödəniş edilməlidir.",
+        "draft_order_payment_due_later_no_terms_payment_selected": "Sifarişiniz təsdiqləndikdən sonra kartınızdan ödəniş tutulacaq.",
+        "draft_order_payment_due_later_terms": "Sifarişiniz təsdiqləndikdən sonra siz {{translatedName}} şərtləri ilə razılaşmış olacaqsınız.",
+        "draft_order_payment_due_on_fulfillment": "Ödənişiniz sifarişiniz təsdiqləndikdən və yerinə yetirildikdən sonra həyata keçirilməlidir.",
+        "draft_order_deposit_due_later": "{{depositAmount}} sifarişiniz təsdiqləndikdə ödəniləcək. Qalıq {{translatedName}} şərtlərinə uyğun olacaq.",
+        "draft_order_deposit_due_on_fulfillment": "{{depositAmount}} sifarişiniz təsdiqləndikdə ödənilməlidir. Qalan məbləğ sifarişiniz yerinə yetirildikdən sonra olacaq."
       }
     },
     "store_availability": {
